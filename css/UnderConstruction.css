@@ -1,0 +1,50 @@
+/* =============================================================================
+ * "This page is under construction" stylesheet
+ * =============================================================================
+ * 
+ * Author: Niji System - Satoki Nijikawa / 虹川郷鬼
+ *                       Wamo            / ワーモ
+ * 
+ */
+
+/* ====== Title ====== */
+
+h1#Title {
+    text-align: center;
+}
+
+/* Most mobile devices */
+@media only screen and (max-width: 991.8px) {
+    h1#Title {
+        font-size: 2.6rem;
+    }
+}
+
+/* Most PC's */
+@media only screen and (min-width: 992px) {
+    h1#Title {
+        font-size: 6rem;
+    }
+}
+
+/* ====== Go back instructions ====== */
+
+/* Most mobile devices */
+@media only screen and (max-width: 991.8px) {
+    span#GoBackPC {
+        display: none;
+    }
+    span#GoBackMobile {
+        display: inline;
+    }
+}
+
+/* Most PC's */
+@media only screen and (min-width: 992px) {
+    span#GoBackPC {
+        display: inline;
+    }
+    span#GoBackMobile {
+        display: none;
+    }
+}
