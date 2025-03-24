@@ -164,6 +164,7 @@ strong {
 /* ====== <img> styles ====== */
 
 img.site-banner {
+    margin: auto;
     height: 384px;
 }
 
@@ -173,4 +174,8 @@ img.site-banner {
 
 /* ====== <div> styles ====== */
 
-/* :3 */
+div#SiteBanner {
+    display: flex;
+    background-image: linear-gradient(45deg, red, orange, yellow, green, blue, purple);
+    justify-content: center;
+}
