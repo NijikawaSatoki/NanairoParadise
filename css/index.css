@@ -163,7 +163,9 @@ strong {
 
 /* ====== <img> styles ====== */
 
-/* :3 */
+img.site-banner {
+    height: 384px;
+}
 
 /* ====== <span> styles ====== */
 
