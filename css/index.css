@@ -42,8 +42,7 @@ header {
 main {
     background-color: #121212;
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 
 /* ====== Navigation styles ====== */
