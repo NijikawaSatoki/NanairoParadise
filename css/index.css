@@ -57,6 +57,18 @@ nav {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
+/* Navigation panel styling */
+a#GotoAbout, a#GotoChangelog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555555;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em;
+    font-size: 1.15rem;
+}
+
 /* ====== Footer styles ====== */
 
 footer {
