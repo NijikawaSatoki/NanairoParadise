@@ -187,7 +187,8 @@ strong {
 
 img.site-banner {
     margin: auto;
-    height: 384px;
+    height: 256px;
+    width: 256px;
 }
 
 /* ====== <span> styles ====== */
