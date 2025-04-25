@@ -58,7 +58,7 @@ nav {
 }
 
 /* Navigation panel styling */
-a#GotoAbout, a#GotoChangelog {
+a#GotoAbout, a#GotoChangelog, a#GotoHome {
     display: flex;
     justify-content: center;
     align-items: center;
