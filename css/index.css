@@ -49,12 +49,24 @@ main {
 
 nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 0.5rem;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+@media only screen and (max-width: 991.8px) {
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 0.5rem;
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+        font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    }
 }
 
 /* Navigation panel styling */
