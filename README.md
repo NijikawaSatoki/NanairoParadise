@@ -13,3 +13,8 @@ Yes, I'm using Neocities as the host, bite me.
 All development and testing is being done using the `nightly` branch.
 This is so that pages and stuffs can be tested locally.
 The `main` branch is what'll ultimately be uploaded onto Neocities.
+
+## To-Do List
+
+- [ ] Make the changelog page. (Slated for v0.2.x)
+- [ ] Make the about page. (Slated for v0.3.x)
