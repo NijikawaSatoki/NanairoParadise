@@ -23,8 +23,8 @@ html {
 
 body {
     color: #e5e5e5;
-    padding-right: 2px;
-    padding-left: 2px;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 /* ====== Header styles ====== */
@@ -42,15 +42,15 @@ header {
 main {
     background-color: #121212;
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* ====== Navigation styles ====== */
 
 nav {
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
 /* ====== Footer styles ====== */
@@ -58,7 +58,7 @@ nav {
 footer {
     background-color: #1f1f1f;
     color: #e5e5e5;
-    padding: 4px;
+    padding: 0.25rem;
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     text-align: center;
 }
