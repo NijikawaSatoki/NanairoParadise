@@ -18,3 +18,5 @@ The `main` branch is what'll ultimately be uploaded onto Neocities.
 
 - [ ] Make the changelog page. (Slated for v0.2.x)
 - [ ] Make the about page. (Slated for v0.3.x)
+- [ ] Hopefully make a section for Ten'en Project. (Slated for v1.0)
+- [ ] Maybe transfer the entirety of the Zoukagamiroku project over to here? (Possibly slated for v2.0)
