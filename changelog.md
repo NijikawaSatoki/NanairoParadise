@@ -15,3 +15,15 @@ This will get added to after every pull request that contains a version number.
 
 - Changed ID of the under construction section from `SectionOne` to `UnderConstructionNotice`.
 - Added the introductory message above the 'Under Construction' notice.
+
+## Version 0.2.0
+
+- Added the changelog page.
+- Added actual navigation panels.
+- Replaced the PNG logo with an SVG one, allowing for better scaling!
+- Inline code now has proper styling.
+- Added script `testserv` for testing the site via `localhost`.
+- Definition of a 1 rem font size and the background gradient are now universal styles applied to `<html>`.
+- All filepaths are now root-relative.
+- README now has a to-do list of stuff to eventually do.
+- Made some miscellaneous changes.
