@@ -184,6 +184,12 @@ button {
     font-size: 1.1rem;
 }
 
+/* ====== Inline code styles ====== */
+
+code {
+    font-family: 'Courier New', 'Courier', 'Noto Sans Mono', monospace;
+}
+
 /* ====== Emphasis styles ====== */
 
 /* Emphasis */
