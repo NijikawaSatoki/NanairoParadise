@@ -188,6 +188,7 @@ button {
 
 code {
     font-family: 'Courier New', 'Courier', 'Noto Sans Mono', monospace;
+    font-size: 1rem;
 }
 
 /* ====== Emphasis styles ====== */
