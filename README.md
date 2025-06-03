@@ -16,7 +16,7 @@ The `main` branch is what'll ultimately be uploaded onto Neocities.
 
 ## To-Do List
 
-- [ ] Make the changelog page. (Slated for v0.2.x)
+- [x] Make the changelog page. (Slated for v0.2.x)
 - [ ] Make the about page. (Slated for v0.3.x)
 - [ ] Make the art gallery. (Slated for v0.4.x)
 - [ ] Hopefully make a section for Ten'en Project. (Slated for v1.0)
