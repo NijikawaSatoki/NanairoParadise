@@ -25,5 +25,5 @@ This will get added to after every pull request that contains a version number.
 - Added script `testserv` for testing the site via `localhost`.
 - Definition of a 1 rem font size and the background gradient are now universal styles applied to `<html>`.
 - All filepaths are now root-relative.
-- README now has a to-do list of stuff to eventually do.
+- `README.md` now has a to-do list of stuff to eventually do.
 - Made some miscellaneous changes.
