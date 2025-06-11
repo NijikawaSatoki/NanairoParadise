@@ -47,6 +47,12 @@ main {
     padding: 1rem;
 }
 
+/* ====== Section Styles ====== */
+
+section {
+    display: flow-root; /* Containment unit for floating elements! */
+}
+
 /* ====== Navigation styles ====== */
 
 nav {
