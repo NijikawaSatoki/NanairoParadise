@@ -27,3 +27,8 @@ This will get added to after every pull request that contains a version number.
 - All filepaths are now root-relative.
 - `README.md` now has a to-do list of stuff to eventually do.
 - Made some miscellaneous changes.
+
+## Version 0.3.0
+
+- Added the about page.
+- Made the navigation panels darker to improve contrast.
