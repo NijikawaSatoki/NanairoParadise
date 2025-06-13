@@ -16,3 +16,10 @@ figure.about-us-left {
     border-width: 0.4rem;
     border-color: #dadada;
 }
+
+figure.about-us-right {
+    float: right;
+    border-style: groove;
+    border-width: 0.4rem;
+    border-color: #dadada;
+}
