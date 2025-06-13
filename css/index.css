@@ -99,6 +99,13 @@ footer {
     text-align: center;
 }
 
+/* ====== Figure styles ====== */
+
+/* Figure captions */
+figcaption {
+    text-align: center;
+}
+
 /* ====== Heading styles ====== */
 
 /* # Heading 1 */
