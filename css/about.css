@@ -38,3 +38,9 @@ img.about-us-art {
     height: 256px;
     width: 256px;
 }
+
+/* ====== Section styles ====== */
+
+section.align-right {
+    text-align: right;
+}
