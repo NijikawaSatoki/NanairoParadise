@@ -1,0 +1,18 @@
+/* ==============================================================================================================
+ * about.css
+ * ==============================================================================================================
+ * 
+ * Author: Satoki Nijikawa (Niji System)
+ *         Wamo            (Niji System)
+ *         Vihreääketty    (Niji System)
+ * 
+ */
+
+/* ====== Figure styles ====== */
+
+figure.about-us-left {
+    float: left;
+    border-style: groove;
+    border-width: 8px;
+    border-color: #dadada;
+}
