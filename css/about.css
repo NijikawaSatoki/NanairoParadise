@@ -16,8 +16,8 @@ figure.about-us-left {
     border-width: 0.4rem;
     border-color: #dadada;
     background-color: #555555;
-    width: 268px;
-    height: 290px;
+    width: 256px;
+    height: none;
     margin: 1rem;
 }
 
@@ -27,8 +27,8 @@ figure.about-us-right {
     border-width: 0.4rem;
     border-color: #dadada;
     background-color: #555555;
-    width: 268px;
-    height: 290px;
+    width: 256px;
+    height: none;
     margin: 1rem;
 }
 
