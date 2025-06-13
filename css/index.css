@@ -78,7 +78,8 @@ nav {
 }
 
 /* Navigation panel styling */
-a#GotoAbout, a#GotoChangelog, a#GotoHome {
+a#GotoAbout, a#GotoChangelog, a#GotoHome, a#GotoArtGallery,
+a#GotoWritings, a#GotoTenenpedia {
     display: flex;
     justify-content: center;
     align-items: center;
