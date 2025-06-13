@@ -15,6 +15,7 @@ figure.about-us-left {
     border-style: groove;
     border-width: 0.4rem;
     border-color: #dadada;
+    background-color: #555555;
     margin: 1rem;
 }
 
@@ -23,6 +24,7 @@ figure.about-us-right {
     border-style: groove;
     border-width: 0.4rem;
     border-color: #dadada;
+    background-color: #555555;
     margin: 1rem;
 }
 
