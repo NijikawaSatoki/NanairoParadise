@@ -16,7 +16,7 @@ figure.about-us-left {
     border-width: 0.4rem;
     border-color: #dadada;
     background-color: #555555;
-    width: 256px;
+    width: 240px;
     height: none;
     margin: 1rem;
 }
@@ -27,7 +27,7 @@ figure.about-us-right {
     border-width: 0.4rem;
     border-color: #dadada;
     background-color: #555555;
-    width: 256px;
+    width: 240px;
     height: none;
     margin: 1rem;
 }
@@ -35,8 +35,8 @@ figure.about-us-right {
 /* ====== Image styles ====== */
 
 img.about-us-art {
-    height: 256px;
-    width: 256px;
+    height: 240px;
+    width: 240px;
 }
 
 /* ====== Section styles ====== */
