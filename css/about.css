@@ -13,6 +13,6 @@
 figure.about-us-left {
     float: left;
     border-style: groove;
-    border-width: 8px;
+    border-width: 0.4rem;
     border-color: #dadada;
 }
