@@ -45,13 +45,15 @@ section.align-right {
     text-align: right;
 }
 
+/* ====== Heading styles ====== */
+h2#Satoki_Nijikawa, h2#Wamo,
+h2#Kiyoi, h2#Vihreääketty {
+    text-align: center;
+}
+
 /* Responsive styling for smaller displays */
 @media only screen and (max-width: 991.8px) {
     section.align-right {
         text-align: left;
-    }
-    h2#Satoki_Nijikawa, h2#Wamo,
-    h2#Kiyoi, h2#Vihreääketty {
-        text-align: center;
     }
 }
