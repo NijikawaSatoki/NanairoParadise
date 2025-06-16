@@ -32,3 +32,8 @@ This will get added to after every pull request that contains a version number.
 
 - Added the about page.
 - Made the navigation panels darker to improve contrast.
+
+## Version 0.3.1
+
+- Moved figures on the about page to come *after** the section heading. This is more noticeable on smaller displays.
+- Added navigation panels for the future pages that will be coming at some point!
