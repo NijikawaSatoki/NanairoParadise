@@ -1,0 +1,36 @@
+﻿/* =============================================================================
+ * Art Gallery Stylesheet
+ * =============================================================================
+ * 
+ * Author: Niji System - Satoki Nijikawa
+ *                       Wamo
+ *                       Vihreääketty
+ * 
+ */
+
+/* ====== <div> styles ====== */
+
+div.art-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+figure#Pride_Month_2024,
+figure#Pride_Month_2025 {
+    border-style: groove;
+    border-width: 0.4rem;
+    border-color: #dadada;
+    background-color: #555555;
+    width: 384px;
+    height: none;
+    margin: 1rem;
+}
+
+img.art {
+    width: 384px;
+}
