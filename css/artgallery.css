@@ -20,8 +20,7 @@ div.art-grid {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
-figure#Pride_Month_2024,
-figure#Pride_Month_2025 {
+figure.art-grid-item {
     border-style: groove;
     border-width: 0.4rem;
     border-color: #dadada;
