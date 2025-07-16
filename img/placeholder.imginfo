@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Placeholder
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Vihreääketty)
+  </Author>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    A placeholder image. It is a simple gray background with Japanese text reading as such: 'ありゃ！！なにも！！'. Translated to English, this roughly means 'Oh!! There's nothing here!'.
+  </AltText>
+  <Dimensions>
+    <Height>
+      256 pixels
+    </Height>
+    <Width>
+      256 pixels
+    </Width>
+  </Dimensions>
+</Document>
