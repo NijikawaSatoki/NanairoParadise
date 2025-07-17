@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Nanairo Paradise Logo
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Vihreääketty)
+  </Author>
+  <ImageType>
+    Scalable Vector Graphics (SVG) file
+  </ImageType>
+  <AltText>
+    The logo for Nanairo Paradise. It features a rainbow with 'Nanairo Paradise', written in all caps, inside the space created by the rainbow's arch. Below all that is the Japanese name of Nanairo Paradise, written as '七色楽園'.
+  </AltText>
+  <Dimensions>
+    <!-- Full scale -->
+    <Height>
+      1280 pixels
+    </Height>
+    <Width>
+      1280 pixels
+    </Width>
+  </Dimensions>
+</Document>
