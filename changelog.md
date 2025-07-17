@@ -37,3 +37,8 @@ This will get added to after every pull request that contains a version number.
 
 - Moved figures on the about page to come *after** the section heading. This is more noticeable on smaller displays.
 - Added navigation panels for the future pages that will be coming at some point!
+
+## Version 0.4.0
+
+- Added the art gallery.
+- Replaced all `alttxt` files with an XML-based `imginfo` file.
