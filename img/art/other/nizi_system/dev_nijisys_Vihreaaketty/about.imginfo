@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Vihreääketty Sprite (About Page ver.)
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Vihreääketty)
+  </Author>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of Vihreääketty, or Vihre for short. They have teal fur. They have deep pink eyes and are wearing a green tank top with a blue skirt.
+  </AltText>
+  <Dimensions>
+    <Height>
+      240 pixels
+    </Height>
+    <Width>
+      240 pixels
+    </Width>
+  </Dimensions>
+</Document>
