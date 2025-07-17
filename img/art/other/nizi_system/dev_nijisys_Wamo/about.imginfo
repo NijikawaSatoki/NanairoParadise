@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    ワーモのスプライト (About Page ver.)
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Vihreääketty)
+  </Author>
+  <ImageType>
+    Portable Networks Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    A sprite of my headmate, Wamo. She has purple hair and eyes. Her ears and tails are also purple, albeit a bit more vibrant. They are wearing a blue dress.
+  </AltText>
+  <Dimensions>
+    <Height>
+      240 pixels
+    </Height>
+    <Width>
+      240 pixels
+    </Width>
+  </Dimensions>
+</Document>
