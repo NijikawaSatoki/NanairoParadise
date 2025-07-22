@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Document>
   <ImageTitle>
+    <!-- Title of the image goes here! -->
   </ImageTitle>
   <Author>
+    <!-- Artist/photographer credit goes here! -->
   </Author>
+  <Date>
+    <!-- The date that the image was created, if known, goes here! -->
+  </Date>
   <ImageType>
+    <!-- The image type (PNG, JPG, SVG, etc.) goes here! -->
   </ImageType>
   <AltText>
+    <!-- Alt text goes here! -->
   </AltText>
   <Dimensions>
     <Height>
+      <!-- Height in pixels goes here! -->
     </Height>
     <Width>
+      <!-- Width in pixels goes here! -->
     </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      <!-- Scaling factor, if known, goes here! -->
+    </ScaleFactor>
   </Dimensions>
+  <Notes>
+    <!-- Additional notes go here! -->
+  </Notes>
 </Document>
