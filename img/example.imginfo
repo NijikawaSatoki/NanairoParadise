@@ -6,6 +6,9 @@
   <Author>
     <!-- Artist/photographer credit goes here! -->
   </Author>
+  <AuthorLink>
+    <!-- Any links the artist/photographer has goes here! Crediting artists is important!! -->
+  </AuthorLink>
   <Date>
     <!-- The date that the image was created, if known, goes here! -->
   </Date>
@@ -15,6 +18,9 @@
   <AltText>
     <!-- Alt text goes here! -->
   </AltText>
+  <Description>
+    <!-- Pic description, if any, goes here! -->
+  </Description>
   <Dimensions>
     <Height>
       <!-- Height in pixels goes here! -->
