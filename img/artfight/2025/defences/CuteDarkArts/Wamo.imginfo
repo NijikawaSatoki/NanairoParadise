@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Wamo
+  </ImageTitle>
+  <Author>
+    CuteDarkArts
+  </Author>
+  <!-- Artfight page -->
+  <AuthorLink>
+    https://artfight.net/~CuteDarkArts
+  </AuthorLink>
+  <Date>
+    4 July 2025
+  </Date>
+  <ImageType>
+    Joint Photographic Experts Group (JPEG) file
+  </ImageType>
+  <AltText>
+    Digital art of Wamo.
+  </AltText>
+  <Dimensions>
+    <Height>
+      2048 pixels
+    </Height>
+    <Width>
+      2048 pixels
+    </Width>
+  </Dimensions>
+</Document>
