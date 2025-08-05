@@ -25,6 +25,7 @@ div.art-grid-alt {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 0.5rem;
+    place-items: center;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
@@ -36,7 +37,6 @@ figure.art-grid-item {
     border-color: #dadada;
     background-color: #555555;
     width: 384px; /* 1146 / 4 */
-    height: none;
     margin: 1rem;
 }
 
@@ -45,8 +45,7 @@ figure.art-grid-item-alt {
     border-width: 0.4rem;
     border-color: #dadada;
     background-color: #555555;
-    width: 191px; /* 1146 / 6 */
-    height: none;
+    width: 256px; /* 1146 / 6 */
     margin: 1rem;
 }
 
@@ -55,11 +54,11 @@ img.art {
 }
 
 img.gallery-art {
-    width: 191px;
+    width: 256px;
 }
 
 img.gallery-art-alt {
-    height: 191px;
+    height: 256px;
 }
 
 @media only screen and (max-width: 991.8px) {
