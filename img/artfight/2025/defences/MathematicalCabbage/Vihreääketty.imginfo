@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Vihreääketty
+  </ImageTitle>
+  <Author>
+    MathematicalCabbage
+  </Author>
+  <!-- Artfight page -->
+  <AuthorLink>
+    https://artfight.net/~MathematicalCabbage
+  </AuthorLink>
+  <Date>
+    1 July 2025
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Vihreääketty with a somewhat smug look, almost like they're telling Satoki 'I told you so'.
+  </AltText>
+  <Dimensions>
+    <Height>
+      825 pixels
+    </Height>
+    <Width>
+      750 pixels
+    </Width>
+  </Dimensions>
+</Document>
