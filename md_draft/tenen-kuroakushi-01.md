@@ -30,7 +30,7 @@ Okimi was even more confused.
 “You could at least tell me your name..”
 The person let out a light chuckle.
 
-<ZhuzuriText tooltip="Madgalina">
+<ZhuzuriText title="Madgalina">
 «Mædygaljina.»
 </ZhuzuriText>
 The person replied.
@@ -46,7 +46,7 @@ The person, moving to sit down across from Okimi.
 “I'm Madgalina.
  My sisters call me Madgi though.”
 
-<Note>
+<Note style="font-family:sans-serif;">
 (*) Madgalina's pronouns are it/its.
 </Note>
 
@@ -60,7 +60,7 @@ Madgalina asked.
 Okimi replied.
 The train then jerked as it started moving again.
 
-<Zhuzuri tooltip="Next stop: Ækhsærtæglipsu.">
+<Zhuzuri title="Next stop: Ækhsærtæglipsu.">
 «Lvælj Gõnjy: Ækh'sært'ægjljip's'ü.»
 </Zhuzuri>
 The announcement came over the intercom.
@@ -91,3 +91,43 @@ Madgalina replied.
 “What did you expect of a painted dog?”
 Madgalina giggled.
 The rain outside intensified.
+
+### ∆ On the bridge of the Ushie royal flagship, *Reitatsu* ∆
+
+Nagato, the captain of the *Reitatsu*, sat in the command chair, pondering.
+
+“Captain Watatsumi.”
+A voice called out behind Nagato.
+She turned around to its crewmate and best friend, Kusari.
+
+“Find out anything about Her Bitchiness' whereabouts?”
+Nagato asked.
+
+<Note style="font-family:sans-serif;">
+(*) Nagato calls Okimi “Her Bitchiness” due to Okimi's occasional snarky (and bitchy) attitude.
+</Note>
+
+“Unfortunately, no.”
+Kusari lamented.
+
+“I see...”
+
+“However, according to Hoshidera's sibling, it's possible that Lady Shinogawa might've ended up near Ochea's port town, Püüngelim.
+ Maybe we could dock there and begin a search?”
+Kusari explained, nervously clawing at their own scales.
+
+“Better than nothing.”
+Nagato said, leaning forward.
+“No use remaining docked here in Claeq-Swary.”
+Nagato then stood up and approached the bridge crew.
+
+“Captain?”
+A bridge officer inquired.
+
+“Listen up.
+ We are leaving Claeq-Swary at this instant.
+ Plot your course for Püüngelim, in Ochea.”
+Nagato explained to its crew.
+
+“Aye aye, captain!”
+The bridge crew replied in unison.
