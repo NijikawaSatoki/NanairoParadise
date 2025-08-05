@@ -52,11 +52,16 @@ img.art {
     width: 384px;
 }
 
-img.gallery-art {
+img.gallery-art-square {
+    width: 256px;
+    height: 256px;
+}
+
+img.gallery-art-horizontal {
     width: 256px;
 }
 
-img.gallery-art-alt {
+img.gallery-art-vertical {
     height: 256px;
 }
 
