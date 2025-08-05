@@ -20,18 +20,46 @@ div.art-grid {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
+div.art-grid-alt {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
 figure.art-grid-item {
     border-style: groove;
     border-width: 0.4rem;
     border-color: #dadada;
     background-color: #555555;
-    width: 384px;
+    width: 384px; /* 1146 / 4 */
+    height: none;
+    margin: 1rem;
+}
+
+figure.art-grid-item-alt {
+    border-style: groove;
+    border-width: 0.4rem;
+    border-color: #dadada;
+    background-color: #555555;
+    width: 191px; /* 1146 / 6 */
     height: none;
     margin: 1rem;
 }
 
 img.art {
     width: 384px;
+}
+
+img.gallery-art {
+    width: 191px;
+}
+
+img.gallery-art-alt {
+    height: 191px;
 }
 
 @media only screen and (max-width: 991.8px) {
