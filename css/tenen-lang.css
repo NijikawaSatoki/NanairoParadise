@@ -3,3 +3,14 @@
  * =============================================================================
  *
  */
+
+/* ====== Bhonmesh ====== */
+
+span.bhonmesh {
+    font-family: 'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', sans-serif;
+}
+
+span.bhonmesh-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
