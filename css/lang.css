@@ -12,6 +12,17 @@ span.ipa {
     font-variant-ligatures: no-common-ligatures;
 }
 
+/* ====== Japanese ====== */
+
+span.japanese {
+    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif;
+}
+
+span.romaji {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
 /* ====== Russian ====== */
 
 span.russian {
