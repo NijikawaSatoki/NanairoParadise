@@ -12,6 +12,17 @@ span.ipa {
     font-variant-ligatures: no-common-ligatures;
 }
 
+/* ====== Arabic ====== */
+
+span.arabic {
+    font-family: 'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif;
+}
+
+span.arabic-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
 /* ====== Finnish ====== */
 
 span.finnish {
