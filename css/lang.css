@@ -1,0 +1,12 @@
+/* =============================================================================
+ * Language stylesheet
+ * =============================================================================
+ *
+ */
+
+/* ====== International Phonetic Alphabet ====== */
+span.ipa {
+    font-family: Gentium,'Gentium Plus',GentiumAlt,'DejaVu Sans','Segoe UI','Lucida Grande','Charis SIL','Doulos SIL','TITUS Cyberbit Basic','Code2000','Lucida Sans Unicode',sans-serif;
+    font-size: 110%;
+    font-variant-ligatures: no-common-ligatures;
+}
