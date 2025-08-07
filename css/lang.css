@@ -5,8 +5,24 @@
  */
 
 /* ====== International Phonetic Alphabet ====== */
+
 span.ipa {
-    font-family: Gentium,'Gentium Plus',GentiumAlt,'DejaVu Sans','Segoe UI','Lucida Grande','Charis SIL','Doulos SIL','TITUS Cyberbit Basic','Code2000','Lucida Sans Unicode',sans-serif;
+    font-family: Gentium, 'Gentium Plus', GentiumAlt, 'DejaVu Sans', 'Segoe UI', 'Lucida Grande', 'Charis SIL', 'Doulos SIL', 'TITUS Cyberbit Basic', 'Code2000', 'Lucida Sans Unicode', sans-serif;
     font-size: 110%;
     font-variant-ligatures: no-common-ligatures;
+}
+
+/* ====== Russian ====== */
+
+span.russian {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+span.russian-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
+span.russian-pre1917 {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
