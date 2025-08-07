@@ -90,10 +90,20 @@ span.romaji {
     font-style: italic;
 }
 
+/* ====== Malayalam ====== */
+
+span.malayalam {
+    font-family: 'Gayathri', 'Noto Sans Malayalam', sans-serif;
+}
+
+span.malayalam-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
 /* ====== Mongolian ====== */
 
 /* ------ Cyrillic ------ */
-
 
 span.mongolian-cyrillic {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
