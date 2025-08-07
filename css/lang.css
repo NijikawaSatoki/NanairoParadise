@@ -154,6 +154,43 @@ span.russian-pre1917 {
 }
 
 /* ====== Spanish ====== */
+
 span.spanish {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* ====== Tibetan ====== */
+
+span.tibetan {
+    font-family: 'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif;
+    font-size: 110%;
+}
+
+span.tibetan-phags-pa {
+    display: inline-block;
+    font-family: 'BabelStone Phags-pa Book', 'Microsoft PhagsPa', 'Noto Sans Phags Pa';
+    font-size: 110%;
+    line-height: 1.1rem;
+    -webkit-writing-mode: vertical-lr;
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    vertical-align: text-top;
+}
+
+span.wylie {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
+span.tibetan-pinyin {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
+span.thl-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
 }
