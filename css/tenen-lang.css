@@ -89,3 +89,21 @@ span.praanbabi {
 span.uokramathi {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
+
+/* ====== Uuptari ====== */
+
+span.uuptari {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+span.uuptari-shito {
+    font-family: 'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', sans-serif;
+    font-size: 110%;
+}
+
+span.uuptari-uup {
+    font-family: 'SBL Hebrew', 'SBL BibLit', 'Taamey David CLM', 'Taamey Frank CLM', Alef, 'Noto Sans Hebrew', Narkisim, Miriam, Kinryu, 'Arial Hebrew', Arial, 'Adobe Hebrew', serif;
+    font-size: 110%;
+    direction: rtl;
+    unicode-bidi: isolate;
+}
