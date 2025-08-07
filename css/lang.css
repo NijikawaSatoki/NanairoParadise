@@ -23,6 +23,56 @@ span.arabic-romanization {
     font-style: italic;
 }
 
+/* ====== Chinese ====== */
+
+span.traditional-chinese {
+    font-family: 'Noto Sans CJK TC', 'Kurinto Sans TC', 'DFKai-SB', 'Noto Sans TC', sans-serif;
+}
+
+span.simplified-chinese {
+    font-family: 'Noto Sans CJK SC', 'Kurinto Sans SC', 'KaiTi', 'Noto Sans SC', sans-serif;
+}
+
+/* ------ Mandarin Chinese ------ */
+
+span.pinyin {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
+span.zhuyin-fuhao {
+    font-family: 'Noto Sans CJK TC', 'Kurinto Sans TC', 'DFKai-SB', 'Noto Sans TC', sans-serif;
+}
+
+span.tongyong-pinyin {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
+span.wade-giles {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
+span.yale-romanization-mandarin {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
+span.gwoyeu-romatzyh {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
+span.palladius-cyrillic {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+span.palladius-latin {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
 /* ====== Finnish ====== */
 
 span.finnish {
