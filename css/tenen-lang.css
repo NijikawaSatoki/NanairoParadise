@@ -77,3 +77,9 @@ span.nhimesh-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: italic;
 }
+
+/* ====== Praanbabi ====== */
+
+span.praanbabi {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
