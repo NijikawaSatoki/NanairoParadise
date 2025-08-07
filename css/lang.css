@@ -12,6 +12,12 @@ span.ipa {
     font-variant-ligatures: no-common-ligatures;
 }
 
+/* ====== Finnish ====== */
+
+span.finnish {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
 /* ====== Japanese ====== */
 
 span.japanese {
