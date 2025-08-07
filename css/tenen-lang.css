@@ -107,3 +107,9 @@ span.uuptari-uup {
     direction: rtl;
     unicode-bidi: isolate;
 }
+
+/* ====== Xoabbagdosa ====== */
+
+span.xoabbagdosa {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
