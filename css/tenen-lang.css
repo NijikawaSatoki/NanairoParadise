@@ -113,3 +113,15 @@ span.uuptari-uup {
 span.xoabbagdosa {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
+
+/* ====== Yicaexsese ====== */
+
+span.yicaexsese {
+    font-family: 'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif;
+    font-size: 110%;
+}
+
+span.yicaexsese-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
