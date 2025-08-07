@@ -14,3 +14,14 @@ span.bhonmesh-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: italic;
 }
+
+/* ====== Frualbuqash ====== */
+
+span.frualbuqash {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+span.frualbuqash-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
