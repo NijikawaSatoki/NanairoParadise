@@ -33,7 +33,7 @@ span.frualbuqash-romanization {
 span.ilbask-elesuukeln {
     display: inline-block;
     font-family: 'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif;
-    font-size: 1.3rem;
+    font-size: 110%;
     font-weight: normal;
     line-height: 1.1rem;
     -webkit-writing-mode: vertical-lr;
