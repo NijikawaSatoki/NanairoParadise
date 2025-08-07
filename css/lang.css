@@ -138,6 +138,17 @@ span.mongolian-scholarly-romanization {
     font-style: italic;
 }
 
+/* ====== Ossetian ====== */
+
+span.ossetian {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+span.ossetian-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: italic;
+}
+
 /* ====== Russian ====== */
 
 span.russian {
