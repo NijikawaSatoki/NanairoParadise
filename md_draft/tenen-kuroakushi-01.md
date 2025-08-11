@@ -1,6 +1,7 @@
 # TEN'EN KUROAKUSHI ~ Tales of the Maelaet
 
 Content warning(s): usage of a non-English ableist slur.
+
 ## Notes
 
 ∆ Change in scenery ∆
