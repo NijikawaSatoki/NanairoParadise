@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    オウタのスプライト
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    A sprite of our friend, Ota.
+  </AltText>
+  <Dimensions>
+    <Height>
+      768 pixels
+    </Height>
+    <Width>
+      768 pixels
+    </Width>
+  </Dimensions>
+</Document>
