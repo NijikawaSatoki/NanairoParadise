@@ -22,7 +22,7 @@ div.art-grid {
 
 div.art-grid-alt {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 0.5rem;
     place-items: center;
