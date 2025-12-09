@@ -14,10 +14,13 @@
   </AltText>
   <Dimensions>
     <Height>
-      768 pixels
+      48 pixels
     </Height>
     <Width>
-      768 pixels
+      48 pixels
     </Width>
+    <ScaleFactor>
+      16
+    </ScaleFactor>
   </Dimensions>
 </Document>
