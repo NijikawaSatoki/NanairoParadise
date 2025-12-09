@@ -20,3 +20,15 @@ function Artfight2025Defenses() {
     })
     return 0;
 }
+
+function Artfight2025Attacks() {
+    details = document.getElementById("accordion_Artfight2025_Attacks");
+    summary = document.getElementById("Artfight2025_Attacks");
+    details.addEventListener("toggle", function() {
+        if(details.open) {
+            summary.textContent = "Hide Attacks"
+        } else {
+            summary.textContent = "Show Attacks"
+        }
+    })
+}
