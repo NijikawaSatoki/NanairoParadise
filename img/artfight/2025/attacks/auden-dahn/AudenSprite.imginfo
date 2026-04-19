@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Auden Sprite
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus)
+  </Author>
+  <Date>
+    2025/07/21
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of Auden, a dog with spotted fur and brown hair, with olive-ish eyes. They are wearing a faded yellow and green striped shirt, and light brown pants.
+  </AltText>
+  <Description>
+    A sprite of Auden.
+    He was quite fun to sprite ^w^
+  </Description>
+  <Dimensions>
+    <Height>
+      48 pixels
+    </Height>
+    <Width>
+      48 pixels
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+</Document>
