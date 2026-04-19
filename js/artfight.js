@@ -32,3 +32,9 @@ function Artfight2025Attacks() {
         }
     })
 }
+
+// Artfight 2026
+
+function Artfight2026Defenses() {}
+
+function Artfight2026Attacks() {}
