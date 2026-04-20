@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Lotus Sprite (Artfight Version)
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus)
+  </Author>
+  <Date>
+    2025/07/18
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of Kajackie's vampire OC, Lotus. They have very pale grey skin with hair and ears that are just as pale. They have pale pink eyes, as well as four angel-like wings. They're wearing white long gloves with pale pink trims and white stockings. They are also dressed in a white dress with pink trims and a pink bow.
+  </AltText>
+  <Description>
+    The wheel of fate chose Lotus, and thus came a sprite :3
+    This was rather fun to make, considering I don't make much vampire art :p
+  </Description>
+  <Dimensions>
+    <Height>
+      48 pixels
+    </Height>
+    <Width>
+      48 pixels
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+  <Notes>
+    Artfight version
+  </Notes>
+</Document>

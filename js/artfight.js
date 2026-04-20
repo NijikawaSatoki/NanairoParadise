@@ -107,6 +107,26 @@ function HumanCosmicBackgroundOnlySwitch() {
     imgBackgroundOnly.style.display = "block";
 }
 
+// Switch functions for "Lotus Sprite"
+
+function LotusSpriteArtfightSwitch() {
+    // Store the variant images into variables
+    imgArtfightSafe = document.getElementById("LotusSpriteArtfightVersion");
+    imgFullRisque = document.getElementById("LotusSpriteFullVersion");
+    // Toggle the images
+    imgArtfightSafe.style.display = "block";
+    imgFullRisque.style.display = "none";
+}
+
+function LotusSpriteFullSwitch() {
+    // Store the variant images into variables
+    imgArtfightSafe = document.getElementById("LotusSpriteArtfightVersion");
+    imgFullRisque = document.getElementById("LotusSpriteFullVersion");
+    // Toggle the images
+    imgArtfightSafe.style.display = "none";
+    imgFullRisque.style.display = "block";
+}
+
 // Artfight 2026
 
 function Artfight2026Defenses() {}
