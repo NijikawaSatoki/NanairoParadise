@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Cosmic Sprite w/ Animated Ear Rings!
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus)
+  </Author>
+  <Date>
+    2025/07/02
+  </Date>
+  <ImageType>
+    Graphics Interchange Format (GIF) file
+  </ImageType>
+  <AltText>
+    Animation of the sprite of Cosmic, a fluffy fox with purple and white fur. There are also rings around her ears, which are animated to cycle through the colours of the progress pride flag.
+  </AltText>
+  <Description>
+    Tried our hand at animation again, and I think we did okay with this one.
+    Actually animated the ear rings to cycle through the colours of the progress (pride) flag!
+  </Description>
+  <Dimensions>
+    <Height>
+      48 pixels
+    </Height>
+    <Width>
+      48 pixels
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x,   <!-- height -->
+      11.67x <!-- width -->
+    </ScaleFactor>
+  </Dimensions>
+</Document>

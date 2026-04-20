@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    人間の姿であるコズミックのスプライト（Human Cosmic Sprite）
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus)
+  </Author>
+  <Date>
+    2025/07/24
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of Cosmic's human form. She has very light blue hair and pink eyes, with ears and a tail that have purple and white fur. She also has pink rings around her ears. She is wearing an oversized light blue and white shirt with matching stockings. The background, which is partially obscured, has two constellations, Ursa Major and Crux.
+  </AltText>
+  <Description>
+    A sprite of Cosmic in human form! Or maybe disguised as human? Never know with foxes :p
+    Was very fun ^w^
+    Also, included a couple of constellations in there, one from each hemisphere (though one of them is hard to see with ya in front of it :3 )
+  </Description>
+  <Dimensions>
+    <Height>
+      48 pixels
+    </Height>
+    <Width>
+      48 pixels
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+</Document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    人間の姿であるコズミックのスプライト（Human Cosmic Sprite） (Background Only)
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus)
+  </Author>
+  <Date>
+    2025/07/24
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Background of the sprite piece made of Cosmic's human form. It features the constellations Ursa Major (the Big Dipper) and Crux (the Southern Cross).
+  </AltText>
+  <Description>
+    A sprite of Cosmic in human form! Or maybe disguised as human? Never know with foxes :p
+    Was very fun ^w^
+    Also, included a couple of constellations in there, one from each hemisphere (though one of them is hard to see with ya in front of it :3 )
+  </Description>
+  <Dimensions>
+    <Height>
+      48 pixels
+    </Height>
+    <Width>
+      48 pixels
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+  <Notes>
+    Is only the background!
+  </Notes>
+</Document>

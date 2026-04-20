@@ -87,6 +87,26 @@ function AudenSpriteTransgenderSwitch() {
     imgTransgender.style.display = "block";
 }
 
+// Switch functions for "人間の姿であるコズミックのスプライト（Human Cosmic Sprite）"
+
+function HumanCosmicFullImageSwitch() {
+    // Store the variant images into variables
+    imgFullImage = document.getElementById("HumanCosmicSpriteFullImage");
+    imgBackgroundOnly = document.getElementById("HumanCosmicSpriteBackgroundOnly");
+    // Toggle the images
+    imgFullImage.style.display = "block";
+    imgBackgroundOnly.style.display = "none";
+}
+
+function HumanCosmicBackgroundOnlySwitch() {
+    // Store the variant images into variables
+    imgFullImage = document.getElementById("HumanCosmicSpriteFullImage");
+    imgBackgroundOnly = document.getElementById("HumanCosmicSpriteBackgroundOnly");
+    // Toggle the images
+    imgFullImage.style.display = "none";
+    imgBackgroundOnly.style.display = "block";
+}
+
 // Artfight 2026
 
 function Artfight2026Defenses() {}

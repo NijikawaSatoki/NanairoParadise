@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    トシのスプライト（Toshi Sprite）
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus)
+  </Author>
+  <Date>
+    2025/07/14
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of Cosmic's boyfriend, Toshi. He is a human with brown hair and red eyes. He is also dressed in all black clothes.
+  </AltText>
+  <Description>
+    A sprite of Toshi.
+    His sprite was quite fun to make ^w^
+  </Description>
+  <Dimensions>
+    <Height>
+      48 pixels
+    </Height>
+    <Width>
+      48 pixels
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+  <Notes>
+    This was technically an early birthday present for Cosmic's boyfriend!
+  </Notes>
+</Document>
