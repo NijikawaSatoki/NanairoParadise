@@ -33,6 +33,60 @@ function Artfight2025Attacks() {
     })
 }
 
+// Switch functions for "Auden Sprite"
+
+function AudenSpriteSwitch() {
+    // Store the variant images into variables
+    imgNormal = document.getElementById("AudenSpriteNormal");
+    imgAutism = document.getElementById("AudenSpriteAutism");
+    imgPanromantic = document.getElementById("AudenSpritePanromantic");
+    imgTransgender = document.getElementById("AudenSpriteTransgender");
+    // Toggle the images
+    imgNormal.style.display = "block";
+    imgAutism.style.display = "none";
+    imgPanromantic.style.display = "none";
+    imgTransgender.style.display = "none";
+}
+
+function AudenSpriteAutismSwitch() {
+    // Store the variant images into variables
+    imgNormal = document.getElementById("AudenSpriteNormal");
+    imgAutism = document.getElementById("AudenSpriteAutism");
+    imgPanromantic = document.getElementById("AudenSpritePanromantic");
+    imgTransgender = document.getElementById("AudenSpriteTransgender");
+    // Toggle the images
+    imgNormal.style.display = "none";
+    imgAutism.style.display = "block";
+    imgPanromantic.style.display = "none";
+    imgTransgender.style.display = "none";
+}
+
+function AudenSpritePanromanticSwitch() {
+    // Store the variant images into variables
+    imgNormal = document.getElementById("AudenSpriteNormal");
+    imgAutism = document.getElementById("AudenSpriteAutism");
+    imgPanromantic = document.getElementById("AudenSpritePanromantic");
+    imgTransgender = document.getElementById("AudenSpriteTransgender");
+    // Toggle the images
+    imgNormal.style.display = "none";
+    imgAutism.style.display = "none";
+    imgPanromantic.style.display = "block";
+    imgTransgender.style.display = "none";
+}
+
+function AudenSpriteTransgenderSwitch() {
+    // Store the variant images into variables
+    imgNormal = document.getElementById("AudenSpriteNormal");
+    imgAutism = document.getElementById("AudenSpriteAutism");
+    imgPanromantic = document.getElementById("AudenSpritePanromantic");
+    imgTransgender = document.getElementById("AudenSpriteTransgender");
+    // Toggle the images
+    imgNormal.style.display = "none";
+    imgAutism.style.display = "none";
+    imgPanromantic.style.display = "none";
+    imgTransgender.style.display = "block";
+}
+
 // Artfight 2026
 
 function Artfight2026Defenses() {}

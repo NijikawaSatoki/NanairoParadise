@@ -394,11 +394,18 @@
             </figure>
             <!-- Auden Sprite -->
             <figure class="art-grid-item-alt">
-              <img class="gallery-art-square" src="/img/artfight/2025/attacks/auden-dahn/AudenSprite.png" alt="Sprite of Auden, a dog with spotted fur and brown hair, with olive-ish eyes. They are wearing a faded yellow and green striped shirt, and light brown pants." />
+              <img id="AudenSpriteNormal" class="gallery-art-square" src="/img/artfight/2025/attacks/auden-dahn/AudenSprite.png" alt="Sprite of Auden, a dog with spotted fur and brown hair, with olive-ish eyes. They are wearing a faded yellow and green striped shirt, and light brown pants." />
+              <img id="AudenSpriteAutism" class="gallery-art-square" src="/img/artfight/2025/attacks/auden-dahn/AudenSpriteAutism.png" alt="Sprite of Auden, a dog with spotted fur and brown hair, with olive-ish eyes. They are wearing a shirt that is the colours of the autism flag, and light brown pants." style="display: none;" />
+              <img id="AudenSpritePanromantic" class="gallery-art-square" src="/img/artfight/2025/attacks/auden-dahn/AudenSpritePanromantic.png" alt="Sprite of Auden, a dog with spotted fur and brown hair, with olive-ish eyes. They are wearing a shirt that is the colours of the panromantic flag, and light brown pants." style="display: none;" />
+              <img id="AudenSpriteTransgender" class="gallery-art-square" src="/img/artfight/2025/attacks/auden-dahn/AudenSpriteTransgender.png" alt="Sprite of Auden, a dog with spotted fur and brown hair, with olive-ish eyes. They are wearing a shirt that is the colours of the transgender flag, and light brown pants." style="display: none;" />
               <figcaption>
                 Auden Sprite<br />
                 For <a href="https://artfight.net/~auden-dahn">auden-dahn</a>
               </figcaption>
+              <button id="NormalAuden" onclick="AudenSpriteSwitch()">Normal</button>
+              <button id="AutismAuden" onclick="AudenSpriteAutismSwitch()">Autism</button>
+              <button id="PanromanticAuden" onclick="AudenSpritePanromanticSwitch()">Panromantic</button>
+              <button id="TransgenderAuden" onclick="AudenSpriteTransgenderSwitch()">Transgender</button>
             </figure>
             <!-- Daisybell Sprite -->
             <figure class="art-grid-item-alt">
