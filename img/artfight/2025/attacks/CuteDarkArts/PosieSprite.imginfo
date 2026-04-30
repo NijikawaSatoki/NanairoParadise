@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Posie Sprite
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus)
+  </Author>
+  <Date>
+    2025/07/10
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of CuteDarkArts' OC, Posie. She is a demon with green skin with pointed ears and prominent horns adorned with metal rings. She is wearing a brown cross strap top with a dark green skirt, and brown thigh-high boots.
+  </AltText>
+  <Description>
+    A sprite of Posie.
+    I tried to get as much of her details in there as I could, and I like how it turned out.
+    I hope you like it ^w^
+  </Description>
+  <Dimensions>
+    <Height>
+      48
+    </Height>
+    <Width>
+      48
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16
+    </ScaleFactor>
+  </Dimensions>
+</Document>

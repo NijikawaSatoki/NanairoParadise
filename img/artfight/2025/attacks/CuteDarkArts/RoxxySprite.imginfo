@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Roxxy Sprite
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus)
+  </Author>
+  <Date>
+    2025/07/03
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of CuteDarkArts' OC, Roxxy. She is a dark skinned bunny with light brown hair and is wearing a dress that is the lesbian pride flag.
+  </AltText>
+  <Description>
+    A Roxxy sprite. And I even pride-ified her, because is all year, y'know!
+    Did transcribe her name as ロクシー [i]Rokushī[/i].
+    I think it turned out well :3
+  </Description>
+  <Dimensions>
+    <Height>
+      48
+    </Height>
+    <Width>
+      48
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16
+    </ScaleFactor>
+  </Dimensions>
+</Document>
