@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Document>
   <ImageTitle>
-    Arøn Sprite
+    Star Sprite
   </ImageTitle>
   <Author>
     Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus)
   </Author>
   <Date>
-    2025/07/24
+    2025/07/16
   </Date>
   <ImageType>
     Portable Network Graphics (PNG) file
   </ImageType>
   <AltText>
-    Sprite of CrazyDesor's OC, Arøn. He has six wings resembling those of angels and is wearing a dark hooded coat with armour.
+    Sprite of CuddlySkyKit's OC, Star. She has pointed ears, dark skin, purple hair that is in a style resembling pigtails, and a blue dress with a star pattern with a yellow sash.
   </AltText>
   <Description>
-    A sprite of Arøn!
-    Had fun spriting him!
-    Never sprited armour before now, but still like how this turned out ^w^
+    A sprite of Star.
+    Was quite fun to sprite ^w^
   </Description>
   <Dimensions>
     <Height>
@@ -29,7 +28,7 @@
     </Width>
     <!-- Only if image was upscaled -->
     <ScaleFactor>
-      16x
+      16
     </ScaleFactor>
   </Dimensions>
 </Document>
