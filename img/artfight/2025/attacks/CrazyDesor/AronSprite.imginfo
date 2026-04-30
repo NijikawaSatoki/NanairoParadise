@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Arøn Sprite
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus)
+  </Author>
+  <Date>
+    2025/07/24
+  </Date>
+  <ImageType>
+    Portable Network Graphics
+  </ImageType>
+  <AltText>
+    Sprite of CrazyDesor's OC, Arøn. He has six wings resembling those of angels and is wearing a dark hooded coat with armour.
+  </AltText>
+  <Description>
+    A sprite of Arøn!
+    Had fun spriting him!
+    Never sprited armour before now, but still like how this turned out ^w^
+  </Description>
+  <Dimensions>
+    <Height>
+      48
+    </Height>
+    <Width>
+      48
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+</Document>
