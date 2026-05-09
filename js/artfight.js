@@ -17,7 +17,7 @@ function Artfight2025Defenses() {
         } else {
             summary.textContent = "Show Defenses";
         }
-    })
+    });
     return 0;
 }
 
@@ -30,7 +30,8 @@ function Artfight2025Attacks() {
         } else {
             summary.textContent = "Show Attacks";
         }
-    })
+    });
+    return 0;
 }
 
 // Switch functions for "Auden Sprite"
@@ -46,6 +47,7 @@ function AudenSpriteSwitch() {
     imgAutism.style.display = "none";
     imgPanromantic.style.display = "none";
     imgTransgender.style.display = "none";
+    return 0;
 }
 
 function AudenSpriteAutismSwitch() {
@@ -59,6 +61,7 @@ function AudenSpriteAutismSwitch() {
     imgAutism.style.display = "block";
     imgPanromantic.style.display = "none";
     imgTransgender.style.display = "none";
+    return 0;
 }
 
 function AudenSpritePanromanticSwitch() {
@@ -72,6 +75,7 @@ function AudenSpritePanromanticSwitch() {
     imgAutism.style.display = "none";
     imgPanromantic.style.display = "block";
     imgTransgender.style.display = "none";
+    return 0;
 }
 
 function AudenSpriteTransgenderSwitch() {
@@ -85,6 +89,7 @@ function AudenSpriteTransgenderSwitch() {
     imgAutism.style.display = "none";
     imgPanromantic.style.display = "none";
     imgTransgender.style.display = "block";
+    return 0;
 }
 
 // Switch functions for "人間の姿であるコズミックのスプライト（Human Cosmic Sprite）"
@@ -96,6 +101,7 @@ function HumanCosmicFullImageSwitch() {
     // Toggle the images
     imgFullImage.style.display = "block";
     imgBackgroundOnly.style.display = "none";
+    return 0;
 }
 
 function HumanCosmicBackgroundOnlySwitch() {
@@ -105,6 +111,7 @@ function HumanCosmicBackgroundOnlySwitch() {
     // Toggle the images
     imgFullImage.style.display = "none";
     imgBackgroundOnly.style.display = "block";
+    return 0;
 }
 
 // Switch functions for "Lotus Sprite"
@@ -116,6 +123,7 @@ function LotusSpriteArtfightSwitch() {
     // Toggle the images
     imgArtfightSafe.style.display = "block";
     imgFullRisque.style.display = "none";
+    return 0;
 }
 
 function LotusSpriteFullSwitch() {
@@ -125,10 +133,15 @@ function LotusSpriteFullSwitch() {
     // Toggle the images
     imgArtfightSafe.style.display = "none";
     imgFullRisque.style.display = "block";
+    return 0;
 }
 
 // Artfight 2026
 
-function Artfight2026Defenses() {}
+function Artfight2026Defenses() {
+    return 0;
+}
 
-function Artfight2026Attacks() {}
+function Artfight2026Attacks() {
+    return 0;
+}
