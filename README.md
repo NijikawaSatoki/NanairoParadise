@@ -14,6 +14,34 @@ All development and testing is being done using the `nightly` branch.
 This is so that pages and stuffs can be tested locally.
 The `main` branch is what'll ultimately be uploaded onto Neocities.
 
+## Dependencies
+
+The only dependency needed is Python being installed on your system, because of `testserv` using Python's HTTP server.
+
+For Debian and Ubuntu based distros:
+```
+apt-get install python3
+```
+
+For Red Hat and Fedora based distros:
+```
+dnf install python3
+```
+or, if you prefer using `yum`:
+```
+yum install python3
+```
+
+For Arch based distros and Windows users using MSYS2:
+```
+pacman -S python
+```
+
+For Android users that are using Termux:
+```
+pkg install python
+```
+
 ## To-Do List
 
 - [x] Make the changelog page. (Slated for v0.2.x)
