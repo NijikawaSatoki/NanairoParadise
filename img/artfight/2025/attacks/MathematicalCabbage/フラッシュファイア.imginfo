@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    フラッシュファイア（Flash Fire）
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus, Rinith, Q'aemil)
+  </Author>
+  <Date>
+    2025/07/03
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    A crude pixel art piece of our friend, Cabbage's OC, Flash Fire, drawn in MS Paint. It is simply their head with a flame coloured mane, red eyes, grey fur (wait, do ponies even have fur?). Next to them is their name, written in katakana as 'フラッシュファイア'.
+  </AltText>
+  <Description>
+    Decided to try and use MS Paint, which we haven't used in forever :3
+    And I think Flash Fire turned out quite well.
+    No thoughts, just accidental fire ;)
+  </Description>
+  <Dimensions>
+    <Height>
+      64 pixels
+    </Height>
+    <Width>
+      64 pixels
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      5x
+    </ScaleFactor>
+  </Dimensions>
+</Document>

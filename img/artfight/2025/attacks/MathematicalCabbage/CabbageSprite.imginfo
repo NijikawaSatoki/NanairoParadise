@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    A Cabbage Sprite :3
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus, Rinith, Q'aemil)
+  </Author>
+  <Date>
+    2025/07/01
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of our friend, Cabbage. He's wearing snazzy suit consisting of a faded yellow dress shirt, black overshirt, a green ascott, and grey pants.
+  </AltText>
+  <Description>
+    A sprite of Cabbage.
+    Some details were fun to try and get in there! ^w^
+    Sprite is upscaled by 16x (thank gods GIMP exists X3). Canvas is 48x48.
+  </Description>
+  <Dimensions>
+    <Height>
+      48 pixels
+    </Height>
+    <Width>
+      48 pixels
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+</Document>

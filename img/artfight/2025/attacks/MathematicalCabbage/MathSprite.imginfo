@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Math Sprite
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus, Rinith, Q'aemil)
+  </Author>
+  <Date>
+    2025/07/18
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    A sprite of our friend, Cabbage's fursona, Math. He is a vulpid with brown and dark grey fur, with a white underbelly. He also has dark green eyes. Next to him are two pawprints, one that is the gay flag, and the other is the aromantic flag. Our watermark, a simple red pawprint, in also next to him.
+  </AltText>
+  <Description>
+    The wheel of fate chose Math here, and here's a sprite of him :3
+  </Description>
+  <Dimensions>
+    <Height>
+      48 pixels
+    </Height>
+    <Width>
+      48 pixels
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+</Document>

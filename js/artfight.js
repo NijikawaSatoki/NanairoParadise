@@ -136,6 +136,64 @@ function LotusSpriteFullSwitch() {
     return 0;
 }
 
+// Switch functions for "Cabbage Sprite"
+
+function CabbageSpriteSwitch() {
+    // Store the variant images into variables
+    imgNormal = document.getElementById("CabbageSpriteNormal");
+    imgAromantic = document.getElementById("CabbageSpriteAromantic");
+    imgGay = document.getElementById("CabbageSpriteGay");
+    imgTransgender = document.getElementById("CabbageSpriteTransgender");
+    // Toggle the images
+    imgNormal.style.display = "block";
+    imgAromantic.style.display = "none";
+    imgGay.style.display = "none";
+    imgTransgender.style.display = "none";
+    return 0;
+}
+
+function CabbageSpriteAromanticSwitch() {
+    // Store the variant images into variables
+    imgNormal = document.getElementById("CabbageSpriteNormal");
+    imgAromantic = document.getElementById("CabbageSpriteAromantic");
+    imgGay = document.getElementById("CabbageSpriteGay");
+    imgTransgender = document.getElementById("CabbageSpriteTransgender");
+    // Toggle the images
+    imgNormal.style.display = "none";
+    imgAromantic.style.display = "block";
+    imgGay.style.display = "none";
+    imgTransgender.style.display = "none";
+    return 0;
+}
+
+function CabbageSpriteGaySwitch() {
+    // Store the variant images into variables
+    imgNormal = document.getElementById("CabbageSpriteNormal");
+    imgAromantic = document.getElementById("CabbageSpriteAromantic");
+    imgGay = document.getElementById("CabbageSpriteGay");
+    imgTransgender = document.getElementById("CabbageSpriteTransgender");
+    // Toggle the images
+    imgNormal.style.display = "none";
+    imgAromantic.style.display = "none";
+    imgGay.style.display = "block";
+    imgTransgender.style.display = "none";
+    return 0;
+}
+
+function CabbageSpriteTransgenderSwitch() {
+    // Store the variant images into variables
+    imgNormal = document.getElementById("CabbageSpriteNormal");
+    imgAromantic = document.getElementById("CabbageSpriteAromantic");
+    imgGay = document.getElementById("CabbageSpriteGay");
+    imgTransgender = document.getElementById("CabbageSpriteTransgender");
+    // Toggle the images
+    imgNormal.style.display = "none";
+    imgAromantic.style.display = "none";
+    imgGay.style.display = "none";
+    imgTransgender.style.display = "block";
+    return 0;
+}
+
 // Artfight 2026
 
 function Artfight2026Defenses() {
