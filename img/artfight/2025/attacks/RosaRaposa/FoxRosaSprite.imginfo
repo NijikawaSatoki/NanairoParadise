@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Fox Rosa Sprite
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus, Rinith, Q'aemil)
+  </Author>
+  <Date>
+    2025/07/13
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of Rosa. She has darker skin, pink eyes, pink hair, and pink fox ears. The ears have a heart charm on the left ear, and a plus sign charm on the right ear. The hair has tufts coming out to the sides. She's wearing a black spaghetti strap shirt and hot pink short shorts. She's also wearing striped arm and leg warmers, which are pink and black for the right arm and leg, and green and black for the left arm and leg.
+  </AltText>
+  <Description>
+    Tried to match the hairstyle in the ref....
+    But other than that, I had a lot of fun making this :3
+  </Description>
+  <Dimensions>
+    <Height>
+      48 px
+    </Height>
+    <Width>
+      48 px
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+  <Notes>
+    Hoping this actually works from PC... wasn't letting me submit from mobile for some reason...
+  </Notes>
+</Document>
