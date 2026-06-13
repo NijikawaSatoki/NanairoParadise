@@ -42,3 +42,13 @@ This will get added to after every pull request that contains a version number.
 
 - Added the art gallery.
 - Replaced all `alttxt` files with an XML-based `imginfo` file.
+
+## Version 0.5.0
+
+- Added the Library page.
+- Finished the gallery for Artfight 2025.
+- Added this year's (2026) Pride art.
+- Fixed the flexbox for the Artfight gallery.
+- Added dependency info to the README.
+- Added the links to our various pages (Bluesky, Toyhouse, etc.)
+- Minor fixes
