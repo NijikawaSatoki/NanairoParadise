@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    ホワファンのスプライト
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus, Rinith, Q'aemil)
+  </Author>
+  <Date>
+    2025/07/11
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of li-spade's OC, Huafang. She is a dragon with golden brown skin/scales, dark green hair, and green eyes. Her horns are a gradient from dark green to green-yellow. Her tail has golden scales running down the spine of it, with a light cream-coloured underbelly. The tail is tipped with a green-yellow flame. Her dress is a classic red Chinese dress with faded tannish yellow details.
+  </AltText>
+  <Description>
+    Made a sprite for Huafang.
+    She was quite fun to sprite, even if I couldn't get all of her details &gt;.&lt;
+    Did do a gradient on her horns (actual gradient, no dithering), so that was fun :3
+    The dress turned out quite good, I think. Very fitting for a dragon!
+  </Description>
+  <Dimensions>
+    <Height>
+      48 px
+    </Height>
+    <Width>
+      48 px
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+  <Notes>
+    <!-- Additional notes go here! -->
+  </Notes>
+</Document>
