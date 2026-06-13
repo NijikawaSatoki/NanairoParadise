@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    だいごのスプライト（Daigo Sprite）
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus, Rinith, Q'aemil)
+  </Author>
+  <Date>
+    2025/07/27
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of Victory's OC, Daigo. She has black hair adorned with a golden comb and ribbons on the sides. She also has heterochromia, with the right eye being brown and the left eye being silver. Her clothes are quite colourful, with dark green, light green, and light red being the more noticable colours. Her sash is a gradient from light red to light blue.
+  </AltText>
+  <Description>
+    A sprite of Daigo.
+    Tried to get as much of the detail in there as I could..
+    But still was fun! ^w^
+  </Description>
+  <Dimensions>
+    <Height>
+      48 px
+    </Height>
+    <Width>
+      48 px
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+</Document>
