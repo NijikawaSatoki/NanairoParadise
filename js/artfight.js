@@ -194,6 +194,28 @@ function CabbageSpriteTransgenderSwitch() {
     return 0;
 }
 
+// Switch functions for "Nova Sprite"
+
+function NovaSpriteBarefootSwitch() {
+    // Store the variant images into variables
+    imgBarefoot = document.getElementById("NovaSpriteBarefoot");
+    imgFull = document.getElementById("NovaSpriteFull");
+    // Toggle the images
+    imgBarefoot.style.display = "block";
+    imgFull.style.display = "none";
+    return 0;
+}
+
+function NovaSpriteFullSwitch() {
+    // Store the variant images into variables
+    imgBarefoot = document.getElementById("NovaSpriteBarefoot");
+    imgFull = document.getElementById("NovaSpriteFull");
+    // Toggle the images
+    imgBarefoot.style.display = "none";
+    imgFull.style.display = "block";
+    return 0;
+}
+
 // Artfight 2026
 
 function Artfight2026Defenses() {

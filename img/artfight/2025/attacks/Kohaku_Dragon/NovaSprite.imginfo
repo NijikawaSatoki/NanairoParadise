@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Nova Sprite
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus, Rinith, Q'aemil)
+  </Author>
+  <Date>
+    2025/07/18
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of Kohaku_Dragon's OC, Nova. She has light purple eyes, orange hair, and is wearing a dark purple and blue dress with a blue sash. The background has a big golden star.
+  </AltText>
+  <Description>
+    The wheel of fate chose Nova, and so I made a sprite of her.
+    This was quite fun to make ^w^
+  </Description>
+  <Dimensions>
+    <Height>
+      48 px
+    </Height>
+    <Width>
+      48 px
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+  <Notes>
+    So... I drew her stockings and shoes... and forgot to turn those layers back on before exporting from Krita... &gt;.&lt;'
+    My bad..
+  </Notes>
+</Document>
