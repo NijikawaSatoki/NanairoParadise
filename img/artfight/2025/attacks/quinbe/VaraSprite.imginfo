@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Vara Sprite
+  </ImageTitle>
+  <Author>
+    Niji System (Satoki Nijikawa, Wamo, Kiyoi, Vihreääketty, Hsiao Lyuhsien, Antiainehunt Õudus, Rinith, Q'aemil)
+  </Author>
+  <Date>
+    2025/07/18
+  </Date>
+  <ImageType>
+    Portable Network Graphics (PNG) file
+  </ImageType>
+  <AltText>
+    Sprite of quinbe's OC, Vara. She has dark skin, lavender eyes, and golden blonde-ish hair. She's wearing a purple and lavender undershirt that shows some cleavage. She has a light purple coat that is worn over the undershirt. She's also wearing purple pants, grey boots, and lavender goggles with green lenses. Quite fitting for a pirate.
+  </AltText>
+  <Description>
+    A sprite of Vara.
+    Defintiely someone who I wouldn't want to make mad.
+    That aside, was quite fun :3
+  </Description>
+  <Dimensions>
+    <Height>
+      48 px
+    </Height>
+    <Width>
+      48 px
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16x
+    </ScaleFactor>
+  </Dimensions>
+</Document>
