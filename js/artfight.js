@@ -219,9 +219,27 @@ function NovaSpriteFullSwitch() {
 // Artfight 2026
 
 function Artfight2026Defenses() {
+    details = document.getElementById("accordion_Artfight2026_Defenses");
+    summary = document.getElementById("Artfight2026_Defenses");
+    details.addEventListener("toggle", function() {
+        if(details.open) {
+            summary.textContent = "Hide Defenses";
+        } else {
+            summary.textContent = "Show Defenses";
+        }
+    });
     return 0;
 }
 
 function Artfight2026Attacks() {
+    details = document.getElementById("accordion_Artfight2026_Attacks");
+    summary = document.getElementById("Artfight2026_Attacks");
+    details.addEventListener("toggle", function() {
+        if(details.open) {
+            summary.textContent = "Hide Attacks";
+        } else {
+            summary.textContent = "Show Attacks";
+        }
+    });
     return 0;
 }
