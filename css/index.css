@@ -226,6 +226,12 @@ img.site-banner {
     width: 256px;
 }
 
+/* ====== <i> styles ====== */
+
+i.ship-name {
+    font-style: italic;
+}
+
 /* ====== <span> styles ====== */
 
 /* :3 */

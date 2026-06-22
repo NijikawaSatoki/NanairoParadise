@@ -8,6 +8,12 @@
  * 
  */
 
+/* ====== <details> styles ====== */
+
+details[open] {
+    padding: 0.5rem;
+}
+
 /* ====== <div> styles ====== */
 
 div.art-grid {
