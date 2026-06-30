@@ -4,6 +4,12 @@
  *
  */
 
+/* ====== English ===== */
+
+i.english-translation {
+    font-style: oblique;
+}
+
 /* ====== International Phonetic Alphabet ====== */
 
 span.ipa {

@@ -10,7 +10,7 @@ section#FontControls, section#ProgressionButtons {
     text-align: center;
 }
 
-/* Sets up the headings to properly scale with the font size */
+/* Sets up the headings and paragraphs to properly scale with the font size */
 
 h2#ChapterTitle {
     font-size: 2.25em;
@@ -19,6 +19,10 @@ h2#ChapterTitle {
 
 h3.content-warning-title, h3.chapter-section {
     font-size: 2em;
+}
+
+p.story-content {
+    font-size: 1em;
 }
 
 /* Heading decoration for sections of the chapter */
@@ -35,4 +39,21 @@ a.previous-button::before {
 
 a.next-button::after {
     content: "\00A0\21E8" / "";
+}
+
+/* Author note decoration */
+
+p.mid-chapter-author-note::before {
+    content: "(*)\00A0" / "";
+}
+
+/* Other styles */
+
+/* Spoiler text for slurs */
+span.non-english-slur {
+    color: black;
+    background-color: black;
+}
+span.non-english-slur:hover {
+    color: white
 }

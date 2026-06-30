@@ -12,7 +12,7 @@ span.bhonmesh {
 
 span.bhonmesh-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-style: italic;
+    font-style: oblique;
 }
 
 /* ====== Frualbuqash ====== */
@@ -23,7 +23,7 @@ span.frualbuqash {
 
 span.frualbuqash-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-style: italic;
+    font-style: oblique;
 }
 
 /* ====== Ilbåsk ====== */
@@ -46,7 +46,7 @@ span.ilbask-elesuukeln {
 
 span.ilbask-elesuukeln-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-style: italic;
+    font-style: oblique;
 }
 
 /* ------ Spålméaakeln ------ */
@@ -75,7 +75,7 @@ span.nhimesh {
 
 span.nhimesh-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-style: italic;
+    font-style: oblique;
 }
 
 /* ====== Praanbabi ====== */
@@ -123,7 +123,7 @@ span.yicaexsese {
 
 span.yicaexsese-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-style: italic;
+    font-style: oblique;
 }
 
 /* ====== Zhuzuri ====== */
