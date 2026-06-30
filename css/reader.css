@@ -2,7 +2,37 @@
  * Story Stylesheet
  * =============================================================================
  * 
- * Author: Niji System - Wamo / ワーモ
+ * Author: Niji System - Wamo         / ワーモ
+ *                       Vihreääketty / ヴィヒレアーケッテュ
  */
 
+section#FontControls, section#ProgressionButtons {
+    text-align: center;
+}
 
+/* Sets up the headings to properly scale with the font size */
+
+h2#ChapterTitle {
+    font-size: 2.25em;
+    text-align: center;
+}
+
+h3.content-warning-title, h3.chapter-section {
+    font-size: 2em;
+}
+
+/* Heading decoration for sections of the chapter */
+
+h3.chapter-section::before {
+    content: "\00A7\00A0" / "";
+}
+
+/* Sets up the previous and next buttons */
+
+a.previous-button::before {
+    content: "\21E6\00A0" / "";
+}
+
+a.next-button::after {
+    content: "\00A0\21E8" / "";
+}

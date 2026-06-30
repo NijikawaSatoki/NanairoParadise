@@ -32,24 +32,41 @@
     <main id="PageBody">
       <!-- Main controls for font and font size -->
       <section id="FontControls">
-        <!-- Font selector -->
-        <label>
-          Font: 
-        </label>
-        <select name="fonts" id="FontSelect" class="font-select">
-          <option value="ArialDefault">
-            Arial
-          </option>
-          <option value="Times New Roman">
-            Times New Roman
-          </option>
-          <option value="Courier New">
-            Courier New
-          </option>
-          <option value="Comic Sans">
-            Comic Sans
-          </option>
-        </select>
+        <p>
+          <!-- Font -->
+          <label for="FontSelect">
+            Font: 
+          </label>
+          <select name="fonts" id="FontSelect" class="font-select">
+            <option value="default">
+              Arial
+            </option>
+            <option value="serif">
+              Times New Roman
+            </option>
+            <option value="monospaced">
+              Courier New
+            </option>
+            <option value="cursive">
+              Comic Sans
+            </option>
+          </select> &nbsp;&nbsp;&nbsp;&nbsp;
+          <!-- Font size -->
+          <label for="FontSize">
+            Font size: 
+          </label>
+          <select name="sizes" id="FontSize" class="font-size">
+            <option value="default">
+              16
+            </option>
+            <option value="18px">
+              18
+            </option>
+            <option value="24px">
+              24
+            </option>
+          </select>
+        </p>
       </section>
       <!-- Main body of the chapter -->
       <article id="StoryBody">
@@ -58,7 +75,7 @@
         </h2>
         <!-- Content warnings!! -->
         <section id="ContentWarnings">
-          <h3 id="Content_Warning">
+          <h3 id="Content_Warning" class="content-warning-title">
             Content Warning(s)
           </h3>
           <ul>
@@ -81,7 +98,7 @@
       <section id="ProgressionButtons">
         <p>
           <a class="previous-button" href="">Previous</a> &bull;
-          <a href="/writings.html">Home</a> &bull;
+          <a href="/writings.html">Library</a> &bull;
           <a class="next-button" href="">Next</a>
         </p>
       </section>
