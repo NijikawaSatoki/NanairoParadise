@@ -103,6 +103,15 @@ function NhimeshStyleChange(font) {
     return 0;
 }
 
+// Praanbabi
+const PRAANBABI = document.getElementsByClassName("praanbabi");
+function PraanbabiStyleChange(font) {
+    for (let i = 0; i < PRAANBABI.length; i++) {
+        PRAANBABI[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
 // Zhuzuri
 const ZHUZURI = document.getElementsByClassName("zhuzuri");
 const ZHUZURI_ZHUR_ALPHABET = document.getElementsByClassName("zhuzuri-zhur-alphabet");
@@ -139,14 +148,15 @@ function LanguageFontChange(chosenFont) {
     MhuislaneanStyleChange(chosenFont);
     NephStyleChange(chosenFont);
     NhimeshStyleChange(chosenFont);
+    PraanbabiStyleChange(chosenFont);
     ZhuzuriStyleChange(chosenFont);
     return 0;
 }
 
 // Font selector
 
-const fontSelect = document.querySelector(".font-select");
-fontSelect.addEventListener("change", (event) => {
+const FONT_SELECT = document.querySelector(".font-select");
+FONT_SELECT.addEventListener("change", (event) => {
     let selectedFont = event.target.value;
     switch (selectedFont) {
         case "default":
@@ -178,8 +188,8 @@ fontSelect.addEventListener("change", (event) => {
 
 // Font size selector
 
-const fontSizes = document.querySelector(".font-size");
-fontSizes.addEventListener("change", (event) => {
+const FONT_SIZES = document.querySelector(".font-size");
+FONT_SIZES.addEventListener("change", (event) => {
     let selectedFontSize = event.target.value;
     switch (selectedFontSize) {
         case "default":
