@@ -39,6 +39,7 @@ function BhonmeshStyleChange(font) {
     for (let i = 0; i < BHONMESH_ROMANIZATION.length; i++) {
         BHONMESH_ROMANIZATION[i].style.fontFamily = font;
     }
+    return 0;
 }
 
 // Frualbuqash
@@ -51,6 +52,7 @@ function FrualbuqashStyleChange(font) {
     for (let i = 0; i < FRUALBUQASH_ROMANIZATION.length; i++) {
         FRUALBUQASH_ROMANIZATION[i].style.fontFamily = font;
     }
+    return 0;
 }
 
 // Ilbåsk
@@ -67,6 +69,16 @@ function IlbaskStyleChange(font) {
     for (let i = 0; i < ILBASK_ELESUUKELN_ROMANIZATION.length; i++) {
         ILBASK_ELESUUKELN_ROMANIZATION[i].style.fontFamily = font;
     }
+    return 0;
+}
+
+// Mhuislanean
+const MHUISLANEAN = document.getElementsByClassName("mhuislanean");
+function MhuislaneanStyleChange(font) {
+    for (let i = 0; i < MHUISLANEAN.length; i++) {
+        MHUISLANEAN[i].style.fontFamily = font;
+    }
+    return 0;
 }
 
 // Zhuzuri
@@ -102,6 +114,7 @@ function LanguageFontChange(chosenFont) {
     BhonmeshStyleChange(chosenFont);
     FrualbuqashStyleChange(chosenFont);
     IlbaskStyleChange(chosenFont);
+    MhuislaneanStyleChange(chosenFont);
     ZhuzuriStyleChange(chosenFont);
     return 0;
 }
