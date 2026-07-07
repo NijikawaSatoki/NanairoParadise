@@ -41,6 +41,18 @@ function BhonmeshStyleChange(font) {
     }
 }
 
+// Frualbuqash
+const FRUALBUQASH = document.getElementsByClassName("frualbuqash");
+const FRUALBUQASH_ROMANIZATION = document.getElementsByClassName("frualbuqash-romanization");
+function FrualbuqashStyleChange(font) {
+    for (let i = 0; i < FRUALBUQASH.length; i++) {
+        FRUALBUQASH[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < FRUALBUQASH_ROMANIZATION.length; i++) {
+        FRUALBUQASH_ROMANIZATION[i].style.fontFamily = font;
+    }
+}
+
 // Zhuzuri
 const ZHUZURI = document.getElementsByClassName("zhuzuri");
 const ZHUZURI_ZHUR_ALPHABET = document.getElementsByClassName("zhuzuri-zhur-alphabet");
