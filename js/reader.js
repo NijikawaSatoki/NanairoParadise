@@ -81,6 +81,15 @@ function MhuislaneanStyleChange(font) {
     return 0;
 }
 
+// Neph
+const NEPH = document.getElementsByClassName("neph");
+function NephStyleChange(font) {
+    for (let i = 0; i < NEPH.length; i++) {
+        NEPH[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
 // Zhuzuri
 const ZHUZURI = document.getElementsByClassName("zhuzuri");
 const ZHUZURI_ZHUR_ALPHABET = document.getElementsByClassName("zhuzuri-zhur-alphabet");
@@ -115,6 +124,7 @@ function LanguageFontChange(chosenFont) {
     FrualbuqashStyleChange(chosenFont);
     IlbaskStyleChange(chosenFont);
     MhuislaneanStyleChange(chosenFont);
+    NephStyleChange(chosenFont);
     ZhuzuriStyleChange(chosenFont);
     return 0;
 }
