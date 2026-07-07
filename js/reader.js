@@ -53,6 +53,22 @@ function FrualbuqashStyleChange(font) {
     }
 }
 
+// Ilbåsk
+const ILBASK_SPALMEAAKELN = document.getElementsByClassName("ilbask-spalmeaakeln");
+const ILBASK_ELESUUKELN = document.getElementsByClassName("ilbask-elesuukeln");
+const ILBASK_ELESUUKELN_ROMANIZATION = document.getElementsByClassName("ilbask-elesuukeln-romanization");
+function IlbaskStyleChange(font) {
+    for (let i = 0; i < ILBASK_SPALMEAAKELN.length; i++) {
+        ILBASK_SPALMEAAKELN[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < ILBASK_ELESUUKELN.length; i++) {
+        ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif";
+    }
+    for (let i = 0; i < ILBASK_ELESUUKELN_ROMANIZATION.length; i++) {
+        ILBASK_ELESUUKELN_ROMANIZATION[i].style.fontFamily = font;
+    }
+}
+
 // Zhuzuri
 const ZHUZURI = document.getElementsByClassName("zhuzuri");
 const ZHUZURI_ZHUR_ALPHABET = document.getElementsByClassName("zhuzuri-zhur-alphabet");
@@ -84,6 +100,8 @@ function LanguageFontChange(chosenFont) {
     // Natural languages
     // Languages from Ten'en Project
     BhonmeshStyleChange(chosenFont);
+    FrualbuqashStyleChange(chosenFont);
+    IlbaskStyleChange(chosenFont);
     ZhuzuriStyleChange(chosenFont);
     return 0;
 }
