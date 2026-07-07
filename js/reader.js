@@ -90,6 +90,19 @@ function NephStyleChange(font) {
     return 0;
 }
 
+// Nhimesh
+const NHIMESH = document.getElementsByClassName("nhimesh");
+const NHIMESH_ROMANIZATION = document.getElementsByClassName("nhimesh-romanization");
+function NhimeshStyleChange(font) {
+    for (let i = 0; i < NHIMESH.length; i++) {
+        NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif";
+    }
+    for (let i = 0; i < NHIMESH_ROMANIZATION.length; i++) {
+        NHIMESH_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
 // Zhuzuri
 const ZHUZURI = document.getElementsByClassName("zhuzuri");
 const ZHUZURI_ZHUR_ALPHABET = document.getElementsByClassName("zhuzuri-zhur-alphabet");
@@ -125,6 +138,7 @@ function LanguageFontChange(chosenFont) {
     IlbaskStyleChange(chosenFont);
     MhuislaneanStyleChange(chosenFont);
     NephStyleChange(chosenFont);
+    NhimeshStyleChange(chosenFont);
     ZhuzuriStyleChange(chosenFont);
     return 0;
 }
