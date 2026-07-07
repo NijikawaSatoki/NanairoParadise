@@ -53,8 +53,12 @@ function ZhuzuriStyleChange(font) {
 // Meta function for this font change stuff (*pain*)
 
 function LanguageFontChange(chosenFont) {
+    // Story body
     StoryBodyStyleChange(chosenFont);
+    // International Phonetic Alphabet (IPA)
     IpaStyleChange(chosenFont);
+    // Natural languages
+    // Languages from Ten'en Project
     ZhuzuriStyleChange(chosenFont);
     return 0;
 }
