@@ -112,6 +112,15 @@ function PraanbabiStyleChange(font) {
     return 0;
 }
 
+// Uokramathi
+const UOKRAMATHI = document.getElementsByClassName("uokramathi");
+function UokramathiStyleChange(font) {
+    for (let i = 0; i < UOKRAMATHI.length; i++) {
+        UOKRAMATHI[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
 // Zhuzuri
 const ZHUZURI = document.getElementsByClassName("zhuzuri");
 const ZHUZURI_ZHUR_ALPHABET = document.getElementsByClassName("zhuzuri-zhur-alphabet");
@@ -149,6 +158,7 @@ function LanguageFontChange(chosenFont) {
     NephStyleChange(chosenFont);
     NhimeshStyleChange(chosenFont);
     PraanbabiStyleChange(chosenFont);
+    UokramathiStyleChange(chosenFont);
     ZhuzuriStyleChange(chosenFont);
     return 0;
 }
