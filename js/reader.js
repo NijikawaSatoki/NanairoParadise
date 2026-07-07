@@ -29,6 +29,18 @@ function IpaStyleChange(font) {
 
 // ------ Languages from Ten'en Project ------ //
 
+// Bhonmesh
+const BHONMESH = document.getElementsByClassName("bhonmesh");
+const BHONMESH_ROMANIZATION = document.getElementsByClassName("bhonmesh-romanization");
+function BhonmeshStyleChange(font) {
+    for (let i = 0; i < BHONMESH.length; i++) {
+        BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', sans-serif";
+    }
+    for (let i = 0; i < BHONMESH_ROMANIZATION.length; i++) {
+        BHONMESH_ROMANIZATION[i].style.fontFamily = font;
+    }
+}
+
 // Zhuzuri
 const ZHUZURI = document.getElementsByClassName("zhuzuri");
 const ZHUZURI_ZHUR_ALPHABET = document.getElementsByClassName("zhuzuri-zhur-alphabet");
@@ -59,6 +71,7 @@ function LanguageFontChange(chosenFont) {
     IpaStyleChange(chosenFont);
     // Natural languages
     // Languages from Ten'en Project
+    BhonmeshStyleChange(chosenFont);
     ZhuzuriStyleChange(chosenFont);
     return 0;
 }
