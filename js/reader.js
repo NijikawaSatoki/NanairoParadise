@@ -147,6 +147,15 @@ function UpkvikhraUuptariStyleChange(font) {
     return 0;
 }
 
+// Xoabbagdosa
+const XOABBAGDOSA = document.getElementsByClassName("xoabbagdosa");
+function XoabbagdosaStyleChange(font) {
+    for (let i = 0; i < XOABBAGDOSA.length; i++) {
+        XOABBAGDOSA[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
 // Zhuzuri
 const ZHUZURI = document.getElementsByClassName("zhuzuri");
 const ZHUZURI_ZHUR_ALPHABET = document.getElementsByClassName("zhuzuri-zhur-alphabet");
@@ -187,6 +196,7 @@ function LanguageFontChange(chosenFont) {
     UokramathiStyleChange(chosenFont);
     StandardUuptariStyleChange(chosenFont);
     UpkvikhraUuptariStyleChange(chosenFont);
+    XoabbagdosaStyleChange(chosenFont);
     ZhuzuriStyleChange(chosenFont);
     return 0;
 }
