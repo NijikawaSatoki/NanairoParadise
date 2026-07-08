@@ -92,20 +92,24 @@ span.uokramathi {
 
 /* ====== Uuptari ====== */
 
-span.uuptari {
+span.uuptari-kanse-alphabet {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
-span.uuptari-shito {
+span.uuptari-shito-script {
     font-family: 'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', sans-serif;
     font-size: 110%;
 }
 
-span.uuptari-uup {
+span.uuptari-uup-script {
     font-family: 'SBL Hebrew', 'SBL BibLit', 'Taamey David CLM', 'Taamey Frank CLM', Alef, 'Noto Sans Hebrew', Narkisim, Miriam, Kinryu, 'Arial Hebrew', Arial, 'Adobe Hebrew', serif;
     font-size: 110%;
     direction: rtl;
     unicode-bidi: isolate;
+}
+
+span.uuptari-upkvikhrakanse-alphabet {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Xoabbagdosa ====== */
