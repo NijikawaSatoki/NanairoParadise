@@ -401,3 +401,6 @@ FodyWeavers.xsd
 
 # ghostwriter
 *.md.backup
+
+# User-defined custom ignores
+.test-server-log/
