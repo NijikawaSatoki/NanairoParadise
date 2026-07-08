@@ -121,6 +121,32 @@ function UokramathiStyleChange(font) {
     return 0;
 }
 
+// Standard Uuptari
+const UUPTARI_UUP_SCRIPT = document.getElementsByClassName("uuptari-uup-script");
+const UUPTARI_KANSE_ALPHABET = document.getElementsByClassName("uuptari-kanse-alphabet");
+const UUPTARI_SHITO_SCRIPT = document.getElementsByClassName("uuptari-shito-script");
+function StandardUuptariStyleChange(font) {
+    for (let i = 0; i < UUPTARI_UUP_SCRIPT.length; i++) {
+        UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif";
+    }
+    for (let i = 0; i < UUPTARI_KANSE_ALPHABET.length; i++) {
+        UUPTARI_KANSE_ALPHABET[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < UUPTARI_SHITO_SCRIPT.length; i++) {
+        UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', sans-serif";
+    }
+    return 0;
+}
+
+// Ūpkvikhra Uuptari
+const UUPTARI_UPKVIKHRAKANSE_ALPHABET = document.getElementsByClassName("uuptari-upkvikhrakanse-alphabet");
+function UpkvikhraUuptariStyleChange(font) {
+    for (let i = 0; i < UUPTARI_UPKVIKHRAKANSE_ALPHABET.length; i++) {
+        UUPTARI_UPKVIKHRAKANSE_ALPHABET[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
 // Zhuzuri
 const ZHUZURI = document.getElementsByClassName("zhuzuri");
 const ZHUZURI_ZHUR_ALPHABET = document.getElementsByClassName("zhuzuri-zhur-alphabet");
@@ -159,6 +185,8 @@ function LanguageFontChange(chosenFont) {
     NhimeshStyleChange(chosenFont);
     PraanbabiStyleChange(chosenFont);
     UokramathiStyleChange(chosenFont);
+    StandardUuptariStyleChange(chosenFont);
+    UpkvikhraUuptariStyleChange(chosenFont);
     ZhuzuriStyleChange(chosenFont);
     return 0;
 }
