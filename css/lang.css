@@ -96,7 +96,7 @@ p.japanese {
     font-size: 110%;
 }
 rt {
-    font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif;
+    font-family: inherit;
     font-size: 50%
 }
 
