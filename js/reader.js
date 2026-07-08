@@ -32,7 +32,25 @@ const JAPANESE = document.getElementsByClassName("japanese");
 const ROMAJI = document.getElementsByClassName("romaji");
 function JapaneseStyleChange(font) {
     for (let i = 0; i < JAPANESE.length; i++) {
-        JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif";
+        switch (font) {
+            case "'Arial', sans-serif":
+                JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif";
+                break;
+            case "'Times New Roman', serif":
+                JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Mincho', serif";
+                break;
+            case "'Courier New', monospaced":
+                JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', monospaced";
+                break;
+            case "'Comic Sans', 'Comic Sans MS', 'Comic Neue', cursive":
+                JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', cursive";
+                break;
+            default:
+                console.log("Something went wrong!\nShutting all systems down!");
+                break;
+            // End of switch block
+        }
+        //JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif";
     }
     for (let i = 0; i < ROMAJI.length; i++) {
         ROMAJI[i].style.fontFamily = font;
@@ -47,7 +65,25 @@ const BHONMESH = document.getElementsByClassName("bhonmesh");
 const BHONMESH_ROMANIZATION = document.getElementsByClassName("bhonmesh-romanization");
 function BhonmeshStyleChange(font) {
     for (let i = 0; i < BHONMESH.length; i++) {
-        BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', sans-serif";
+        switch (font) {
+            case "'Arial', sans-serif":
+                BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', sans-serif";
+                break;
+            case "'Times New Roman', serif":
+                BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Serif Devanagari', serif";
+                break;
+            case "'Courier New', monospaced":
+                BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', monospaced";
+                break;
+            case "'Comic Sans', 'Comic Sans MS', 'Comic Neue', cursive":
+                BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', cursive";
+                break;
+            default:
+                console.log("Something went wrong!\nShutting all systems down!");
+                break;
+            // End of switch block
+        }
+        //BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', sans-serif";
     }
     for (let i = 0; i < BHONMESH_ROMANIZATION.length; i++) {
         BHONMESH_ROMANIZATION[i].style.fontFamily = font;
@@ -77,7 +113,25 @@ function IlbaskStyleChange(font) {
         ILBASK_SPALMEAAKELN[i].style.fontFamily = font;
     }
     for (let i = 0; i < ILBASK_ELESUUKELN.length; i++) {
-        ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif";
+        switch (font) {
+            case "'Arial', sans-serif":
+                ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', sans-serif";
+                break;
+            case "'Times New Roman', serif":
+                ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif";
+                break;
+            case "'Courier New', monospaced":
+                ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', monospaced";
+                break;
+            case "'Comic Sans', 'Comic Sans MS', 'Comic Neue', cursive":
+                ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', cursive";
+                break;
+            default:
+                console.log("Something went wrong!\nShutting all systems down!");
+                break;
+            // End of switch block
+        }
+        //ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif";
     }
     for (let i = 0; i < ILBASK_ELESUUKELN_ROMANIZATION.length; i++) {
         ILBASK_ELESUUKELN_ROMANIZATION[i].style.fontFamily = font;
@@ -108,7 +162,25 @@ const NHIMESH = document.getElementsByClassName("nhimesh");
 const NHIMESH_ROMANIZATION = document.getElementsByClassName("nhimesh-romanization");
 function NhimeshStyleChange(font) {
     for (let i = 0; i < NHIMESH.length; i++) {
-        NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif";
+        switch (font) {
+            case "'Arial', sans-serif":
+                NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif";
+                break;
+            case "'Times New Roman', serif":
+                NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif";
+                break;
+            case "'Courier New', monospaced":
+                NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', monospaced";
+                break;
+            case "'Comic Sans', 'Comic Sans MS', 'Comic Neue', cursive":
+                NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', cursive";
+                break;
+            default:
+                console.log("Something went wrong!\nShutting all systems down!");
+                break;
+            // End of switch block
+        }
+        //NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif";
     }
     for (let i = 0; i < NHIMESH_ROMANIZATION.length; i++) {
         NHIMESH_ROMANIZATION[i].style.fontFamily = font;
@@ -140,13 +212,49 @@ const UUPTARI_KANSE_ALPHABET = document.getElementsByClassName("uuptari-kanse-al
 const UUPTARI_SHITO_SCRIPT = document.getElementsByClassName("uuptari-shito-script");
 function StandardUuptariStyleChange(font) {
     for (let i = 0; i < UUPTARI_UUP_SCRIPT.length; i++) {
-        UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif";
+        switch (font) {
+            case "'Arial', sans-serif":
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif";
+                break;
+            case "'Times New Roman', serif":
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', serif";
+                break;
+            case "'Courier New', monospaced":
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', monospaced";
+                break;
+            case "'Comic Sans', 'Comic Sans MS', 'Comic Neue', cursive":
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', cursive";
+                break;
+            default:
+                console.log("Something went wrong!\nShutting all systems down!");
+                break;
+            // End of switch block
+        }
+        //UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif";
     }
     for (let i = 0; i < UUPTARI_KANSE_ALPHABET.length; i++) {
         UUPTARI_KANSE_ALPHABET[i].style.fontFamily = font;
     }
     for (let i = 0; i < UUPTARI_SHITO_SCRIPT.length; i++) {
-        UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', sans-serif";
+        switch (font) {
+            case "'Arial', sans-serif":
+                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', sans-serif";
+                break;
+            case "'Times New Roman', serif":
+                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', serif";
+                break;
+            case "'Courier New', monospaced":
+                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', monospaced";
+                break;
+            case "'Comic Sans', 'Comic Sans MS', 'Comic Neue', cursive":
+                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', cursive";
+                break;
+            default:
+                console.log("Something went wrong!\nShutting all systems down!");
+                break;
+            // End of switch block
+        }
+        //UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', sans-serif";
     }
     return 0;
 }
@@ -174,7 +282,25 @@ const YICAEXSESE = document.getElementsByClassName("yicaexsese");
 const YICAEXSESE_YI_ALPHABETICS = document.getElementsByClassName("yicaexsese-romanization");
 function YicaexseseStyleChange(font) {
     for (let i = 0; i < YICAEXSESE.length; i++) {
-        YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif";
+        switch (font) {
+            case "'Arial', sans-serif":
+                YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', sans-serif";
+                break;
+            case "'Times New Roman', serif":
+                YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif";
+                break;
+            case "'Courier New', monospaced":
+                YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', monospaced";
+                break;
+            case "'Comic Sans', 'Comic Sans MS', 'Comic Neue', cursive":
+                YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', cursive";
+                break;
+            default:
+                console.log("Something went wrong!\nShutting all systems down!");
+                break;
+            // End of switch block
+        }
+        //YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif";
     }
     for (let i = 0; i < YICAEXSESE_YI_ALPHABETICS.length; i++) {
         YICAEXSESE_YI_ALPHABETICS[i].style.fontFamily = font;
