@@ -156,6 +156,19 @@ function XoabbagdosaStyleChange(font) {
     return 0;
 }
 
+// Yicaexsese
+const YICAEXSESE = document.getElementsByClassName("yicaexsese");
+const YICAEXSESE_YI_ALPHABETICS = document.getElementsByClassName("yicaexsese-romanization");
+function YicaexseseStyleChange(font) {
+    for (let i = 0; i < YICAEXSESE.length; i++) {
+        YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif";
+    }
+    for (let i = 0; i < YICAEXSESE_YI_ALPHABETICS.length; i++) {
+        YICAEXSESE_YI_ALPHABETICS[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
 // Zhuzuri
 const ZHUZURI = document.getElementsByClassName("zhuzuri");
 const ZHUZURI_ZHUR_ALPHABET = document.getElementsByClassName("zhuzuri-zhur-alphabet");
@@ -197,6 +210,7 @@ function LanguageFontChange(chosenFont) {
     StandardUuptariStyleChange(chosenFont);
     UpkvikhraUuptariStyleChange(chosenFont);
     XoabbagdosaStyleChange(chosenFont);
+    YicaexseseStyleChange(chosenFont);
     ZhuzuriStyleChange(chosenFont);
     return 0;
 }
