@@ -27,6 +27,19 @@ function IpaStyleChange(font) {
 
 // ------ Natural languages ------ //
 
+// Japanese
+const JAPANESE = document.getElementsByClassName("japanese");
+const ROMAJI = document.getElementsByClassName("romaji");
+function JapaneseStyleChange(font) {
+    for (let i = 0; i < JAPANESE.length; i++) {
+        JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif";
+    }
+    for (let i = 0; i < ROMAJI.length; i++) {
+        ROMAJI[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
 // ------ Languages from Ten'en Project ------ //
 
 // Bhonmesh
@@ -198,6 +211,7 @@ function LanguageFontChange(chosenFont) {
     // International Phonetic Alphabet (IPA)
     IpaStyleChange(chosenFont);
     // Natural languages
+    JapaneseStyleChange(chosenFont);
     // Languages from Ten'en Project
     BhonmeshStyleChange(chosenFont);
     FrualbuqashStyleChange(chosenFont);
