@@ -13,21 +13,156 @@ i.english-translation {
 /* ====== International Phonetic Alphabet ====== */
 
 span.ipa {
-    font-family: Gentium, 'Gentium Plus', GentiumAlt, 'DejaVu Sans', 'Segoe UI', 'Lucida Grande', 'Charis SIL', 'Doulos SIL', 'TITUS Cyberbit Basic', 'Code2000', 'Lucida Sans Unicode', sans-serif;
+    font-family: 'Gentium', 'Gentium Plus', 'GentiumAlt', 'DejaVu Sans', 'Segoe UI', 'Lucida Grande', 'Charis SIL', 'Doulos SIL', 'TITUS Cyberbit Basic', 'Code2000', 'Lucida Sans Unicode', sans-serif;
     font-size: 110%;
     font-variant-ligatures: no-common-ligatures;
+}
+
+/* ====== Abkhaz ====== */
+
+span.abkhaz {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+i.abkhaz-iso-9-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* ====== Adyghe / West Circassian ====== */
+
+span.west-circassian {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+i.west-circassian-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* ====== Akkadian ====== */
+
+span.akkadian {
+    font-family: 'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif;
+}
+
+i.akkadian-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* ====== Albanian ====== */
+
+span.albanian {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Arabic ====== */
 
 span.arabic {
-    font-family: 'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif;
+    font-family: 'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS', sans-serif;
     font-size: 110%;
     direction: rtl;
     unicode-bidi: isolate;
 }
 
-span.arabic-romanization {
+i.arabic-iso-233-2-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* ====== Armenian ====== */
+
+span.armenian {
+    font-family: 'GHEA Grapalat', 'Mshtakan', 'Arial', 'Segoe UI', 'Tahoma', 'Arian AMU', 'DejaVu Sans', sans-serif;
+}
+
+i.armenian-iso-9985-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* ====== Assamese ====== */
+
+span.assamese {
+    font-family: 'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali', sans-serif;
+    font-size: 110%;
+}
+
+i.assamese-iso-15919-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+i.assamese-phonetic-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* ====== Azerbaijani ====== */
+
+span.azerbaijani {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+span.south-azerbaijani-perso-arabic {
+    font-family: 'Iranian Sans', 'Geeza Pro', 'Tahoma', sans-serif;
+    font-size: 110%;
+    direction: rtl;
+    unicode-bidi: isolate;
+}
+
+span.azerbaijani-cyrillic {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* ====== Balinese ====== */
+
+span.balinese {
+    font-family: 'Noto Sans Balinese', sans-serif;
+}
+
+i.balinese-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* ====== Bangla / Bengali ====== */
+
+span.bengali {
+    font-family: 'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali', sans-serif;
+    font-size: 110%;
+}
+
+i.bengali-iso-15919-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+i.bengali-phonetic-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* ====== Bosnian ====== */
+
+span.bosnian {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+span.bosnian-cyrillic {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    color: red;
+}
+
+/* ====== Burmese ====== */
+
+span.burmese {
+    font-family: 'Pyidaungsu', 'TharLon', 'Padauk', 'Myanmar Text', 'Myanmar3', 'Myanmar2', 'Myanmar1', 'ParabaikSans', 'MyMyanmar', 'Noto Sans Myanmar', sans-serif;
+    font-size: 110%;
+}
+
+i.burmese-mclts-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -44,7 +179,7 @@ span.simplified-chinese {
 
 /* ------ Mandarin Chinese ------ */
 
-span.pinyin {
+i.pinyin {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -53,22 +188,22 @@ span.zhuyin-fuhao {
     font-family: 'Noto Sans CJK TC', 'Kurinto Sans TC', 'DFKai-SB', 'Noto Sans TC', sans-serif;
 }
 
-span.tongyong-pinyin {
+i.tongyong-pinyin {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
 
-span.wade-giles {
+i.wade-giles {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
 
-span.yale-romanization-mandarin {
+i.yale-romanization-mandarin {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
 
-span.gwoyeu-romatzyh {
+i.gwoyeu-romatzyh {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -77,7 +212,7 @@ span.palladius-cyrillic {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
-span.palladius-latin {
+i.palladius-latin {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -100,7 +235,7 @@ rt {
     font-size: 50%
 }
 
-span.romaji {
+i.romaji {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -111,7 +246,7 @@ span.malayalam {
     font-family: 'Gayathri', 'Noto Sans Malayalam', sans-serif;
 }
 
-span.malayalam-romanization {
+i.malayalam-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -124,7 +259,7 @@ span.mongolian-cyrillic {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
-span.mongolian-romanization {
+i.mongolian-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -145,7 +280,7 @@ span.traditional-mongolian {
     vertical-align: top;
 }
 
-span.mongolian-scholarly-romanization {
+i.mongolian-scholarly-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -156,7 +291,7 @@ span.ossetian {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
-span.ossetian-romanization {
+i.ossetian-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -167,13 +302,14 @@ span.russian {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
-span.russian-romanization {
+i.russian-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
 
 span.russian-pre1917 {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    color: red;
 }
 
 /* ====== Spanish ====== */
@@ -207,19 +343,20 @@ span.tibetan-phags-pa {
     writing-mode: vertical-lr;
     text-orientation: sideways;
     vertical-align: text-top;
+    color: red;
 }
 
-span.wylie {
+i.wylie {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
 
-span.tibetan-pinyin {
+i.tibetan-pinyin {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
 
-span.thl-romanization {
+i.thl-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }

@@ -10,7 +10,7 @@ span.bhonmesh {
     font-family: 'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', sans-serif;
 }
 
-span.bhonmesh-romanization {
+i.bhonmesh-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -21,7 +21,7 @@ span.frualbuqash {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
-span.frualbuqash-romanization {
+i.frualbuqash-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -44,7 +44,7 @@ span.ilbask-elesuukeln {
     vertical-align: top;
 }
 
-span.ilbask-elesuukeln-romanization {
+i.ilbask-elesuukeln-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -73,7 +73,7 @@ span.nhimesh {
     font-family: 'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif;
 }
 
-span.nhimesh-romanization {
+i.nhimesh-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -99,10 +99,11 @@ span.uuptari-kanse-alphabet {
 span.uuptari-shito-script {
     font-family: 'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', sans-serif;
     font-size: 110%;
+    color: red;
 }
 
 span.uuptari-uup-script {
-    font-family: 'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif;
+    font-family: 'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', Tahoma, 'Microsoft Sans Serif', 'Arial Unicode MS', sans-serif;
     font-size: 110%;
     direction: rtl;
     unicode-bidi: isolate;
@@ -125,7 +126,7 @@ span.yicaexsese {
     font-size: 110%;
 }
 
-span.yicaexsese-romanization {
+i.yicaexsese-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -138,12 +139,16 @@ span.zhuzuri {
 
 span.zhuzuri-zhur-alphabet {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    color: red;
 }
 
 span.zhuzuri-zuges-alphabet {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-variant: small-caps;
+    color: red;
 }
 
 span.zhuzuri-revised-proposed-alphabet {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    color: orange;
 }

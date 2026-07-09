@@ -27,6 +27,8 @@ function IpaStyleChange(font) {
 
 // ------ Natural languages ------ //
 
+// -----------------------------------------------------------------------------
+
 // Japanese
 const JAPANESE = document.getElementsByClassName("japanese");
 const ROMAJI = document.getElementsByClassName("romaji");
@@ -34,13 +36,13 @@ function JapaneseStyleChange(font) {
     for (let i = 0; i < JAPANESE.length; i++) {
         switch (font) {
             case "'Arial', sans-serif":
-                JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif";
+                JAPANESE[i].style.fontFamily = "'ヒラギノ角ゴ Pro W3', 'Hiragino Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif";
                 break;
             case "'Times New Roman', serif":
-                JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Mincho', serif";
+                JAPANESE[i].style.fontFamily = "'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'Noto Serif CJK JP', 'Noto Serif JP', 'Kurinto Text JP', 'ＭＳ ゴシック', 'MS Mincho', serif";
                 break;
             case "'Courier New', monospaced":
-                JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', monospaced";
+                JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Mono JP', 'ＭＳ ゴシック', 'MS Gothic', monospaced";
                 break;
             case "'Comic Sans', 'Comic Sans MS', 'Comic Neue', cursive":
                 JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', cursive";
@@ -50,13 +52,14 @@ function JapaneseStyleChange(font) {
                 break;
             // End of switch block
         }
-        //JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif";
     }
     for (let i = 0; i < ROMAJI.length; i++) {
         ROMAJI[i].style.fontFamily = font;
     }
     return 0;
 }
+
+// -----------------------------------------------------------------------------
 
 // ------ Languages from Ten'en Project ------ //
 
@@ -70,7 +73,7 @@ function BhonmeshStyleChange(font) {
                 BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', sans-serif";
                 break;
             case "'Times New Roman', serif":
-                BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Serif Devanagari', serif";
+                BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Text', 'Mangal', 'Noto Serif Devanagari', serif";
                 break;
             case "'Courier New', monospaced":
                 BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', monospaced";
@@ -83,7 +86,6 @@ function BhonmeshStyleChange(font) {
                 break;
             // End of switch block
         }
-        //BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', sans-serif";
     }
     for (let i = 0; i < BHONMESH_ROMANIZATION.length; i++) {
         BHONMESH_ROMANIZATION[i].style.fontFamily = font;
@@ -131,7 +133,6 @@ function IlbaskStyleChange(font) {
                 break;
             // End of switch block
         }
-        //ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif";
     }
     for (let i = 0; i < ILBASK_ELESUUKELN_ROMANIZATION.length; i++) {
         ILBASK_ELESUUKELN_ROMANIZATION[i].style.fontFamily = font;
@@ -180,7 +181,6 @@ function NhimeshStyleChange(font) {
                 break;
             // End of switch block
         }
-        //NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif";
     }
     for (let i = 0; i < NHIMESH_ROMANIZATION.length; i++) {
         NHIMESH_ROMANIZATION[i].style.fontFamily = font;
@@ -214,23 +214,22 @@ function StandardUuptariStyleChange(font) {
     for (let i = 0; i < UUPTARI_UUP_SCRIPT.length; i++) {
         switch (font) {
             case "'Arial', sans-serif":
-                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif";
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', Tahoma, 'Microsoft Sans Serif', 'Arial Unicode MS', sans-serif";
                 break;
             case "'Times New Roman', serif":
-                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', serif";
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Serif', 'Times New Roman', Tahoma, 'Microsoft Sans Serif', 'Arial Unicode MS', serif";
                 break;
             case "'Courier New', monospaced":
-                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', monospaced";
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', Tahoma, 'Microsoft Sans Serif', 'Arial Unicode MS', monospaced";
                 break;
             case "'Comic Sans', 'Comic Sans MS', 'Comic Neue', cursive":
-                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', cursive";
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', Tahoma, 'Microsoft Sans Serif', 'Arial Unicode MS', cursive";
                 break;
             default:
                 console.log("Something went wrong!\nShutting all systems down!");
                 break;
             // End of switch block
         }
-        //UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Amiri', 'Arabic Typesetting', 'Noto Naskh Arabic', sans-serif";
     }
     for (let i = 0; i < UUPTARI_KANSE_ALPHABET.length; i++) {
         UUPTARI_KANSE_ALPHABET[i].style.fontFamily = font;
@@ -254,7 +253,6 @@ function StandardUuptariStyleChange(font) {
                 break;
             // End of switch block
         }
-        //UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', sans-serif";
     }
     return 0;
 }
@@ -300,7 +298,6 @@ function YicaexseseStyleChange(font) {
                 break;
             // End of switch block
         }
-        //YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif";
     }
     for (let i = 0; i < YICAEXSESE_YI_ALPHABETICS.length; i++) {
         YICAEXSESE_YI_ALPHABETICS[i].style.fontFamily = font;
