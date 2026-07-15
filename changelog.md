@@ -43,7 +43,7 @@ This will get added to after every pull request that contains a version number.
 - Added the art gallery.
 - Replaced all `alttxt` files with an XML-based `imginfo` file.
 
-## Version 0.5.0
+## Version 0.5.0 “Artfight Update”
 
 - Added the Library page.
 - Finished the gallery for Artfight 2025.
