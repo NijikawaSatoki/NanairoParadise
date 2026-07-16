@@ -10,6 +10,18 @@ section#FontControls, section#ProgressionButtons {
     text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+    article#StoryBody {
+        max-height: 6em;
+        overflow: auto;
+    }
+}
+
+article#StoryBody {
+    max-height: 32em;
+    overflow: auto;
+}
+
 /* Sets up the headings and paragraphs to properly scale with the font size */
 
 h2#ChapterTitle {
