@@ -75,19 +75,20 @@ function AdygheFontChange(font) {
 const AKKADIAN = document.getElementsByClassName("akkadian");
 const AKKADIAN_ROMANIZATION = document.getElementsByClassName("akkadian-romanization");
 function AkkadianFontChange(font) {
+    let fontAkkadianCuneiform = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform'";
     for (let i = 0; i < AKKADIAN.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                AKKADIAN[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif";
+                AKKADIAN[i].style.fontFamily = `${fontAkkadianCuneiform}, sans-serif`;
                 break;
             case SERIF_FONT:
-                AKKADIAN[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif";
+                AKKADIAN[i].style.fontFamily = `${fontAkkadianCuneiform}, serif`;
                 break;
             case MONOSPACED_FONT:
-                AKKADIAN[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', monospaced";
+                AKKADIAN[i].style.fontFamily = `${fontAkkadianCuneiform}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                AKKADIAN[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', cursive";
+                AKKADIAN[i].style.fontFamily = `${fontAkkadianCuneiform}, cursive`;
                 break;
             default:
                 console.log("Something went wrong!\nShutting all systems down!");
