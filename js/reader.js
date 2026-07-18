@@ -20,6 +20,8 @@ function StoryBodyFontChange(font) {
     return 0;
 }
 
+const SYSTEM_ERROR = "Something went wrong!\nShutting all systems down!";
+
 // Language constants and functions
 
 // ------ International Phonetic Alphabet ------ //
@@ -91,7 +93,7 @@ function AkkadianFontChange(font) {
                 AKKADIAN[i].style.fontFamily = `${fontAkkadianCuneiform}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -115,22 +117,23 @@ function AlbanianFontChange(font) {
 const ARABIC = document.getElementsByClassName("arabic");
 const ARABIC_ISO_233_2_ROMANIZATION = document.getElementsByClassName("arabic-iso-233-2-romanization");
 function ArabicFontChange(font) {
+    let fontPersoArabicScript = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS'";
     for (let i = 0; i < ARABIC.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                ARABIC[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS', sans-serif";
+                ARABIC[i].style.fontFamily = `${fontPersoArabicScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                ARABIC[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS', serif";
+                ARABIC[i].style.fontFamily = `${fontPersoArabicScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                ARABIC[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS', monospaced";
+                ARABIC[i].style.fontFamily = `${fontPersoArabicScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                ARABIC[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS', cursive";
+                ARABIC[i].style.fontFamily = `${fontPersoArabicScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -145,22 +148,24 @@ function ArabicFontChange(font) {
 const ARMENIAN = document.getElementsByClassName("armenian");
 const ARMENIAN_ISO_9985_ROMANIZATION = document.getElementsByClassName("armenian-iso-9985-romanization");
 function ArmenianFontChange(font) {
+    let fontArmenianAlphabetSansSerif = "'GHEA Grapalat', 'Mshtakan', 'Arial', 'Segoe UI', 'Tahoma', 'Arian AMU', 'DejaVu Sans'";
+    let fontArmenianAlphabetSerif = "'GHEA Mariam', 'Mshtakan', 'Arial', 'Segoe UI', 'Tahoma', 'Arian AMU', 'DejaVu Sans'";
     for (let i = 0; i < ARMENIAN.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                ARMENIAN[i].style.fontFamily = "'GHEA Grapalat', 'Mshtakan', 'Arial', 'Segoe UI', 'Tahoma', 'Arian AMU', 'DejaVu Sans', sans-serif";
+                ARMENIAN[i].style.fontFamily = `${fontArmenianAlphabetSansSerif}, sans-serif`;
                 break;
             case SERIF_FONT:
-                ARMENIAN[i].style.fontFamily = "'GHEA Mariam', 'Mshtakan', 'Arial', 'Segoe UI', 'Tahoma', 'Arian AMU', 'DejaVu Sans', serif";
+                ARMENIAN[i].style.fontFamily = `${fontArmenianAlphabetSerif}, serif`;
                 break;
             case MONOSPACED_FONT:
-                ARMENIAN[i].style.fontFamily = "'GHEA Grapalat', 'Mshtakan', 'Arial', 'Segoe UI', 'Tahoma', 'Arian AMU', 'DejaVu Sans', monospaced";
+                ARMENIAN[i].style.fontFamily = `${fontArmenianAlphabetSansSerif}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                ARMENIAN[i].style.fontFamily = "'GHEA Grapalat', 'Mshtakan', 'Arial', 'Segoe UI', 'Tahoma', 'Arian AMU', 'DejaVu Sans', cursive";
+                ARMENIAN[i].style.fontFamily = `${fontArmenianAlphabetSansSerif}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -176,22 +181,23 @@ const ASSAMESE = document.getElementsByClassName("assamese");
 const ASSAMESE_ISO_15919_ROMANIZATION = document.getElementsByClassName("assamese-iso-15919-romanization");
 const ASSAMESE_PHONETIC_ROMANIZATION = document.getElementsByClassName("assamese-phonetic-romanization");
 function AssameseFontChange(font) {
+    let fontAssameseScript = "'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali'";
     for (let i = 0; i < ASSAMESE.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                ASSAMESE[i].style.fontFamily = "'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali', sans-serif";
+                ASSAMESE[i].style.fontFamily = `${fontAssameseScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                ASSAMESE[i].style.fontFamily = "'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali', serif";
+                ASSAMESE[i].style.fontFamily = `${fontAssameseScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                ASSAMESE[i].style.fontFamily = "'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali', monospaced";
+                ASSAMESE[i].style.fontFamily = `${fontAssameseScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                ASSAMESE[i].style.fontFamily = "'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali', cursive";
+                ASSAMESE[i].style.fontFamily = `${fontAssameseScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -213,22 +219,23 @@ function AzerbaijaniFontChange(font) {
     for (let i = 0; i < AZERBAIJANI.length; i++) {
         AZERBAIJANI[i].style.fontFamily = font;
     }
+    let fontPersoArabicScript = "'Iranian Sans', 'Geeza Pro', 'Tahoma'";
     for (let i = 0; i < AZERBAIJANI_IRAN.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                AZERBAIJANI_IRAN[i].style.fontFamily = "'Iranian Sans', 'Geeza Pro', 'Tahoma', sans-serif";
+                AZERBAIJANI_IRAN[i].style.fontFamily = `${fontPersoArabicScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                AZERBAIJANI_IRAN[i].style.fontFamily = "'Iranian Serif', 'Geeza Pro', 'Tahoma', serif";
+                AZERBAIJANI_IRAN[i].style.fontFamily = `${fontPersoArabicScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                AZERBAIJANI_IRAN[i].style.fontFamily = "'Iranian Sans', 'Geeza Pro', 'Tahoma', monospaced";
+                AZERBAIJANI_IRAN[i].style.fontFamily = `${fontPersoArabicScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                AZERBAIJANI_IRAN[i].style.fontFamily = "'Iranian Sans', 'Geeza Pro', 'Tahoma', cursive";
+                AZERBAIJANI_IRAN[i].style.fontFamily = `${fontPersoArabicScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -245,22 +252,23 @@ function AzerbaijaniFontChange(font) {
 const BALINESE = document.getElementsByClassName("balinese");
 const BALINESE_ROMANIZATION = document.getElementsByClassName("balinese-romanization");
 function BalineseFontChange(font) {
+    let fontBalineseFont = "'Noto Sans Balinese'";
     for (let i = 0; i < BALINESE.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                BALINESE[i].style.fontFamily = "'Noto Sans Balinese', sans-serif";
+                BALINESE[i].style.fontFamily = `${fontBalineseFont}, sans-serif`;
                 break;
             case SERIF_FONT:
-                BALINESE[i].style.fontFamily = "'Noto Sans Balinese', serif";
+                BALINESE[i].style.fontFamily = `${fontBalineseFont}, serif`;
                 break;
             case MONOSPACED_FONT:
-                BALINESE[i].style.fontFamily = "'Noto Sans Balinese', monospaced";
+                BALINESE[i].style.fontFamily = `${fontBalineseFont}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                BALINESE[i].style.fontFamily = "'Noto Sans Balinese', cursive";
+                BALINESE[i].style.fontFamily = `${fontBalineseFont}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -276,22 +284,23 @@ const BENGALI = document.getElementsByClassName("bengali");
 const BENGALI_ISO_15919_ROMANIZATION = document.getElementsByClassName("bengali-iso-15919-romanization");
 const BENGALI_PHONETIC_ROMANIZATION = document.getElementsByClassName("bengali-phonetic-romanization");
 function BengaliFontChange(font) {
+    let fontBengaliScript = "'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali'";
     for (let i = 0; i < BENGALI.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                BENGALI[i].style.fontFamily = "'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali', sans-serif";
+                BENGALI[i].style.fontFamily = `${fontBengaliScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                BENGALI[i].style.fontFamily = "'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali', serif";
+                BENGALI[i].style.fontFamily = `${fontBengaliScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                BENGALI[i].style.fontFamily = "'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali', monospaced";
+                BENGALI[i].style.fontFamily = `${fontBengaliScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                BENGALI[i].style.fontFamily = "'Bangla Sangam MN', 'UniBangla', 'Code2000', 'Likhan', 'UT Bengali Dhaka', 'Vrinda', 'Noto Sans Bengali', cursive";
+                BENGALI[i].style.fontFamily = `${fontBengaliScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -322,22 +331,23 @@ function BosnianFontChange(font) {
 const BURMESE = document.getElementsByClassName("burmese");
 const BURMESE_MCLST_TRANSLITERATION = document.getElementsByClassName("burmese-mclts-romanization");
 function BurmeseFontChange(font) {
+    let fontBurmeseScript = "'Pyidaungsu', 'TharLon', 'Padauk', 'Myanmar Text', 'Myanmar3', 'Myanmar2', 'Myanmar1', 'ParabaikSans', 'MyMyanmar', 'Noto Sans Myanmar'";
     for (let i = 0; i < BURMESE.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                BURMESE[i].style.fontFamily = "'Pyidaungsu', 'TharLon', 'Padauk', 'Myanmar Text', 'Myanmar3', 'Myanmar2', 'Myanmar1', 'ParabaikSans', 'MyMyanmar', 'Noto Sans Myanmar', sans-serif";
+                BURMESE[i].style.fontFamily = `${fontBurmeseScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                BURMESE[i].style.fontFamily = "'Pyidaungsu', 'TharLon', 'Padauk', 'Myanmar Text', 'Myanmar3', 'Myanmar2', 'Myanmar1', 'ParabaikSans', 'MyMyanmar', 'Noto Sans Myanmar', serif";
+                BURMESE[i].style.fontFamily = `${fontBurmeseScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                BURMESE[i].style.fontFamily = "'Pyidaungsu', 'TharLon', 'Padauk', 'Myanmar Text', 'Myanmar3', 'Myanmar2', 'Myanmar1', 'ParabaikSans', 'MyMyanmar', 'Noto Sans Myanmar', monospaced";
+                BURMESE[i].style.fontFamily = `${fontBurmeseScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                BURMESE[i].style.fontFamily = "'Pyidaungsu', 'TharLon', 'Padauk', 'Myanmar Text', 'Myanmar3', 'Myanmar2', 'Myanmar1', 'ParabaikSans', 'MyMyanmar', 'Noto Sans Myanmar', cursive";
+                BURMESE[i].style.fontFamily = `${fontBurmeseScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -354,42 +364,44 @@ function BurmeseFontChange(font) {
 const TRADITIONAL_CHINESE = document.getElementsByClassName("traditional-chinese");
 const SIMPLIFIED_CHINESE = document.getElementsByClassName("simplified-chinese");
 function ChineseCharacterFont(font) {
+    let fontTraditionalChineseCharacters = "'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB'";
     for (let i = 0; i < TRADITIONAL_CHINESE.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                TRADITIONAL_CHINESE[i].style.fontFamily = "'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB', sans-serif";
+                TRADITIONAL_CHINESE[i].style.fontFamily = `${fontTraditionalChineseCharacters}, sans-serif`;
                 break;
             case SERIF_FONT:
-                TRADITIONAL_CHINESE[i].style.fontFamily = "'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB', serif";
+                TRADITIONAL_CHINESE[i].style.fontFamily = `${fontTraditionalChineseCharacters}, serif`;
                 break;
             case MONOSPACED_FONT:
-                TRADITIONAL_CHINESE[i].style.fontFamily = "'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB', monospaced";
+                TRADITIONAL_CHINESE[i].style.fontFamily = `${fontTraditionalChineseCharacters}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                TRADITIONAL_CHINESE[i].style.fontFamily = "'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB', cursive";
+                TRADITIONAL_CHINESE[i].style.fontFamily = `${fontTraditionalChineseCharacters}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
     }
+    let fontSimplifiedChineseCharacters = "'PingFang SC', 'DengXian', 'Source Han Sans SC', 'Source Han Sans CN', 'Noto Sans CJK SC', 'Microsoft Yahei', 'SimHei', 'SimSun', 'NSimSun', 'SimSun-ExtB', 'Song','Heiti SC', 'HanaMinA', 'HanaMinB'";
     for (let i = 0; i < SIMPLIFIED_CHINESE.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                SIMPLIFIED_CHINESE[i].style.fontFamily = "'PingFang SC', 'DengXian', 'Source Han Sans SC', 'Source Han Sans CN', 'Noto Sans CJK SC', 'Microsoft Yahei', 'SimHei', 'SimSun', 'NSimSun', 'SimSun-ExtB', 'Song','Heiti SC', 'HanaMinA', 'HanaMinB', sans-serif";
+                SIMPLIFIED_CHINESE[i].style.fontFamily = `${fontSimplifiedChineseCharacters}, sans-serif`;
                 break;
             case SERIF_FONT:
-                SIMPLIFIED_CHINESE[i].style.fontFamily = "'PingFang SC', 'DengXian', 'Source Han Sans SC', 'Source Han Sans CN', 'Noto Sans CJK SC', 'Microsoft Yahei', 'SimHei', 'SimSun', 'NSimSun', 'SimSun-ExtB', 'Song','Heiti SC', 'HanaMinA', 'HanaMinB', serif";
+                SIMPLIFIED_CHINESE[i].style.fontFamily = `${fontSimplifiedChineseCharacters}, serif`;
                 break;
             case MONOSPACED_FONT:
-                SIMPLIFIED_CHINESE[i].style.fontFamily = "'PingFang SC', 'DengXian', 'Source Han Sans SC', 'Source Han Sans CN', 'Noto Sans CJK SC', 'Microsoft Yahei', 'SimHei', 'SimSun', 'NSimSun', 'SimSun-ExtB', 'Song','Heiti SC', 'HanaMinA', 'HanaMinB', monospaced";
+                SIMPLIFIED_CHINESE[i].style.fontFamily = `${fontSimplifiedChineseCharacters}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                SIMPLIFIED_CHINESE[i].style.fontFamily = "'PingFang SC', 'DengXian', 'Source Han Sans SC', 'Source Han Sans CN', 'Noto Sans CJK SC', 'Microsoft Yahei', 'SimHei', 'SimSun', 'NSimSun', 'SimSun-ExtB', 'Song','Heiti SC', 'HanaMinA', 'HanaMinB', cursive";
+                SIMPLIFIED_CHINESE[i].style.fontFamily = `${fontSimplifiedChineseCharacters}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -411,22 +423,23 @@ function MandarinChineseFontChange(font) {
     for (let i = 0; i < HANYU_PINYIN.length; i++) {
         HANYU_PINYIN[i].style.fontFamily = font;
     }
+    let fontZhuyinFuhao = "'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB'";
     for (let i = 0; i < ZHUYIN_FUHAO.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                ZHUYIN_FUHAO[i].style.fontFamily = "'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB', sans-serif";
+                ZHUYIN_FUHAO[i].style.fontFamily = `${fontZhuyinFuhao}, sans-serif`;
                 break;
             case SERIF_FONT:
-                ZHUYIN_FUHAO[i].style.fontFamily = "'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB', serif";
+                ZHUYIN_FUHAO[i].style.fontFamily = `${fontZhuyinFuhao}, serif`;
                 break;
             case MONOSPACED_FONT:
-                ZHUYIN_FUHAO[i].style.fontFamily = "'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB', monospaced";
+                ZHUYIN_FUHAO[i].style.fontFamily = `${fontZhuyinFuhao}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                ZHUYIN_FUHAO[i].style.fontFamily = "'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB', cursive";
+                ZHUYIN_FUHAO[i].style.fontFamily = `${fontZhuyinFuhao}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -581,22 +594,23 @@ function DanishFontChange(font) {
 const DHIVEHI = document.getElementsByClassName("dhivehi-thaana-script");
 const DHIVEHI_MALE_LATIN = document.getElementsByClassName("dhivehi-male-latin");
 function DhivehiFontChange(font) {
+    let fontThaanaScript = "'Noto Sans Thaana'";
     for (let i = 0; i < DHIVEHI.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                DHIVEHI[i].style.fontFamily = "'Noto Sans Thaana', sans-serif";
+                DHIVEHI[i].style.fontFamily = `${fontThaanaScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                DHIVEHI[i].style.fontFamily = "'Noto Sans Thaana', serif";
+                DHIVEHI[i].style.fontFamily = `${fontThaanaScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                DHIVEHI[i].style.fontFamily = "'Noto Sans Thaana', monospaced";
+                DHIVEHI[i].style.fontFamily = `${fontThaanaScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                DHIVEHI[i].style.fontFamily = "'Noto Sans Thaana', cursive";
+                DHIVEHI[i].style.fontFamily = `${fontThaanaScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -653,22 +667,23 @@ function FrenchFontChange(font) {
 const GEORGIAN = document.getElementsByClassName("georgian");
 const GEORGIAN_ROMANIZATION = document.getElementsByClassName("georgian-romanization");
 function GeorgianFontChange(font) {
+    let fontGeorgianAlphabet = "'DejaVu Sans', 'Arial Unicode MS', 'Sylfaen', 'Noto Sans Georgian'";
     for (let i = 0; i < GEORGIAN.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                GEORGIAN[i].style.fontFamily = "'DejaVu Sans', 'Arial Unicode MS', 'Sylfaen', 'Noto Sans Georgian', sans-serif";
+                GEORGIAN[i].style.fontFamily = `${fontGeorgianAlphabet}, sans-serif`;
                 break;
             case SERIF_FONT:
-                GEORGIAN[i].style.fontFamily = "'DejaVu Sans', 'Arial Unicode MS', 'Sylfaen', 'Noto Serif Georgian', serif";
+                GEORGIAN[i].style.fontFamily = `${fontGeorgianAlphabet}, serif`;
                 break;
             case MONOSPACED_FONT:
-                GEORGIAN[i].style.fontFamily = "'DejaVu Sans', 'Arial Unicode MS', 'Sylfaen', 'Noto Sans Georgian', monospaced";
+                GEORGIAN[i].style.fontFamily = `${fontGeorgianAlphabet}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                GEORGIAN[i].style.fontFamily = "'DejaVu Sans', 'Arial Unicode MS', 'Sylfaen', 'Noto Sans Georgian', cursive";
+                GEORGIAN[i].style.fontFamily = `${fontGeorgianAlphabet}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -718,22 +733,23 @@ function MonotonicGreekFontChange(font) {
 const GUJARATI = document.getElementsByClassName("gujarati");
 const GUJARATI_ISO_15919_ROMANIZATION = document.getElementsByClassName("gujarati-iso-15919-romanization");
 function GujaratiFontChange(font) {
+    let fontGujaratiScript = "'Noto Sans Gujarati', 'Gujarati Sangam MN', 'Gujarati MT', 'Shruti', 'Lucida Grande', 'Arial Unicode MS', 'Lucida Sans Unicode', 'Code2000', 'TITUS Cyberbit Basic', 'Chrysanthi Unicode', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Bitstream Vera', 'Visual Geez Unicode'";
     for (let i = 0; i < GUJARATI.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                GUJARATI[i].style.fontFamily = "'Noto Sans Gujarati', 'Gujarati Sangam MN', 'Gujarati MT', 'Shruti', 'Lucida Grande', 'Arial Unicode MS', 'Lucida Sans Unicode', 'Code2000', 'TITUS Cyberbit Basic', 'Chrysanthi Unicode', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Bitstream Vera', 'Visual Geez Unicode', sans-serif";
+                GUJARATI[i].style.fontFamily = `${fontGujaratiScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                GUJARATI[i].style.fontFamily = "'Noto Sans Gujarati', 'Gujarati Sangam MN', 'Gujarati MT', 'Shruti', 'Lucida Grande', 'Arial Unicode MS', 'Lucida Sans Unicode', 'Code2000', 'TITUS Cyberbit Basic', 'Chrysanthi Unicode', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Bitstream Vera', 'Visual Geez Unicode', serif";
+                GUJARATI[i].style.fontFamily = `${fontGujaratiScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                GUJARATI[i].style.fontFamily = "'Noto Sans Gujarati', 'Gujarati Sangam MN', 'Gujarati MT', 'Shruti', 'Lucida Grande', 'Arial Unicode MS', 'Lucida Sans Unicode', 'Code2000', 'TITUS Cyberbit Basic', 'Chrysanthi Unicode', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Bitstream Vera', 'Visual Geez Unicode', monospaced";
+                GUJARATI[i].style.fontFamily = `${fontGujaratiScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                GUJARATI[i].style.fontFamily = "'Noto Sans Gujarati', 'Gujarati Sangam MN', 'Gujarati MT', 'Shruti', 'Lucida Grande', 'Arial Unicode MS', 'Lucida Sans Unicode', 'Code2000', 'TITUS Cyberbit Basic', 'Chrysanthi Unicode', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Bitstream Vera', 'Visual Geez Unicode', cursive";
+                GUJARATI[i].style.fontFamily = `${fontGujaratiScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -750,22 +766,23 @@ function GujaratiFontChange(font) {
 const HEBREW = document.getElementsByClassName("hebrew");
 const HEBREW_SBL_TRANSLITERATION = document.getElementsByClassName("hebrew-sbl-transliteration");
 function HebrewFontChange(font) {
+    let fontHebrewScript = "'SBL Hebrew', 'SBL BibLit', 'Taamey David CLM', 'Taamey Frank CLM', 'Alef', 'Noto Sans Hebrew', 'Narkisim', 'Miriam', 'Kinryu', 'Arial Hebrew', 'Arial', 'Adobe Hebrew'";
     for (let i = 0; i < HEBREW.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                HEBREW[i].style.fontFamily = "'SBL Hebrew', 'SBL BibLit', 'Taamey David CLM', 'Taamey Frank CLM', 'Alef', 'Noto Sans Hebrew', 'Narkisim', 'Miriam', 'Kinryu', 'Arial Hebrew', 'Arial', 'Adobe Hebrew', sans-serif";
+                HEBREW[i].style.fontFamily = `${fontHebrewScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                HEBREW[i].style.fontFamily = "'SBL Hebrew', 'SBL BibLit', 'Taamey David CLM', 'Taamey Frank CLM', 'Alef', 'Noto Sans Hebrew', 'Narkisim', 'Miriam', 'Kinryu', 'Arial Hebrew', 'Arial', 'Adobe Hebrew', serif";
+                HEBREW[i].style.fontFamily = `${fontHebrewScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                HEBREW[i].style.fontFamily = "'SBL Hebrew', 'SBL BibLit', 'Taamey David CLM', 'Taamey Frank CLM', 'Alef', 'Noto Sans Hebrew', 'Narkisim', 'Miriam', 'Kinryu', 'Arial Hebrew', 'Arial', 'Adobe Hebrew', monospaced";
+                HEBREW[i].style.fontFamily = `${fontHebrewScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                HEBREW[i].style.fontFamily = "'SBL Hebrew', 'SBL BibLit', 'Taamey David CLM', 'Taamey Frank CLM', 'Alef', 'Noto Sans Hebrew', 'Narkisim', 'Miriam', 'Kinryu', 'Arial Hebrew', 'Arial', 'Adobe Hebrew', cursive";
+                HEBREW[i].style.fontFamily = `${fontHebrewScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -781,22 +798,23 @@ const HINDI = document.getElementsByClassName("hindi");
 const HINDI_ISO_15919_ROMANIZATION = document.getElementsByClassName("hindi-iso-15919-romanization");
 const HINDI_HUNTERIAN_ROMANIZATION = document.getElementsByClassName("hindi-hunterian-romanization");
 function HindiFontChange(font) {
+    let fontDevanagari = "'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari'";
     for (let i = 0; i < HINDI.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                HINDI[i].style.fontFamily = "'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', sans-serif";
+                HINDI[i].style.fontFamily = `${fontDevanagari}, sans-serif`;
                 break;
             case SERIF_FONT:
-                HINDI[i].style.fontFamily = "'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', serif";
+                HINDI[i].style.fontFamily = `${fontDevanagari}, serif`;
                 break;
             case MONOSPACED_FONT:
-                HINDI[i].style.fontFamily = "'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', monospaced";
+                HINDI[i].style.fontFamily = `${fontDevanagari}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                HINDI[i].style.fontFamily = "'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', cursive";
+                HINDI[i].style.fontFamily = `${fontDevanagari}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -814,22 +832,23 @@ function HindiFontChange(font) {
 const HITTITE = document.getElementsByClassName("hittite");
 const HITTITE_ROMANIZATION = document.getElementsByClassName("hittite-romanization");
 function HittiteFontChange(font) {
+    let fontHittiteCuneiform = "'UllikummiA', 'Akkadian', 'FreeIdgSerif', 'CuneiformComposite', 'Segoe UI Historic'";
     for (let i = 0; i < HITTITE.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                HITTITE[i].style.fontFamily = "'UllikummiA', 'Akkadian', 'FreeIdgSerif', 'CuneiformComposite', 'Segoe UI Historic', sans-serif";
+                HITTITE[i].style.fontFamily = `${fontHittiteCuneiform}, sans-serif`;
                 break;
             case SERIF_FONT:
-                HITTITE[i].style.fontFamily = "'UllikummiA', 'Akkadian', 'FreeIdgSerif', 'CuneiformComposite', 'Segoe UI Historic', serif";
+                HITTITE[i].style.fontFamily = `${fontHittiteCuneiform}, serif`;
                 break;
             case MONOSPACED_FONT:
-                HITTITE[i].style.fontFamily = "'UllikummiA', 'Akkadian', 'FreeIdgSerif', 'CuneiformComposite', 'Segoe UI Historic', monospaced";
+                HITTITE[i].style.fontFamily = `${fontHittiteCuneiform}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                HITTITE[i].style.fontFamily = "'UllikummiA', 'Akkadian', 'FreeIdgSerif', 'CuneiformComposite', 'Segoe UI Historic', cursive";
+                HITTITE[i].style.fontFamily = `${fontHittiteCuneiform}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -884,22 +903,25 @@ function ItalianFontChange(font) {
 const JAPANESE = document.getElementsByClassName("japanese");
 const ROMAJI = document.getElementsByClassName("romaji");
 function JapaneseFontChange(font) {
+    let fontGothic = "'ヒラギノ角ゴ Pro W3', 'Hiragino Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic'";
+    let fontMincho = "'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'Noto Serif CJK JP', 'Noto Serif JP', 'Kurinto Text JP', 'ＭＳ ゴシック', 'MS Mincho'";
+    let fontMaruGothic = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Mono JP', 'ＭＳ ゴシック', 'MS Gothic'";
     for (let i = 0; i < JAPANESE.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                JAPANESE[i].style.fontFamily = "'ヒラギノ角ゴ Pro W3', 'Hiragino Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif";
+                JAPANESE[i].style.fontFamily = `${fontGothic}, sans-serif`;
                 break;
             case SERIF_FONT:
-                JAPANESE[i].style.fontFamily = "'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', 'Noto Serif CJK JP', 'Noto Serif JP', 'Kurinto Text JP', 'ＭＳ ゴシック', 'MS Mincho', serif";
+                JAPANESE[i].style.fontFamily = `${fontMincho}, serif`;
                 break;
             case MONOSPACED_FONT:
-                JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Mono JP', 'ＭＳ ゴシック', 'MS Gothic', monospaced";
+                JAPANESE[i].style.fontFamily = `${fontMaruGothic}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                JAPANESE[i].style.fontFamily = "'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', cursive";
+                JAPANESE[i].style.fontFamily = `${fontMaruGothic}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -914,22 +936,23 @@ function JapaneseFontChange(font) {
 const JAVANESE = document.getElementsByClassName("javanese");
 const JAVANESE_ROMANIZATION = document.getElementsByClassName("javanese-romanization");
 function JavaneseFontChange(font) {
+    let fontJavaneseScript = "Tuladha Jejeg', 'Javanese Text', 'adjisaka', 'Noto Sans Javanese'";
     for (let i = 0; i < JAVANESE.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                JAVANESE[i].style.fontFamily = "'Tuladha Jejeg', 'Javanese Text', 'adjisaka', 'Noto Sans Javanese', sans-serif";
+                JAVANESE[i].style.fontFamily = `${fontJavaneseScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                JAVANESE[i].style.fontFamily = "'Tuladha Jejeg', 'Javanese Text', 'adjisaka', 'Noto Sans Javanese', serif";
+                JAVANESE[i].style.fontFamily = `${fontJavaneseScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                JAVANESE[i].style.fontFamily = "'Tuladha Jejeg', 'Javanese Text', 'adjisaka', 'Noto Sans Javanese', monospaced";
+                JAVANESE[i].style.fontFamily = `${fontJavaneseScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                JAVANESE[i].style.fontFamily = "'Tuladha Jejeg', 'Javanese Text', 'adjisaka', 'Noto Sans Javanese', cursive";
+                JAVANESE[i].style.fontFamily = `${fontJavaneseScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -959,22 +982,23 @@ function KabardianFontChange(font) {
 const KANNADA = document.getElementsByClassName("kannada");
 const KANNADA_ISO_15919_ROMANIZATION = document.getElementsByClassName("kannada-iso-15919-romanization");
 function KannadaFontChange(font) {
+    let fontKannadaScript = "'Kannada Sangam MN', 'JanaKannada', 'Tunga', 'Kedage', 'RaghuKannada', 'Sampige', 'Arial Unicode MS', 'Code2000', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Noto Sans Kannada'";
     for (let i = 0; i < KANNADA.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                KANNADA[i].style.fontFamily = "'Kannada Sangam MN', 'JanaKannada', 'Tunga', 'Kedage', 'RaghuKannada', 'Sampige', 'Arial Unicode MS', 'Code2000', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Noto Sans Kannada', sans-serif";
+                KANNADA[i].style.fontFamily = `${fontKannadaScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                KANNADA[i].style.fontFamily = "'Kannada Sangam MN', 'JanaKannada', 'Tunga', 'Kedage', 'RaghuKannada', 'Sampige', 'Arial Unicode MS', 'Code2000', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Noto Sans Kannada', serif";
+                KANNADA[i].style.fontFamily = `${fontKannadaScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                KANNADA[i].style.fontFamily = "'Kannada Sangam MN', 'JanaKannada', 'Tunga', 'Kedage', 'RaghuKannada', 'Sampige', 'Arial Unicode MS', 'Code2000', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Noto Sans Kannada', monospaced";
+                KANNADA[i].style.fontFamily = `${fontKannadaScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                KANNADA[i].style.fontFamily = "'Kannada Sangam MN', 'JanaKannada', 'Tunga', 'Kedage', 'RaghuKannada', 'Sampige', 'Arial Unicode MS', 'Code2000', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Noto Sans Kannada', cursive";
+                KANNADA[i].style.fontFamily = `${fontKannadaScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -1004,22 +1028,23 @@ const KHMER_GD_ROMANIZATION = document.getElementsByClassName("geographic-depart
 const KHMER_UNGEGN_ROMANIZATION = document.getElementsByClassName("khmer-ungegn-romanization");
 const KHMER_LIBRARY_OF_CONGRESS_ROMANIZATION = document.getElementsByClassName("library-of-congress-romanization-for-khmer");
 function KhmerFontChange(font) {
+    let fontKhmerScript = "'Khmer OS', 'Khmer OS Content', 'Leelawadee UI', 'Noto Sans Khmer', 'Code2000', 'Khmer Mondulkiri U OT ls'";
     for (let i = 0; i < KHMER.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                KHMER[i].style.fontFamily = "'Khmer OS', 'Khmer OS Content', 'Leelawadee UI', 'Noto Sans Khmer', 'Code2000', 'Khmer Mondulkiri U OT ls', sans-serif";
+                KHMER[i].style.fontFamily = `${fontKhmerScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                KHMER[i].style.fontFamily = "'Khmer OS', 'Khmer OS Content', 'Leelawadee UI', 'Noto Sans Khmer', 'Code2000', 'Khmer Mondulkiri U OT ls', serif";
+                KHMER[i].style.fontFamily = `${fontKhmerScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                KHMER[i].style.fontFamily = "'Khmer OS', 'Khmer OS Content', 'Leelawadee UI', 'Noto Sans Khmer', 'Code2000', 'Khmer Mondulkiri U OT ls', monospaced";
+                KHMER[i].style.fontFamily = `${fontKhmerScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                KHMER[i].style.fontFamily = "'Khmer OS', 'Khmer OS Content', 'Leelawadee UI', 'Noto Sans Khmer', 'Code2000', 'Khmer Mondulkiri U OT ls', cursive";
+                KHMER[i].style.fontFamily = `${fontKhmerScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -1045,42 +1070,44 @@ const KOREAN_YALE_ROMANIZATION = document.getElementsByClassName("yale-romanizat
 const KOREAN_KONTSEVICH_SYSTEM_CYRILLIC = document.getElementsByClassName("kontsevich-cyrillic");
 const KOREAN_KONTSEVICH_SYSTEM_LATIN = document.getElementsByClassName("kontsevich-latin");
 function KoreanFontChange(font) {
+    let fontHangul = "'Apple SD Gothic Neo', 'Malgun Gothic', 'Dotum', 'Gulim', 'NanumBarunGothic YetHangul', 'NanumBarunGothic', 'UnDotum', 'Source Han Sans K', 'Source Han Sans KR', 'Noto Sans CJK KR', 'NanumGothic', 'NanumMyeongjo YetHangul', 'NanumMyeongjo', 'Batang', 'UnBatang'";
     for (let i = 0; i < KOREAN_HANGUL.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                KOREAN_HANGUL[i].style.fontFamily = "'Apple SD Gothic Neo', 'Malgun Gothic', 'Dotum', 'Gulim', 'NanumBarunGothic YetHangul', 'NanumBarunGothic', 'UnDotum', 'Source Han Sans K', 'Source Han Sans KR', 'Noto Sans CJK KR', 'NanumGothic', 'NanumMyeongjo YetHangul', 'NanumMyeongjo', 'Batang', 'UnBatang', sans-serif";
+                KOREAN_HANGUL[i].style.fontFamily = `${fontHangul}, sans-serif`;
                 break;
             case SERIF_FONT:
-                KOREAN_HANGUL[i].style.fontFamily = "'Apple SD Gothic Neo', 'Malgun Gothic', 'Dotum', 'Gulim', 'NanumBarunGothic YetHangul', 'NanumBarunGothic', 'UnDotum', 'Source Han Sans K', 'Source Han Sans KR', 'Noto Sans CJK KR', 'NanumGothic', 'NanumMyeongjo YetHangul', 'NanumMyeongjo', 'Batang', 'UnBatang', serif";
+                KOREAN_HANGUL[i].style.fontFamily = `${fontHangul}, serif`;
                 break;
             case MONOSPACED_FONT:
-                KOREAN_HANGUL[i].style.fontFamily = "'Apple SD Gothic Neo', 'Malgun Gothic', 'Dotum', 'Gulim', 'NanumBarunGothic YetHangul', 'NanumBarunGothic', 'UnDotum', 'Source Han Sans K', 'Source Han Sans KR', 'Noto Sans CJK KR', 'NanumGothic', 'NanumMyeongjo YetHangul', 'NanumMyeongjo', 'Batang', 'UnBatang', monospaced";
+                KOREAN_HANGUL[i].style.fontFamily = `${fontHangul}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                KOREAN_HANGUL[i].style.fontFamily = "'Apple SD Gothic Neo', 'Malgun Gothic', 'Dotum', 'Gulim', 'NanumBarunGothic YetHangul', 'NanumBarunGothic', 'UnDotum', 'Source Han Sans K', 'Source Han Sans KR', 'Noto Sans CJK KR', 'NanumGothic', 'NanumMyeongjo YetHangul', 'NanumMyeongjo', 'Batang', 'UnBatang', cursive";
+                KOREAN_HANGUL[i].style.fontFamily = `${fontHangul}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
     }
+    let fontHanja = "'Apple SD Gothic Neo', 'Malgun Gothic', 'Dotum', 'Gulim', 'NanumBarunGothic YetHangul', 'NanumBarunGothic', 'UnDotum', 'Source Han Sans K', 'Source Han Sans KR', 'Noto Sans CJK KR', 'NanumGothic', 'NanumMyeongjo YetHangul', 'NanumMyeongjo', 'Batang', 'UnBatang'";
     for (let i = 0; i < KOREAN_HANJA.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                KOREAN_HANJA[i].style.fontFamily = "'Apple SD Gothic Neo', 'Malgun Gothic', 'Dotum', 'Gulim', 'NanumBarunGothic YetHangul', 'NanumBarunGothic', 'UnDotum', 'Source Han Sans K', 'Source Han Sans KR', 'Noto Sans CJK KR', 'NanumGothic', 'NanumMyeongjo YetHangul', 'NanumMyeongjo', 'Batang', 'UnBatang', sans-serif";
+                KOREAN_HANJA[i].style.fontFamily = `${fontHanja}, sans-serif`;
                 break;
             case SERIF_FONT:
-                KOREAN_HANJA[i].style.fontFamily = "'Apple SD Gothic Neo', 'Malgun Gothic', 'Dotum', 'Gulim', 'NanumBarunGothic YetHangul', 'NanumBarunGothic', 'UnDotum', 'Source Han Sans K', 'Source Han Sans KR', 'Noto Sans CJK KR', 'NanumGothic', 'NanumMyeongjo YetHangul', 'NanumMyeongjo', 'Batang', 'UnBatang', serif";
+                KOREAN_HANJA[i].style.fontFamily = `${fontHanja}, serif`;
                 break;
             case MONOSPACED_FONT:
-                KOREAN_HANJA[i].style.fontFamily = "'Apple SD Gothic Neo', 'Malgun Gothic', 'Dotum', 'Gulim', 'NanumBarunGothic YetHangul', 'NanumBarunGothic', 'UnDotum', 'Source Han Sans K', 'Source Han Sans KR', 'Noto Sans CJK KR', 'NanumGothic', 'NanumMyeongjo YetHangul', 'NanumMyeongjo', 'Batang', 'UnBatang', monospaced";
+                KOREAN_HANJA[i].style.fontFamily = `${fontHanja}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                KOREAN_HANJA[i].style.fontFamily = "'Apple SD Gothic Neo', 'Malgun Gothic', 'Dotum', 'Gulim', 'NanumBarunGothic YetHangul', 'NanumBarunGothic', 'UnDotum', 'Source Han Sans K', 'Source Han Sans KR', 'Noto Sans CJK KR', 'NanumGothic', 'NanumMyeongjo YetHangul', 'NanumMyeongjo', 'Batang', 'UnBatang', cursive";
+                KOREAN_HANJA[i].style.fontFamily = `${fontHanja}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -1111,22 +1138,23 @@ function KyrgyzFontChange(font) {
     for (let i = 0; i < KYRGYZ.length; i++) {
         KYRGYZ[i].style.fontFamily = font;
     }
+    let fontPersoArabicScript = "'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS'";
     for (let i = 0; i < KYRGYZ_XINJIANG_ARABIC.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                KYRGYZ_XINJIANG_ARABIC[i].style.fontFamily = "'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS', sans-serif";
+                KYRGYZ_XINJIANG_ARABIC[i].style.fontFamily = `${fontPersoArabicScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                KYRGYZ_XINJIANG_ARABIC[i].style.fontFamily = "'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS', serif";
+                KYRGYZ_XINJIANG_ARABIC[i].style.fontFamily = `${fontPersoArabicScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                KYRGYZ_XINJIANG_ARABIC[i].style.fontFamily = "'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS', monospaced";
+                KYRGYZ_XINJIANG_ARABIC[i].style.fontFamily = `${fontPersoArabicScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                KYRGYZ_XINJIANG_ARABIC[i].style.fontFamily = "'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS', cursive";
+                KYRGYZ_XINJIANG_ARABIC[i].style.fontFamily = `${fontPersoArabicScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -1145,22 +1173,23 @@ function KyrgyzFontChange(font) {
 const BHONMESH = document.getElementsByClassName("bhonmesh");
 const BHONMESH_ROMANIZATION = document.getElementsByClassName("bhonmesh-romanization");
 function BhonmeshFontChange(font) {
+    let fontBhonScript = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari'";
     for (let i = 0; i < BHONMESH.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', sans-serif";
+                BHONMESH[i].style.fontFamily = `${fontBhonScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Text', 'Mangal', 'Noto Serif Devanagari', serif";
+                BHONMESH[i].style.fontFamily = `${fontBhonScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', monospaced";
+                BHONMESH[i].style.fontFamily = `${fontBhonScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                BHONMESH[i].style.fontFamily = "'Chandas', 'Sanskrit Text', 'Kurinto Sans', 'Mangal', 'Noto Sans Devanagari', cursive";
+                BHONMESH[i].style.fontFamily = `${fontBhonScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -1192,22 +1221,23 @@ function IlbaskFontChange(font) {
     for (let i = 0; i < ILBASK_SPALMEAAKELN.length; i++) {
         ILBASK_SPALMEAAKELN[i].style.fontFamily = font;
     }
+    let fontEleAlphabet = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian'";
     for (let i = 0; i < ILBASK_ELESUUKELN.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', sans-serif";
+                ILBASK_ELESUUKELN[i].style.fontFamily = `${fontEleAlphabet}, sans-serif`;
                 break;
             case SERIF_FONT:
-                ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif";
+                ILBASK_ELESUUKELN[i].style.fontFamily = `${fontEleAlphabet}, serif`;
                 break;
             case MONOSPACED_FONT:
-                ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', monospaced";
+                ILBASK_ELESUUKELN[i].style.fontFamily = `${fontEleAlphabet}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                ILBASK_ELESUUKELN[i].style.fontFamily = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', cursive";
+                ILBASK_ELESUUKELN[i].style.fontFamily = `${fontEleAlphabet}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -1240,22 +1270,23 @@ function NephFontChange(font) {
 const NHIMESH = document.getElementsByClassName("nhimesh");
 const NHIMESH_ROMANIZATION = document.getElementsByClassName("nhimesh-romanization");
 function NhimeshFontChange(font) {
+    let fontAncientScript = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform'";
     for (let i = 0; i < NHIMESH.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif";
+                NHIMESH[i].style.fontFamily = `${fontAncientScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', serif";
+                NHIMESH[i].style.fontFamily = `${fontAncientScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', monospaced";
+                NHIMESH[i].style.fontFamily = `${fontAncientScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                NHIMESH[i].style.fontFamily = "'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', cursive";
+                NHIMESH[i].style.fontFamily = `${fontAncientScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -1289,22 +1320,23 @@ const UUPTARI_UUP_SCRIPT = document.getElementsByClassName("uuptari-uup-script")
 const UUPTARI_KANSE_ALPHABET = document.getElementsByClassName("uuptari-kanse-alphabet");
 const UUPTARI_SHITO_SCRIPT = document.getElementsByClassName("uuptari-shito-script");
 function StandardUuptariFontChange(font) {
+    let fontUupScript = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', Tahoma, 'Microsoft Sans Serif', 'Arial Unicode MS'";
     for (let i = 0; i < UUPTARI_UUP_SCRIPT.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', Tahoma, 'Microsoft Sans Serif', 'Arial Unicode MS', sans-serif";
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = `${fontUupScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Serif', 'Times New Roman', Tahoma, 'Microsoft Sans Serif', 'Arial Unicode MS', serif";
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = `${fontUupScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', Tahoma, 'Microsoft Sans Serif', 'Arial Unicode MS', monospaced";
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = `${fontUupScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                UUPTARI_UUP_SCRIPT[i].style.fontFamily = "'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', Tahoma, 'Microsoft Sans Serif', 'Arial Unicode MS', cursive";
+                UUPTARI_UUP_SCRIPT[i].style.fontFamily = `${fontUupScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -1312,22 +1344,23 @@ function StandardUuptariFontChange(font) {
     for (let i = 0; i < UUPTARI_KANSE_ALPHABET.length; i++) {
         UUPTARI_KANSE_ALPHABET[i].style.fontFamily = font;
     }
+    let fontShitoScript = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000'";
     for (let i = 0; i < UUPTARI_SHITO_SCRIPT.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', sans-serif";
+                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = `${fontShitoScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', serif";
+                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = `${fontShitoScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', monospaced";
+                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = `${fontShitoScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = "'Leelawadee UI', Leelawadee, 'Arial Unicode MS', 'Code2000', cursive";
+                UUPTARI_SHITO_SCRIPT[i].style.fontFamily = `${fontShitoScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
@@ -1357,22 +1390,23 @@ function XoabbagdosaFontChange(font) {
 const YICAEXSESE = document.getElementsByClassName("yicaexsese");
 const YICAEXSESE_YI_ALPHABETICS = document.getElementsByClassName("yicaexsese-romanization");
 function YicaexseseFontChange(font) {
+    let fontYicaexScript = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan'";
     for (let i = 0; i < YICAEXSESE.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
-                YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', sans-serif";
+                YICAEXSESE[i].style.fontFamily = `${fontYicaexScript}, sans-serif`;
                 break;
             case SERIF_FONT:
-                YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif";
+                YICAEXSESE[i].style.fontFamily = `${fontYicaexScript}, serif`;
                 break;
             case MONOSPACED_FONT:
-                YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', monospaced";
+                YICAEXSESE[i].style.fontFamily = `${fontYicaexScript}, monospaced`;
                 break;
             case CURSIVE_FONT:
-                YICAEXSESE[i].style.fontFamily = "'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', cursive";
+                YICAEXSESE[i].style.fontFamily = `${fontYicaexScript}, cursive`;
                 break;
             default:
-                console.log("Something went wrong!\nShutting all systems down!");
+                console.log(SYSTEM_ERROR);
                 break;
             // End of switch block
         }
