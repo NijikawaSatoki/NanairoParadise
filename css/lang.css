@@ -1010,18 +1010,83 @@ span.swedish {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
+/* ====== Tajik ====== */
+
+span.tajik {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+i.tajik-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+span.bukhori-tajik {
+    font-family: 'SBL Hebrew', 'SBL BibLit', 'Taamey David CLM', 'Taamey Frank CLM', 'Alef', 'Noto Sans Hebrew', 'Narkisim', 'Miriam', 'Kinryu', 'Arial Hebrew', 'Arial', 'Adobe Hebrew', sans-serif;
+    font-size: 110%;
+    direction: rtl;
+    unicode-bidi: isolate;
+}
+
+/* ====== Tamil ====== */
+
+span.tamil {
+    font-family: 'Tamil Sangam MN', 'InaiMathi', 'Vijaya', 'Akshar', 'JanaTamil', 'Code2000', 'ETTamilNew', 'Lohit Tamil', 'Arial Unicode MS', 'Free Serif', 'Latha', 'Noto Sans Tamil', 'Noto Sans Tamil Supplement', sans-serif;
+    font-size: 110%;
+}
+
+i.tamil-iso-15919-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* ====== Telugu ====== */
+
+span.telugu {
+    font-family: 'Telugu Sangam MN', 'Noto Sans Telugu', sans-serif;
+    font-size: 110%;
+}
+
+i.telugu-iso-15919-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* ====== Thai ====== */
+
+span.thai {
+    font-family: 'Leelawadee UI', 'Leelawadee', 'Arial Unicode MS', 'Code2000', 'Noto Sans Thai', 'Noto Sans Thai Looped', sans-serif;
+    font-size: 110%;
+}
+
+i.royal-thai-general-system-of-transcription {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+i.paiboon-romanization-for-thai {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
 /* ====== Tibetan ====== */
 
 span.tibetan {
-    font-family: 'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif;
+    font-family: 'BabelStone Tibetan', 'BabelStone Tibetan Slim', 'Noto Serif Tibetan', 'Noto Sans Tibetan', 'Jomolhari-ID', 'Tibetan Machine Uni', 'Tibetan Machine Web', 'Jomolhari', 'Microsoft Himalaya', sans-serif;
     font-size: 110%;
+}
+
+/* (extended) Wylie */
+i.wylie-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
 }
 
 /* 'Phags-pa, used during a period of time when China and Tibet were under
 Mongol rule */
 span.tibetan-phags-pa {
     display: inline-block;
-    font-family: 'BabelStone Phags-pa Book', 'Microsoft PhagsPa', 'Noto Sans Phags Pa';
+    font-family: 'BabelStone Phags-pa Book', 'Microsoft PhagsPa', 'Noto Sans Phags-pa', sans-serif;
     font-size: 110%;
     line-height: 1.1rem;
     -webkit-writing-mode: vertical-lr;
@@ -1034,8 +1099,8 @@ span.tibetan-phags-pa {
     color: red;
 }
 
-/* (extended) Wylie */
-i.wylie-romanization {
+/* THL Simplified Phonetic Transcription */
+i.tibetan-and-himalayan-library-simplified-phonetic-transcription {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
@@ -1047,8 +1112,97 @@ i.tibetan-pinyin {
     font-style: oblique;
 }
 
-/* THL */
-i.thl-romanization {
+/* ====== Turkish ====== */
+
+span.turkish {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* ====== Turkmen ====== */
+
+span.turkmen {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* ====== Ukrainian ====== */
+
+span.ukrainian {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* Current romanization system for Ukrainian */
+i.ukrainian-national-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* This romanization system is no longer in use anymore, unless you're a filthy
+moscovite that takes pleasure in murdering innocent people. Fuck Russia. Burn
+Moscow to the ground. Слава україні. */
+i.ukrainian-soviet-era-russian-based-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+    color: red;
+}
+
+/* ====== Urdu ====== */
+
+span.urdu {
+    font-family: 'Awami Nastaliq', 'Noto Nastaliq Urdu', 'Tahoma', 'Arial Unicode MS', 'UT Cairo', 'UT Naskh', sans-serif;
+    font-size: 110%;
+    direction: rtl;
+    unicode-bidi: isolate;
+}
+
+i.urdu-iso-15919-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-style: oblique;
+}
+
+/* ====== Uzbek ====== */
+
+span.uzbek {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+span.uzbek-soviet-era-cyrillic {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    color: red;
+}
+
+span.southern-uzbek {
+    font-family: 'Iranian Sans', 'Geeza Pro', Tahoma,sans-serif;
+    font-size: 110%;
+    direction: rtl;
+    unicode-bidi: isolate;
+}
+
+/* ====== Vietnamese ====== */
+
+/* chữ Quốc ngữ */
+span.vietnamese {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+/* chữ Nôm */
+span.chu-nom {
+    font-family: 'Nom Na Tong', 'HAN NOM A', 'HAN NOM B', 'Sun-ExtA', 'Sun-ExtB', 'Ming-Lt-HKSCS-UNI-H', 'Ming-Lt-HKSCS-ExtB', 'HanaMinA', 'HanaMinB', 'HanaMin', 'PingFang TC', 'MingLiU', 'MingLiU-ExtB', 'MingLiU_HKSCS', 'MingLiU_HKSCS-ExtB', 'SimSun', 'SimSun-ExtB', 'Arial Unicode MS', 'TITUS Cyberbit Basic', sans-serif;
+    color: red;
+}
+
+/* telex input */
+code.vietnamese-telex {
+    font-family: 'NewComputerModern10', 'Courier Prime', 'Courier New', 'Courier', 'Consolas', 'Lucida Console', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    background-color: inherit;
+}
+
+/* ====== Yakut / Sakha ====== */
+
+span.yakut-sakha {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+i.yakut-sakha-common-turkic-alphabet {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
 }
