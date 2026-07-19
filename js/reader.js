@@ -35,6 +35,8 @@ function IpaFontChange(font) {
 
 // ------ Natural languages ------ //
 
+// <<< Langauges whose English names start with "A" >>>
+
 // Abkhaz
 const ABKHAZ = document.getElementsByClassName("abkhaz");
 const ABKHAZ_ISO_9_ROMANIZATION = document.getElementsByClassName("abkhaz-iso-9-romanization");
@@ -248,6 +250,8 @@ function AzerbaijaniFontChange(font) {
 
 // -----------------------------------------------------------------------------
 
+// <<< Langauges whose English names start with "B" >>>
+
 // Balinese
 const BALINESE = document.getElementsByClassName("balinese");
 const BALINESE_ROMANIZATION = document.getElementsByClassName("balinese-romanization");
@@ -359,6 +363,8 @@ function BurmeseFontChange(font) {
 }
 
 // -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "C" >>>
 
 // Hanzi
 const TRADITIONAL_CHINESE = document.getElementsByClassName("traditional-chinese");
@@ -581,6 +587,8 @@ function CroatianFontChange(font) {
 
 // -----------------------------------------------------------------------------
 
+// <<< Langauges whose English names start with "D" >>>
+
 // Danish
 const DANISH = document.getElementsByClassName("danish");
 function DanishFontChange(font) {
@@ -632,6 +640,8 @@ function DutchFontChange(font) {
 
 // -----------------------------------------------------------------------------
 
+// <<< Langauges whose English names start with "E" >>>
+
 // Estonian
 const ESTONIAN = document.getElementsByClassName("estonian");
 function EstonianFontChange(font) {
@@ -642,6 +652,8 @@ function EstonianFontChange(font) {
 }
 
 // -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "F" >>>
 
 // Finnish
 const FINNISH = document.getElementsByClassName("finnish");
@@ -662,6 +674,8 @@ function FrenchFontChange(font) {
 }
 
 // -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "G" >>>
 
 // Georgian
 const GEORGIAN = document.getElementsByClassName("georgian");
@@ -761,6 +775,8 @@ function GujaratiFontChange(font) {
 }
 
 // -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "H" >>>
 
 // Hebrew
 const HEBREW = document.getElementsByClassName("hebrew");
@@ -870,6 +886,8 @@ function HungarianFontChange(font) {
 
 // -----------------------------------------------------------------------------
 
+// <<< Langauges whose English names start with "I" >>>
+
 // Icelandic
 const ICELANDIC = document.getElementsByClassName("icelandic");
 function IcelandicFontChange(font) {
@@ -898,6 +916,8 @@ function ItalianFontChange(font) {
 }
 
 // -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "J" >>>
 
 // Japanese
 const JAPANESE = document.getElementsByClassName("japanese");
@@ -964,6 +984,8 @@ function JavaneseFontChange(font) {
 }
 
 // -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "K" >>>
 
 // Kabardian / East Circassian
 const EAST_CIRCASSIAN = document.getElementsByClassName("east-circassian");
@@ -1164,6 +1186,682 @@ function KyrgyzFontChange(font) {
     }
     return 0;
 }
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "L" >>>
+
+// Lao
+const LAO = document.getElementsByClassName("laotian");
+const LAO_RTGS_ROMANIZATION = document.getElementsByClassName("royal-thai-general-system-of-transcription-laotian-version");
+const LAO_LIBRARY_OF_CONGRESS_ROMANIZATION = document.getElementsByClassName("library-of-congress-romanization-for-lao");
+const LAO_BGN_PCGN_ROMANIZATION = document.getElementsByClassName("bgn-pcgn-romanization-for-lao");
+function LaotianFontChange(font) {
+    let fontLaotianScript = "'Phetsarath OT', 'Saysettha OT', 'JG Basic Lao Opentype', 'JG Basic2 Lao Opentype', 'JG LaoTimes Opentype', 'Phagnoum Lao Unicode Opentype', 'JG Lao Old Arial Opentype', 'DokChampa', 'Code2000', 'JG Lao Classic Opentype', 'Alice0 Unicode', 'Alice1 Unicode', 'Alice2 Unicode', 'Alice3 Unicode', 'Alice4 Unicode', 'Alice5 Unicode', 'Noto Sans Lao', 'Noto Sans Lao Looped'";
+    for (let i = 0; i < LAO.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                LAO[i].style.fontFamily = `${fontLaotianScript}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                LAO[i].style.fontFamily = `${fontLaotianScript}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                LAO[i].style.fontFamily = `${fontLaotianScript}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                LAO[i].style.fontFamily = `${fontLaotianScript}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < LAO_RTGS_ROMANIZATION.length; i++) {
+        LAO_RTGS_ROMANIZATION[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < LAO_LIBRARY_OF_CONGRESS_ROMANIZATION.length; i++) {
+        LAO_LIBRARY_OF_CONGRESS_ROMANIZATION[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < LAO_BGN_PCGN_ROMANIZATION.length; i++) {
+        LAO_BGN_PCGN_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Latin
+const LATIN = document.getElementsByClassName("latin");
+function LatinFontChange(font) {
+    for (let i = 0; i < LATIN.length; i++) {
+        LATIN[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Latvian
+const LATVIAN = document.getElementsByClassName("latvian");
+function LatvianFontChange(font) {
+    for (let i = 0; i < LATVIAN.length; i++) {
+        LATVIAN[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Lithuanian
+const LITHUANIAN = document.getElementsByClassName("lithuanian");
+function LithuanianFontChange(font) {
+    for (let i = 0; i < LITHUANIAN.length; i++) {
+        LITHUANIAN[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "M" >>>
+
+// Malay
+const MALAY = document.getElementsByClassName("malay");
+function MalayFontChange(font) {
+    for (let i = 0; i < MALAY.length; i++) {
+        MALAY[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Malayalam
+const MALAYALAM = document.getElementsByClassName("malayalam");
+const MALAYALAM_ISO_15919_ROMANIZATION = document.getElementsByClassName("malayalam-iso-15919-romanization");
+function MalayalamFontChange(font) {
+    let fontMalayalamScript = "'Malayalam Sangam MN', 'Kartika', 'Code2000', 'Lucida Grande', 'Arial Unicode MS', 'Lucida Sans Unicode', 'TITUS Cyberbit Basic', 'Chrysanthi Unicode', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Bitstream Vera', 'Visual Geez Unicode', 'Noto Sans Malayalam'";
+    for (let i = 0; i < MALAYALAM.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                MALAYALAM[i].style.fontFamily = `${fontMalayalamScript}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                MALAYALAM[i].style.fontFamily = `${fontMalayalamScript}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                MALAYALAM[i].style.fontFamily = `${fontMalayalamScript}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                MALAYALAM[i].style.fontFamily = `${fontMalayalamScript}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < MALAYALAM_ISO_15919_ROMANIZATION.length; i++) {
+        MALAYALAM_ISO_15919_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Marathi
+const MARATHI = document.getElementsByClassName("marathi");
+const MARATHI_ISO_15919_ROMANIZATION = document.getElementsByClassName("marathi-iso-15919-romanization");
+function MarathiFontChange(font) {
+    let fontDevanagari = "'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari'";
+    for (let i = 0; i < MARATHI.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                MARATHI[i].style.fontFamily = `${fontDevanagari}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                MARATHI[i].style.fontFamily = `${fontDevanagari}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                MARATHI[i].style.fontFamily = `${fontDevanagari}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                MARATHI[i].style.fontFamily = `${fontDevanagari}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < MARATHI_ISO_15919_ROMANIZATION.length; i++) {
+        MARATHI_ISO_15919_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Mongolian Cyrillic
+const MONGOLIAN_CYRILLIC = document.getElementsByClassName("mongolian-cyrillic");
+const MONGOLIAN_ROMANIZATION = document.getElementsByClassName("mongolian-romanization");
+function MongolianFontChange(font) {
+    for (let i = 0; i < MONGOLIAN_CYRILLIC.length; i++) {
+        MONGOLIAN_CYRILLIC[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < MONGOLIAN_ROMANIZATION.length; i++) {
+        MONGOLIAN_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Traditional Mongolian
+const TRADITIONAL_MONGOLIAN = document.getElementsByClassName("traditional-mongolian");
+const TRADITIONAL_MONGOLIAN_ROMANIZATION = document.getElementsByClassName("scholarly-romanization-for-traditional-mongolian");
+function TraditionalMongolianFontChange(font) {
+    let fontMongolianScript = "'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian'";
+    for (let i = 0; i < TRADITIONAL_MONGOLIAN.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                TRADITIONAL_MONGOLIAN[i].style.fontFamily = `${fontMongolianScript}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                TRADITIONAL_MONGOLIAN[i].style.fontFamily = `${fontMongolianScript}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                TRADITIONAL_MONGOLIAN[i].style.fontFamily = `${fontMongolianScript}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                TRADITIONAL_MONGOLIAN[i].style.fontFamily = `${fontMongolianScript}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < TRADITIONAL_MONGOLIAN_ROMANIZATION.length; i++) {
+        TRADITIONAL_MONGOLIAN_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Montenegrin
+const MONTENEGRIN = document.getElementsByClassName("montenegrin-cyrillic");
+const MONTENEGRIN_LATIN = document.getElementsByClassName("montengrin-latin");
+function MontenegrinFontChange(font) {
+    for (let i = 0; i < MONTENEGRIN.length; i++) {
+        MONTENEGRIN[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < MONTENEGRIN_LATIN.length; i++) {
+        MONTENEGRIN_LATIN[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "N" >>>
+
+// Nepali
+const NEPALI = document.getElementsByClassName("nepali");
+const NEPALI_ISO_15919_ROMANIZATION = document.getElementsByClassName("nepali-iso-15919-romanization");
+function NepaliFontChange(font) {
+    let fontDevanagari = "'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari'";
+    for (let i = 0; i < NEPALI.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                NEPALI[i].style.fontFamily = `${fontDevanagari}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                NEPALI[i].style.fontFamily = `${fontDevanagari}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                NEPALI[i].style.fontFamily = `${fontDevanagari}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                NEPALI[i].style.fontFamily = `${fontDevanagari}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < NEPALI_ISO_15919_ROMANIZATION.length; i++) {
+        NEPALI_ISO_15919_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Norwegian
+const NORWEGIAN_BOKMAL = document.getElementsByClassName("norwegian-bokmal");
+const NORWEGIAN_NYNORSK = document.getElementsByClassName("norwegian-nynorsk");
+function NorwegianFontChange(font) {
+    for (let i = 0; i < NORWEGIAN_BOKMAL.length; i++) {
+        NORWEGIAN_BOKMAL[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < NORWEGIAN_NYNORSK.length; i++) {
+        NORWEGIAN_NYNORSK[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "O" >>>
+
+// Odia
+const ODIA = document.getElementsByClassName("odia");
+const ODIA_ISO_15919_ROMANIZATION = document.getElementsByClassName("odia-iso-15919-romanization");
+function OdiaFontChange(font) {
+    let fontOdiaScript = "'Oriya Sangam MN', 'Noto Sans Oriya'";
+    for (let i = 0; i < ODIA.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                ODIA[i].style.fontFamily = `${fontOdiaScript}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                ODIA[i].style.fontFamily = `${fontOdiaScript}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                ODIA[i].style.fontFamily = `${fontOdiaScript}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                ODIA[i].style.fontFamily = `${fontOdiaScript}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < ODIA_ISO_15919_ROMANIZATION.length; i++) {
+        ODIA_ISO_15919_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Ossetian
+const OSSETIAN = document.getElementsByClassName("ossetian");
+const OSSETIAN_ROMANIZATION = document.getElementsByClassName("ossetian-romanization");
+function OssetianFontChange(font) {
+    for (let i = 0; i < OSSETIAN.length; i++) {
+        OSSETIAN[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < OSSETIAN_ROMANIZATION.length; i++) {
+        OSSETIAN_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "P" >>>
+
+// Persian
+const FARSI = document.getElementsByClassName("farsi");
+const FARSI_ROMANIZATION = document.getElementsByClassname("persian-iranian-romanization");
+function FarsiFontChange(font) {
+    let fontPersoArabicScript = "'Iranian Sans', 'Geeza Pro', 'Tahoma'";
+    for (let i = 0; i < FARSI.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                FARSI[i].style.fontFamily = `${fontPersoArabicScript}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                FARSI[i].style.fontFamily = `${fontPersoArabicScript}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                FARSI[i].style.fontFamily = `${fontPersoArabicScript}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                FARSI[i].style.fontFamily = `${fontPersoArabicScript}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < FARSI_ROMANIZATION.length; i++) {
+        FARSI_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+const DARI = document.getElementsByClassName("dari");
+const DARI_ROMANIZATION = document.getElementsByClassName("persian-classical-romanization");
+function DariFontChange(font) {
+    let fontPersoArabicScript = "'Iranian Sans', 'Geeza Pro', 'Tahoma'";
+    for (let i = 0; i < DARI.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                DARI[i].style.fontFamily = `${fontPersoArabicScript}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                DARI[i].style.fontFamily = `${fontPersoArabicScript}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                DARI[i].style.fontFamily = `${fontPersoArabicScript}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                DARI[i].style.fontFamily = `${fontPersoArabicScript}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < DARI_ROMANIZATION.length; i++) {
+        DARI_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Polish
+const POLISH = document.getElementsByClassName("polish");
+function PolishFontChange(font) {
+    for (let i = 0; i < POLISH.length; i++) {
+        POLISH[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Punjabi
+const PUNJABI_GURMUKHI = document.getElementsByClassName("punjabi-gurmukhi");
+const PUNJABI_SHAHMUKHI = document.getElementsByClassName("punjabi-shahmukhi");
+const PUNJABI_ROMANIZATION = document.getElementsByClassName("punjabi-romanization");
+function PunjabiFontChange(font) {
+    let fontGurmukhiScript = "'Gurmukhi MN', 'Gurmukhi MT', 'UT Punjabi Amritsar', 'Lucida Grande', 'Arial Unicode MS', 'Lucida Sans Unicode', 'Code2000', 'TITUS Cyberbit Basic', 'Chrysanthi Unicode', 'Bitstream Cyberbit', 'Bitstream CyberBase', 'Bitstream Vera', 'Visual Geez Unicode', 'Noto Sans Gurmukhi'";
+    for (let i = 0; i < PUNJABI_GURMUKHI.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                PUNJABI_GURMUKHI[i].style.fontFamily = `${fontGurmukhiScript}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                PUNJABI_GURMUKHI[i].style.fontFamily = `${fontGurmukhiScript}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                PUNJABI_GURMUKHI[i].style.fontFamily = `${fontGurmukhiScript}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                PUNJABI_GURMUKHI[i].style.fontFamily = `${fontGurmukhiScript}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    let fontPersoArabicScript = "'Awami Nastaliq', 'Noto Nastaliq Urdu', 'Tahoma', 'Arial Unicode MS', 'UT Cairo', 'UT Naskh'";
+    for (let i = 0; i < PUNJABI_SHAHMUKHI.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                PUNJABI_SHAHMUKHI[i].style.fontFamily = `${fontPersoArabicScript}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                PUNJABI_SHAHMUKHI[i].style.fontFamily = `${fontPersoArabicScript}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                PUNJABI_SHAHMUKHI[i].style.fontFamily = `${fontPersoArabicScript}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                PUNJABI_SHAHMUKHI[i].style.fontFamily = `${fontPersoArabicScript}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < PUNJABI_ROMANIZATION.length; i++) {
+        PUNJABI_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "Q" >>>
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "R" >>>
+
+// Romanian
+const ROMANIAN = document.getElementsByClassName("romanian");
+function RomanianFontChange(font) {
+    for (let i = 0; i < ROMANIAN.length; i++) {
+        ROMANIAN[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Russian
+const RUSSIAN = document.getElementsByClassName("russian");
+const RUSSIAN_PRE_BOLSHEVIK_SPELLING = document.getElementsByClassName("russian-pre-1917-spelling");
+const RUSSIAN_ROMANIZATION = document.getElementsByClassName("russian-romanization");
+function RussianFontChange(font) {
+    for (let i = 0; i < RUSSIAN.length; i++) {
+        RUSSIAN[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < RUSSIAN_PRE_BOLSHEVIK_SPELLING.length; i++) {
+        RUSSIAN_PRE_BOLSHEVIK_SPELLING[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < RUSSIAN_ROMANIZATION.length; i++) {
+        RUSSIAN_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "S" >>>
+
+// Sanskrit
+const SANSKRIT = document.getElementsByClassName("sanskrit");
+const SANSKRIT_IAST = document.getElementsByClassName("international-alphabet-of-sanskrit-transliteration");
+function SanskritFontChange(font) {
+    let fontDevanagari = "'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari'";
+    for (let i = 0; i < SANSKRIT.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                SANSKRIT[i].style.fontFamily = `${fontDevanagari}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                SANSKRIT[i].style.fontFamily = `${fontDevanagari}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                SANSKRIT[i].style.fontFamily = `${fontDevanagari}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                SANSKRIT[i].style.fontFamily = `${fontDevanagari}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < SANSKRIT_IAST.length; i++) {
+        SANSKRIT_IAST[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Scottish Gaelic
+const SCOTTISH_GAELIC = document.getElementsByClassName("scottish-gaelic");
+function ScottishGaelicFontChange(font) {
+    for (let i = 0; i < SCOTTISH_GAELIC.length; i++) {
+        SCOTTISH_GAELIC[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Serbian
+const SERBIAN_CYRILLIC = document.getElementsByClassName("serbian-cyrillic");
+const SERBIAN_LATIN = document.getElementsByClassName("serbian-latin");
+function SerbianFontChange(font) {
+    for (let i = 0; i < SERBIAN_CYRILLIC.length; i++) {
+        SERBIAN_CYRILLIC[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < SERBIAN_LATIN.length; i++) {
+        SERBIAN_LATIN[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Sindhi
+const SINDHI = document.getElementsByClassName("sindhi-arabic");
+const SINDHI_DEVANAGARI = document.getElementsByClassName("sindhi-devanagari");
+const SINDHI_ISO_15919_ROMANIZATION = document.getElementsByClassName("sindhi-iso-15919-romanization");
+function SindhiFontChange(font) {
+    let fontPersoArabicScript = "'MB Sindhi', 'Tahoma', 'MBSarang Sattar', 'MB Bhitai Sattar', 'MB Lateefi', 'Ayaz Gul'";
+    for (let i = 0; i < SINDHI.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                SINDHI[i].style.fontFamily = `${fontPersoArabicScript}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                SINDHI[i].style.fontFamily = `${fontPersoArabicScript}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                SINDHI[i].style.fontFamily = `${fontPersoArabicScript}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                SINDHI[i].style.fontFamily = `${fontPersoArabicScript}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    let fontDevanagari = "'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari'";
+    for (let i = 0; i < SINDHI_DEVANAGARI.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                SINDHI_DEVANAGARI[i].style.fontFamily = `${fontDevanagari}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                SINDHI_DEVANAGARI[i].style.fontFamily = `${fontDevanagari}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                SINDHI_DEVANAGARI[i].style.fontFamily = `${fontDevanagari}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                SINDHI_DEVANAGARI[i].style.fontFamily = `${fontDevanagari}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < SINDHI_ISO_15919_ROMANIZATION.length; i++) {
+        SINDHI_ISO_15919_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Sinhala
+const SINHALA = document.getElementsByClassName("sinhala");
+const SINHALA_ISO_15919_ROMANIZATION = document.getElementsByClassName("sinhala-iso-15919-romanization");
+function SinhalaFontChange(font) {
+    let fontSinhaleseScript = "'Sinhala Sangam MN', 'KaputaUnicode', 'KandyUnicode', 'Dinamina', 'DinaminaUniWeb', 'Potha', 'Madhura', 'Noto Sans Sinhala'";
+    for (let i = 0; i < SINHALA.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                SINHALA[i].style.fontFamily = `${fontSinhaleseScript}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                SINHALA[i].style.fontFamily = `${fontSinhaleseScript}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                SINHALA[i].style.fontFamily = `${fontSinhaleseScript}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                SINHALA[i].style.fontFamily = `${fontSinhaleseScript}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < SINHALA_ISO_15919_ROMANIZATION.length; i++) {
+        SINHALA_ISO_15919_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Spanish
+const SPANISH = document.getElementsByClassName("spanish");
+function SpanishFontChange(font) {
+    for (let i = 0; i < SPANISH.length; i++) {
+        SPANISH[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Sundanese
+const SUNDANESE = document.getElementsByClassName("sundanese");
+const SUNDANESE_ROMANIZATION = document.getElementsByClassName("sundanese-romanization");
+function SundaneseFontChange(font) {
+    let fontSundaneseScript = "'Sundanese Unicode', 'Noto Sans Sundanese'";
+    for (let i = 0; i < SUNDANESE.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                SUNDANESE[i].style.fontFamily = `${fontSundaneseScript}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                SUNDANESE[i].style.fontFamily = `${fontSundaneseScript}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                SUNDANESE[i].style.fontFamily = `${fontSundaneseScript}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                SUNDANESE[i].style.fontFamily = `${fontSundaneseScript}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    for (let i = 0; i < SUNDANESE_ROMANIZATION.length; i++) {
+        SUNDANESE_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Swedish
+const SWEDISH = document.getElementsByClassName("swedish");
+function SwedishFontChange(font) {
+    for (let i = 0; i < SWEDISH.length; i++) {
+        SWEDISH[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "T" >>>
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "U" >>>
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "V" >>>
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "W" >>>
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "X" >>>
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "Y" >>>
+
+// -----------------------------------------------------------------------------
+
+// <<< Langauges whose English names start with "Z" >>>
 
 // -----------------------------------------------------------------------------
 
@@ -1532,22 +2230,40 @@ function NaturalLangFontK(font) {
 }
 
 function NaturalLangFontL(font) {
+    LaotianFontChange(font);
+    LatinFontChange(font);
+    LatvianFontChange(font);
+    LithuanianFontChange(font);
     return 0;
 }
 
 function NaturalLangFontM(font) {
+    MalayFontChange(font);
+    MalayalamFontChange(font);
+    MarathiFontChange(font);
+    MongolianFontChange(font);
+    TraditionalMongolianFontChange(font);
+    MontenegrinFontChange(font);
     return 0;
 }
 
 function NaturalLangFontN(font) {
+    NepaliFontChange(font);
+    NorwegianFontChange(font);
     return 0;
 }
 
 function NaturalLangFontO(font) {
+    OdiaFontChange(font);
+    OssetianFontChange(font);
     return 0;
 }
 
 function NaturalLangFontP(font) {
+    FarsiFontChange(font);
+    DariFontChange(font);
+    PolishFontChange(font);
+    PunjabiFontChange(font);
     return 0;
 }
 
@@ -1556,10 +2272,20 @@ function NaturalLangFontQ(font) {
 }
 
 function NaturalLangFontR(font) {
+    RomanianFontChange(font);
+    RussianFontChange(font);
     return 0;
 }
 
 function NaturalLangFontS(font) {
+    SanskritFontChange(font);
+    ScottishGaelicFontChange(font);
+    SerbianFontChange(font);
+    SindhiFontChange(font);
+    SinhalaFontChange(font);
+    SpanishFontChange(font);
+    SundaneseFontChange(font);
+    SwedishFontChange(font);
     return 0;
 }
 

@@ -757,7 +757,7 @@ i.malayalam-iso-15919-romanization {
 /* ====== Marathi ====== */
 
 span.marathi {
-    font-family: 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', sans-serif;
+    font-family: 'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', sans-serif;
     font-size: 110%;
 }
 
@@ -815,7 +815,7 @@ i.montengrin-latin {
 /* ====== Nepali ====== */
 
 span.nepali {
-    font-family: 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', sans-serif;
+    font-family: 'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', sans-serif;
     font-size: 110%;
 }
 
@@ -890,7 +890,7 @@ span.punjabi-gurmukhi {
 
 /* Shahmukhi, used in Punjab, Pakistan */
 span.punjabi-shahmukhi {
-    font-family: 'Awami Nastaliq', 'Noto Nastaliq Urdu', Tahoma, 'Arial Unicode MS', 'UT Cairo', 'UT Naskh', sans-serif;
+    font-family: 'Awami Nastaliq', 'Noto Nastaliq Urdu', 'Tahoma', 'Arial Unicode MS', 'UT Cairo', 'UT Naskh', sans-serif;
     font-size: 110%;
     direction: rtl;
     unicode-bidi: isolate;
@@ -927,7 +927,7 @@ span.russian-pre-1917-spelling {
 /* ====== Sanskrit ====== */
 
 span.sanskrit {
-    font-family: 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', sans-serif;
+    font-family: 'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', sans-serif;
     font-size: 110%;
 }
 
@@ -964,7 +964,7 @@ span.sindhi-arabic {
 }
 
 span.sindhi-devanagari {
-    font-family: 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', sans-serif;
+    font-family: 'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', sans-serif;
     font-size: 110%;
 }
 
