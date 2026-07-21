@@ -1499,7 +1499,7 @@ function OssetianFontChange(font) {
 
 // Persian
 const FARSI = document.getElementsByClassName("farsi");
-const FARSI_ROMANIZATION = document.getElementsByClassname("persian-iranian-romanization");
+const FARSI_ROMANIZATION = document.getElementsByClassName("persian-iranian-romanization");
 function FarsiFontChange(font) {
     let fontPersoArabicScript = "'Iranian Sans', 'Geeza Pro', 'Tahoma'";
     for (let i = 0; i < FARSI.length; i++) {
