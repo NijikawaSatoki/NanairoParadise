@@ -1,9 +1,17 @@
 /* =============================================================================
  * Story Reader Scripts
  * =============================================================================
- *
- * Author: Wamo, Vihreääketty, Q'aemil (Niji System)
- *
+ * 
+ * Author: Niji System
+ *             Satoki Nijikawa
+ *             Wamo
+ *             Kiyoi
+ *             Vihreääketty
+ *             Hsiao Lyuhsien
+ *             Antiainehunt Õudus
+ *             Rinith
+ *             Q'aemil
+ * 
  */
 
 // Font constants
