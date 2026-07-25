@@ -2065,7 +2065,7 @@ function TurkmenFontChange(font) {
 // Ukrainain
 const UKRAINIAN = document.getElementsByClassName("ukrainian");
 const UKRAINIAN_ROMANIZATION = document.getElementsByClassName("ukrainian-national-romanization");
-const UKRAINIAN_SOVIET_ROMANIZATION = document.getElementsByClassName("ukrainian-soviet-era-russian-based-romanization");
+const UKRAINIAN_SOVIET_ROMANIZATION = document.getElementsByClassName("ukrainian-soviet-era-bgn-pcgn-1965-romanization");
 function UkrainianFontChange(font) {
     for (let i = 0; i < UKRAINIAN.length; i++) {
         UKRAINIAN[i].style.fontFamily = font;

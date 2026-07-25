@@ -1136,10 +1136,11 @@ i.ukrainian-national-romanization {
     font-style: oblique;
 }
 
-/* This romanization system is no longer in use anymore, unless you're a filthy
+/* BGN/PCGN 1965
+This romanization system is no longer in use anymore, unless you're a filthy
 moscovite that takes pleasure in murdering innocent people. Fuck Russia. Burn
 Moscow to the ground. Слава україні. */
-i.ukrainian-soviet-era-russian-based-romanization {
+i.ukrainian-soviet-era-bgn-pcgn-1965-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
     color: red;
