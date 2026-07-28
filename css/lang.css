@@ -215,7 +215,7 @@ span.simplified-chinese {
 
 /* ------ Mandarin Chinese ------ */
 
-/* Hanyu pinyin (officially used by China) */
+/* Hanyu pinyin (officially used by mainland China) */
 i.pinyin {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-style: oblique;
