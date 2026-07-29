@@ -9,8 +9,8 @@
 // Artfight 2025
 
 function Artfight2025Defenses() {
-    details = document.getElementById("accordion_Artfight2025_Defenses");
-    summary = document.getElementById("Artfight2025_Defenses");
+    let details = document.getElementById("accordion_Artfight2025_Defenses");
+    let summary = document.getElementById("Artfight2025_Defenses");
     details.addEventListener("toggle", function() {
         if(details.open) {
             summary.textContent = "Hide Defenses";
@@ -22,8 +22,8 @@ function Artfight2025Defenses() {
 }
 
 function Artfight2025Attacks() {
-    details = document.getElementById("accordion_Artfight2025_Attacks");
-    summary = document.getElementById("Artfight2025_Attacks");
+    let details = document.getElementById("accordion_Artfight2025_Attacks");
+    let summary = document.getElementById("Artfight2025_Attacks");
     details.addEventListener("toggle", function() {
         if(details.open) {
             summary.textContent = "Hide Attacks";
@@ -38,10 +38,10 @@ function Artfight2025Attacks() {
 
 function AudenSpriteSwitch() {
     // Store the variant images into variables
-    imgNormal = document.getElementById("AudenSpriteNormal");
-    imgAutism = document.getElementById("AudenSpriteAutism");
-    imgPanromantic = document.getElementById("AudenSpritePanromantic");
-    imgTransgender = document.getElementById("AudenSpriteTransgender");
+    let imgNormal = document.getElementById("AudenSpriteNormal");
+    let imgAutism = document.getElementById("AudenSpriteAutism");
+    let imgPanromantic = document.getElementById("AudenSpritePanromantic");
+    let imgTransgender = document.getElementById("AudenSpriteTransgender");
     // Toggle the images
     imgNormal.style.display = "block";
     imgAutism.style.display = "none";
@@ -52,10 +52,10 @@ function AudenSpriteSwitch() {
 
 function AudenSpriteAutismSwitch() {
     // Store the variant images into variables
-    imgNormal = document.getElementById("AudenSpriteNormal");
-    imgAutism = document.getElementById("AudenSpriteAutism");
-    imgPanromantic = document.getElementById("AudenSpritePanromantic");
-    imgTransgender = document.getElementById("AudenSpriteTransgender");
+    let imgNormal = document.getElementById("AudenSpriteNormal");
+    let imgAutism = document.getElementById("AudenSpriteAutism");
+    let imgPanromantic = document.getElementById("AudenSpritePanromantic");
+    let imgTransgender = document.getElementById("AudenSpriteTransgender");
     // Toggle the images
     imgNormal.style.display = "none";
     imgAutism.style.display = "block";
@@ -66,10 +66,10 @@ function AudenSpriteAutismSwitch() {
 
 function AudenSpritePanromanticSwitch() {
     // Store the variant images into variables
-    imgNormal = document.getElementById("AudenSpriteNormal");
-    imgAutism = document.getElementById("AudenSpriteAutism");
-    imgPanromantic = document.getElementById("AudenSpritePanromantic");
-    imgTransgender = document.getElementById("AudenSpriteTransgender");
+    let imgNormal = document.getElementById("AudenSpriteNormal");
+    let imgAutism = document.getElementById("AudenSpriteAutism");
+    let imgPanromantic = document.getElementById("AudenSpritePanromantic");
+    let imgTransgender = document.getElementById("AudenSpriteTransgender");
     // Toggle the images
     imgNormal.style.display = "none";
     imgAutism.style.display = "none";
@@ -80,10 +80,10 @@ function AudenSpritePanromanticSwitch() {
 
 function AudenSpriteTransgenderSwitch() {
     // Store the variant images into variables
-    imgNormal = document.getElementById("AudenSpriteNormal");
-    imgAutism = document.getElementById("AudenSpriteAutism");
-    imgPanromantic = document.getElementById("AudenSpritePanromantic");
-    imgTransgender = document.getElementById("AudenSpriteTransgender");
+    let imgNormal = document.getElementById("AudenSpriteNormal");
+    let imgAutism = document.getElementById("AudenSpriteAutism");
+    let imgPanromantic = document.getElementById("AudenSpritePanromantic");
+    let imgTransgender = document.getElementById("AudenSpriteTransgender");
     // Toggle the images
     imgNormal.style.display = "none";
     imgAutism.style.display = "none";
@@ -96,8 +96,8 @@ function AudenSpriteTransgenderSwitch() {
 
 function HumanCosmicFullImageSwitch() {
     // Store the variant images into variables
-    imgFullImage = document.getElementById("HumanCosmicSpriteFullImage");
-    imgBackgroundOnly = document.getElementById("HumanCosmicSpriteBackgroundOnly");
+    let imgFullImage = document.getElementById("HumanCosmicSpriteFullImage");
+    let imgBackgroundOnly = document.getElementById("HumanCosmicSpriteBackgroundOnly");
     // Toggle the images
     imgFullImage.style.display = "block";
     imgBackgroundOnly.style.display = "none";
@@ -106,8 +106,8 @@ function HumanCosmicFullImageSwitch() {
 
 function HumanCosmicBackgroundOnlySwitch() {
     // Store the variant images into variables
-    imgFullImage = document.getElementById("HumanCosmicSpriteFullImage");
-    imgBackgroundOnly = document.getElementById("HumanCosmicSpriteBackgroundOnly");
+    let imgFullImage = document.getElementById("HumanCosmicSpriteFullImage");
+    let imgBackgroundOnly = document.getElementById("HumanCosmicSpriteBackgroundOnly");
     // Toggle the images
     imgFullImage.style.display = "none";
     imgBackgroundOnly.style.display = "block";
@@ -118,8 +118,8 @@ function HumanCosmicBackgroundOnlySwitch() {
 
 function LotusSpriteArtfightSwitch() {
     // Store the variant images into variables
-    imgArtfightSafe = document.getElementById("LotusSpriteArtfightVersion");
-    imgFullRisque = document.getElementById("LotusSpriteFullVersion");
+    let imgArtfightSafe = document.getElementById("LotusSpriteArtfightVersion");
+    let imgFullRisque = document.getElementById("LotusSpriteFullVersion");
     // Toggle the images
     imgArtfightSafe.style.display = "block";
     imgFullRisque.style.display = "none";
@@ -128,8 +128,8 @@ function LotusSpriteArtfightSwitch() {
 
 function LotusSpriteFullSwitch() {
     // Store the variant images into variables
-    imgArtfightSafe = document.getElementById("LotusSpriteArtfightVersion");
-    imgFullRisque = document.getElementById("LotusSpriteFullVersion");
+    let imgArtfightSafe = document.getElementById("LotusSpriteArtfightVersion");
+    let imgFullRisque = document.getElementById("LotusSpriteFullVersion");
     // Toggle the images
     imgArtfightSafe.style.display = "none";
     imgFullRisque.style.display = "block";
@@ -140,10 +140,10 @@ function LotusSpriteFullSwitch() {
 
 function CabbageSpriteSwitch() {
     // Store the variant images into variables
-    imgNormal = document.getElementById("CabbageSpriteNormal");
-    imgAromantic = document.getElementById("CabbageSpriteAromantic");
-    imgGay = document.getElementById("CabbageSpriteGay");
-    imgTransgender = document.getElementById("CabbageSpriteTransgender");
+    let imgNormal = document.getElementById("CabbageSpriteNormal");
+    let imgAromantic = document.getElementById("CabbageSpriteAromantic");
+    let imgGay = document.getElementById("CabbageSpriteGay");
+    let imgTransgender = document.getElementById("CabbageSpriteTransgender");
     // Toggle the images
     imgNormal.style.display = "block";
     imgAromantic.style.display = "none";
@@ -154,10 +154,10 @@ function CabbageSpriteSwitch() {
 
 function CabbageSpriteAromanticSwitch() {
     // Store the variant images into variables
-    imgNormal = document.getElementById("CabbageSpriteNormal");
-    imgAromantic = document.getElementById("CabbageSpriteAromantic");
-    imgGay = document.getElementById("CabbageSpriteGay");
-    imgTransgender = document.getElementById("CabbageSpriteTransgender");
+    let imgNormal = document.getElementById("CabbageSpriteNormal");
+    let imgAromantic = document.getElementById("CabbageSpriteAromantic");
+    let imgGay = document.getElementById("CabbageSpriteGay");
+    let imgTransgender = document.getElementById("CabbageSpriteTransgender");
     // Toggle the images
     imgNormal.style.display = "none";
     imgAromantic.style.display = "block";
@@ -168,10 +168,10 @@ function CabbageSpriteAromanticSwitch() {
 
 function CabbageSpriteGaySwitch() {
     // Store the variant images into variables
-    imgNormal = document.getElementById("CabbageSpriteNormal");
-    imgAromantic = document.getElementById("CabbageSpriteAromantic");
-    imgGay = document.getElementById("CabbageSpriteGay");
-    imgTransgender = document.getElementById("CabbageSpriteTransgender");
+    let imgNormal = document.getElementById("CabbageSpriteNormal");
+    let imgAromantic = document.getElementById("CabbageSpriteAromantic");
+    let imgGay = document.getElementById("CabbageSpriteGay");
+    let imgTransgender = document.getElementById("CabbageSpriteTransgender");
     // Toggle the images
     imgNormal.style.display = "none";
     imgAromantic.style.display = "none";
@@ -182,10 +182,10 @@ function CabbageSpriteGaySwitch() {
 
 function CabbageSpriteTransgenderSwitch() {
     // Store the variant images into variables
-    imgNormal = document.getElementById("CabbageSpriteNormal");
-    imgAromantic = document.getElementById("CabbageSpriteAromantic");
-    imgGay = document.getElementById("CabbageSpriteGay");
-    imgTransgender = document.getElementById("CabbageSpriteTransgender");
+    let imgNormal = document.getElementById("CabbageSpriteNormal");
+    let imgAromantic = document.getElementById("CabbageSpriteAromantic");
+    let imgGay = document.getElementById("CabbageSpriteGay");
+    let imgTransgender = document.getElementById("CabbageSpriteTransgender");
     // Toggle the images
     imgNormal.style.display = "none";
     imgAromantic.style.display = "none";
@@ -198,8 +198,8 @@ function CabbageSpriteTransgenderSwitch() {
 
 function NovaSpriteBarefootSwitch() {
     // Store the variant images into variables
-    imgBarefoot = document.getElementById("NovaSpriteBarefoot");
-    imgFull = document.getElementById("NovaSpriteFull");
+    let imgBarefoot = document.getElementById("NovaSpriteBarefoot");
+    let imgFull = document.getElementById("NovaSpriteFull");
     // Toggle the images
     imgBarefoot.style.display = "block";
     imgFull.style.display = "none";
@@ -208,8 +208,8 @@ function NovaSpriteBarefootSwitch() {
 
 function NovaSpriteFullSwitch() {
     // Store the variant images into variables
-    imgBarefoot = document.getElementById("NovaSpriteBarefoot");
-    imgFull = document.getElementById("NovaSpriteFull");
+    let imgBarefoot = document.getElementById("NovaSpriteBarefoot");
+    let imgFull = document.getElementById("NovaSpriteFull");
     // Toggle the images
     imgBarefoot.style.display = "none";
     imgFull.style.display = "block";
@@ -219,8 +219,8 @@ function NovaSpriteFullSwitch() {
 // Artfight 2026
 
 function Artfight2026Defenses() {
-    details = document.getElementById("accordion_Artfight2026_Defenses");
-    summary = document.getElementById("Artfight2026_Defenses");
+    let details = document.getElementById("accordion_Artfight2026_Defenses");
+    let summary = document.getElementById("Artfight2026_Defenses");
     details.addEventListener("toggle", function() {
         if(details.open) {
             summary.textContent = "Hide Defenses";
@@ -232,8 +232,8 @@ function Artfight2026Defenses() {
 }
 
 function Artfight2026Attacks() {
-    details = document.getElementById("accordion_Artfight2026_Attacks");
-    summary = document.getElementById("Artfight2026_Attacks");
+    let details = document.getElementById("accordion_Artfight2026_Attacks");
+    let summary = document.getElementById("Artfight2026_Attacks");
     details.addEventListener("toggle", function() {
         if(details.open) {
             summary.textContent = "Hide Attacks";
