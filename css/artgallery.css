@@ -8,6 +8,12 @@
  * 
  */
 
+/* ====== <a> styles ====== */
+
+a.back-to-main-gallery {
+    content: "\21E6\00A0" / "";
+}
+
 /* ====== <details> styles ====== */
 
 details[open] {
