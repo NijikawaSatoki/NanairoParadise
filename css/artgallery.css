@@ -14,6 +14,15 @@ details[open] {
     padding: 0.5rem;
 }
 
+/* ====== <p> styles ====== */
+
+p.figure-warning {
+    text-align: left;
+    border: 0.25rem dashed red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 /* ====== <div> styles ====== */
 
 div.art-grid {
