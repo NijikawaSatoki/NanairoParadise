@@ -52,3 +52,10 @@ This will get added to after every pull request that contains a version number.
 - Added dependency info to the README.
 - Added the links to our various pages (Bluesky, Toyhouse, etc.)
 - Minor fixes
+
+## Version 0.6.0 “Library Update”
+
+- Added up to the first chapter of *Tales of the Maelaet*.
+- Added *Bunny Thrill*.
+- Already got everything needed for the next update ready.
+- Made a page template script to make it easier to update the navigation panels and page footer.
