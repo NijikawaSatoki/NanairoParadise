@@ -243,3 +243,18 @@ function Artfight2026Attacks() {
     });
     return 0;
 }
+
+// Spoilers
+
+function ImageSpoiler00() {
+    let details = document.getElementById("SpoileredImage");
+    let summary = document.getElementById("Spoiler0");
+    details.addEventListener("toggle", function() {
+        if (details.open) {
+            summary.textContent = "Hide spoilered image";
+        } else {
+            summary.textContent = "Show spoilered image";
+        }
+    });
+    return 0;
+}
