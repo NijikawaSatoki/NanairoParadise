@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Rinith Sprite
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <Date>
+    2026/06/20
+  </Date>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    Sprite of our headmate, Rinith. They are an axolotl-kobold hybrid with pink skin/scales, pink gill, dark pink horns, and a pink tail with dark pink scales running down its length, as well as light pink fins. They have red hair, and eyes where the right eye is a dark red and the left eye is a dark yellow. They're wearing a purple layered dress and a translucent purple plaid skirt.
+  </AltText>
+  <Dimensions>
+    <Height>
+      48
+    </Height>
+    <Width>
+      48
+    </Width>
+    <ScaleFactor>
+      16
+    </ScaleFactor>
+  </Dimensions>
+</Document>
