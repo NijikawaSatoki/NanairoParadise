@@ -17,7 +17,7 @@ Constants (declared with `const`) shall be in ALL\_CAPS\_SNAKE_CASE.
 For example: `PI`, `MINUTES_PER_HOUR`
 
 Private fields and methods shall have their names prefixed with an underscore (_).
-For example: `_name`, `_setAge`
+For example: `_name`, `_SetAge()`
 
 The dollar sign ($) may be prefixed onto variables and constants that store the result of `querySelector()`.
 This is optional, however.
