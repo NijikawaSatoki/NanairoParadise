@@ -2737,8 +2737,8 @@ function LanguageFontChange(font) {
 
 // Font selector
 
-const FONT_SELECT = document.querySelector(".font-select");
-FONT_SELECT.addEventListener("change", (event) => {
+const $FONT_SELECT = document.querySelector(".font-select");
+$FONT_SELECT.addEventListener("change", (event) => {
     let selectedFont = event.target.value;
     switch (selectedFont) {
         case "default":
@@ -2766,8 +2766,8 @@ FONT_SELECT.addEventListener("change", (event) => {
 
 // Font size selector
 
-const FONT_SIZES = document.querySelector(".font-size");
-FONT_SIZES.addEventListener("change", (event) => {
+const $FONT_SIZES = document.querySelector(".font-size");
+$FONT_SIZES.addEventListener("change", (event) => {
     let selectedFontSize = event.target.value;
     switch (selectedFontSize) {
         case "default":
