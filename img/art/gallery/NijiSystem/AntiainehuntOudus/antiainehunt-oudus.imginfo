@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Antiainehunt Sprite
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <Date>
+    2026/02/20
+  </Date>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    Sprite of our headmate, Antiainehunt Õudus. It is a protogen wolf with dark green fur, grey armour, and the face on the visor is green. There is a green and yellow marking on the front of the torso.
+  </AltText>
+  <Dimensions>
+    <Height>
+      48
+    </Height>
+    <Width>
+      48
+    </Width>
+    <ScaleFactor>
+      16
+    </ScaleFactor>
+  </Dimensions>
+</Document>
