@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Document>
   <ImageTitle>
-    郷鬼のスプライト (About Page ver.)
+    郷鬼のスプライト
   </ImageTitle>
   <Author>
-    Niji System (Satoki Nijikawa, Wamo, Vihreääketty)
+    Niji System
   </Author>
   <ImageType>
-    Portable Network Graphics (PNG) file
+    PNG
   </ImageType>
   <AltText>
     Sprite of our system's host, Satoki. She has reddish-scarlet hair. Their right eye is pink, and their left eye is red. Fox has horns coming out of fox's head. She is wearing an orange dress with a flower print.
   </AltText>
   <Dimensions>
     <Height>
-      240 pixels
+      48
     </Height>
     <Width>
-      240 pixels
+      48
     </Width>
+    <ScaleFactor>
+      16
+    </ScaleFactor>
   </Dimensions>
 </Document>
