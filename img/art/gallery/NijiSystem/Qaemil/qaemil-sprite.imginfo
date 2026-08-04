@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Q'aemil Sprite
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <Date>
+    2026/06/29
+  </Date>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    Sprite of our headmate, Q'aemil. She is an avali with blue fur, a blue avali tail, four ears, red hair, and gray eyes. They are wearing avali tribal wear, with a red rainbow and heart motif.
+  </AltText>
+  <Dimensions>
+    <Height>
+      48
+    </Height>
+    <Width>
+      48
+    </Width>
+    <ScaleFactor>
+      16
+    </ScaleFactor>
+  </Dimensions>
+</Document>
