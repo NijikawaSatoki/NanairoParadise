@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    郷鬼のスプライト（フェネックジェンダープライド）
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    Sprite of our system's host, Satoki. She has reddish-scarlet hair. Their right eye is pink, and their left eye is red. Fox has horns coming out of fox's head. She is wearing a dress that is the colours of the fennegender flag.
+  </AltText>
+  <Dimensions>
+    <Height>
+      48
+    </Height>
+    <Width>
+      48
+    </Width>
+    <ScaleFactor>
+      16
+    </ScaleFactor>
+  </Dimensions>
+</Document>
