@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Throne
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <Date>
+    2024/05/13
+  </Date>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    Pixel art of Satoki sitting upon a throne. She has light skin, red hair, red and pink eyes, and is wearing a pink dress with a flower pattern. The throne is adorned with purple and pink. The carpet is purple with brown trims. The banners in the background are purple. The front two have a red crescent moon on them.
+  </AltText>
+  <Dimensions>
+    <Height>
+      64
+    </Height>
+    <Width>
+      64
+    </Width>
+    <ScaleFactor>
+      4
+    </ScaleFactor>
+  </Dimensions>
+</Document>
