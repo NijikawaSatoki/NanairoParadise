@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Satoki Sprite
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <Date>
+    2024/02/28
+  </Date>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    Really old boss sprite of Satoki. She has light skin, red hair, two horns, and an orange dress with a pink flower pattern.
+  </AltText>
+  <Dimensions>
+    <Height>
+      64
+    </Height>
+    <Width>
+      64
+    </Width>
+    <ScaleFactor>
+      16
+    </ScaleFactor>
+  </Dimensions>
+  <Notes>
+    One of the first sprites we made :3
+  </Notes>
+</Document>
