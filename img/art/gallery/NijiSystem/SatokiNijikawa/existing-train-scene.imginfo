@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Existing - Train Scene
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <Date>
+    2024/09/04
+  </Date>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    Pixel art of Satoki sitting on a train bound for nowhere. She is sitting alone on an empty train with blue seats, various greys for the metal that the train is built from. Fox has light skin, red hair, eyes that are closed, which implies that she might be asleep, and an orange dress. Outside is a cityscape at sunset. You can see the high rise buildings and the sky changing to orange hues due to the sunset.
+  </AltText>
+  <Dimensions>
+    <Height>
+      96
+    </Height>
+    <Width>
+      96
+    </Width>
+    <ScaleFactor>
+      20
+    </ScaleFactor>
+  </Dimensions>
+  <Notes>
+    ♪ You've got to know when to hold 'em
+    ♪ Know when to fold 'em
+    ♪ Know when to walk away
+    ♪ And know when to run
+    ♪ You never count your money
+    ♪ When you're sittin' at the table
+    ♪ There'll be time enough for countin'
+    ♪ When the dealin's done
+  </Notes>
+</Document>

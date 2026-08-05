@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Existing - Train Scene (Background)
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <Date>
+    2024/09/04
+  </Date>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    Pixel art of a cityscape at dusk. There are multiple high-rise in the distance as the orange hues of the sunset can be seen. At the top is a starry night sky.
+  </AltText>
+  <Dimensions>
+    <Height>
+      96
+    </Height>
+    <Width>
+      96
+    </Width>
+    <ScaleFactor>
+      20
+    </ScaleFactor>
+  </Dimensions>
+</Document>
