@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Satoki Sprite Sheet
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <Date>
+    2026/03/04
+  </Date>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    Sprite sheet of Satoki. She has light skin, red hair, two horns, red and pink eyes, and is wearing an orange dress with a pink flower pattern. She is facing, in order from top to bottom: down (towards the viewer), stage right (left from the viewer's perspective), stage left (right from the viewer's perspective), and up (with fox back towards the viewer).
+  </AltText>
+  <Dimensions>
+    <Height>
+      152
+    </Height>
+    <Width>
+      96
+    </Width>
+    <ScaleFactor>
+      5
+    </ScaleFactor>
+  </Dimensions>
+</Document>
