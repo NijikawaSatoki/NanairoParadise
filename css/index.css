@@ -7,13 +7,6 @@
  *                       Vihreääketty    / ヴィヒレアーケッテュ
  */
 
-/* ====== Import web fonts ====== */
-
-/* Noto Sans */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans');
-/* Noto Sans Mono */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono');
-
 /* ====== Universal styles (use wisely!!) ====== */
 
 html {
