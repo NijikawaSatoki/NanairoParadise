@@ -17,7 +17,7 @@
 // Font constants
 const SANS_SERIF_FONT = "'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif";
 const SERIF_FONT = "'Gentium', 'Gentium Plus', 'GentiumAlt', 'Tinos', 'Linux Libertine', 'Times New Roman', 'Noto Serif', serif";
-const MONOSPACED_FONT = "'Courier New', 'Noto Sans Mono', monospaced";
+const MONOSPACED_FONT = "'Courier Prime', 'Courier New', 'Courier', 'Consolas', 'Lucida Console', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace";
 const CURSIVE_FONT = "'Comic Sans', 'Comic Sans MS', 'Comic Neue', cursive";
 
 // Document constants
@@ -49,8 +49,28 @@ function IpaFontChange(font) {
 const ABKHAZ = document.getElementsByClassName("abkhaz");
 const ABKHAZ_ISO_9_ROMANIZATION = document.getElementsByClassName("abkhaz-iso-9-romanization");
 function AbkhazFontChange(font) {
+    let fontCyrillicSansSerif = "'FreeSans', 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans'";
+    let fontCyrillicSerif = "'FreeSerif', 'Gentium', 'Gentium Plus', 'GentiumAlt', 'Tinos', 'Linux Libertine', 'Times New Roman', 'Noto Serif'";
+    let fontCyrillicMono = "'FreeMono', 'Courier Prime', 'Courier New', 'Courier', 'Consolas', 'Lucida Console', 'Lucida Sans Typewriter', 'Lucida Typewriter'";
     for (let i = 0; i < ABKHAZ.length; i++) {
-        ABKHAZ[i].style.fontFamily = font;
+        switch (font) {
+            case SANS_SERIF_FONT:
+                ABKHAZ[i].style.fontFamily = `${fontCyrillicSansSerif}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                ABKHAZ[i].style.fontFamily = `${fontCyrillicSerif}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                ABKHAZ[i].style.fontFamily = `${fontCyrillicMono}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                ABKHAZ[i].style.fontFamily = font;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
     }
     for (let i = 0; i < ABKHAZ_ISO_9_ROMANIZATION.length; i++) {
         ABKHAZ_ISO_9_ROMANIZATION[i].style.fontFamily = font;
@@ -65,8 +85,28 @@ const WEST_CIRCASSIAN_KNAB_ROMANIZATION = document.getElementsByClassName("west-
 const WEST_CIRCASSIAN_LIBRARY_OF_CONGRESS_ROMANIZATION = document.getElementsByClassName("library-of-congress-romanization-for-west-circassian");
 const WEST_CIRCASSIAN_TITUS_ROMANIZATION = document.getElementsByClassName("west-circassian-titus-romanization");
 function AdygheFontChange(font) {
+    let fontCyrillicSansSerif = "'FreeSans', 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans'";
+    let fontCyrillicSerif = "'FreeSerif', 'Gentium', 'Gentium Plus', 'GentiumAlt', 'Tinos', 'Linux Libertine', 'Times New Roman', 'Noto Serif'";
+    let fontCyrillicMono = "'FreeMono', 'Courier Prime', 'Courier New', 'Courier', 'Consolas', 'Lucida Console', 'Lucida Sans Typewriter', 'Lucida Typewriter'";
     for (let i = 0; i < WEST_CIRCASSIAN.length; i++) {
-        WEST_CIRCASSIAN[i].style.fontFamily = font;
+        switch (font) {
+            case SANS_SERIF_FONT:
+                WEST_CIRCASSIAN[i].style.fontFamily = `${fontCyrillicSansSerif}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                WEST_CIRCASSIAN[i].style.fontFamily = `${fontCyrillicSerif}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                WEST_CIRCASSIAN[i].style.fontFamily = `${fontCyrillicMono}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                WEST_CIRCASSIAN[i].style.fontFamily = font;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
     }
     for (let i = 0; i < WEST_CIRCASSIAN_ISO_9_ROMANIZATION.length; i++) {
         WEST_CIRCASSIAN_ISO_9_ROMANIZATION[i].style.fontFamily = font;
@@ -999,8 +1039,28 @@ function JavaneseFontChange(font) {
 const EAST_CIRCASSIAN = document.getElementsByClassName("east-circassian");
 const EAST_CIRCASSIAN_ADDER_ALPHABET = document.getElementsByClassName("east-circassian-adder-alphabet");
 function KabardianFontChange(font) {
+    let fontCyrillicSansSerif = "'FreeSans', 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans'";
+    let fontCyrillicSerif = "'FreeSerif', 'Gentium', 'Gentium Plus', 'GentiumAlt', 'Tinos', 'Linux Libertine', 'Times New Roman', 'Noto Serif'";
+    let fontCyrillicMono = "'FreeMono', 'Courier Prime', 'Courier New', 'Courier', 'Consolas', 'Lucida Console', 'Lucida Sans Typewriter', 'Lucida Typewriter'";
     for (let i = 0; i < EAST_CIRCASSIAN.length; i++) {
-        EAST_CIRCASSIAN[i].style.fontFamily = font;
+        switch (font) {
+            case SANS_SERIF_FONT:
+                EAST_CIRCASSIAN[i].style.fontFamily = `${fontCyrillicSansSerif}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                EAST_CIRCASSIAN[i].style.fontFamily = `${fontCyrillicSerif}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                EAST_CIRCASSIAN[i].style.fontFamily = `${fontCyrillicMono}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                EAST_CIRCASSIAN[i].style.fontFamily = font;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
     }
     for (let i = 0; i < EAST_CIRCASSIAN_ADDER_ALPHABET.length; i++) {
         EAST_CIRCASSIAN_ADDER_ALPHABET[i].style.fontFamily = font;
@@ -1562,6 +1622,19 @@ const POLISH = document.getElementsByClassName("polish");
 function PolishFontChange(font) {
     for (let i = 0; i < POLISH.length; i++) {
         POLISH[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Portuguese
+const EUROPEAN_PORTUGUESE = document.getElementsByClassName("european-portuguese");
+const BRAZILIAN_PORTUGUESE = document.getElementsByClassName("brazilian-portuguese");
+function PortugueseFontChange(font) {
+    for (let i = 0; i < EUROPEAN_PORTUGUESE.length; i++) {
+        EUROPEAN_PORTUGUESE[i].style.fontFamily = font;
+    }
+    for (let i = 0; i < BRAZILIAN_PORTUGUESE.length; i++) {
+        BRAZILIAN_PORTUGUESE[i].style.fontFamily = font;
     }
     return 0;
 }
@@ -2218,11 +2291,42 @@ function SakhaFontChange(font) {
 
 // ------ Languages from Ten'en Project ------ //
 
+// Abvalese
+const ABVALESE_UIDUL_TRANSCRIPTION = document.getElementsByClassName("abvalese-uidul-transcription-alphabet");
+const ABVALESE_ASCII_DECONSTRUCTION = document.getElementsByClassName("abvalese-ascii");
+function AbvaleseFontChange(font) {
+    for (let i = 0; i < ABVALESE_UIDUL_TRANSCRIPTION.length; i++) {
+        ABVALESE_UIDUL_TRANSCRIPTION[i].style.fontFamily = font;
+    }
+    let fontCode = "'NewComputerModern10', 'FreeMono', 'Courier Prime', 'Courier New', 'Courier', 'Consolas', 'Lucida Console', 'Lucida Sans Typewriter', 'Lucida Typewriter'"
+    for (let i = 0; i < ABVALESE_ASCII_DECONSTRUCTION.length; i++) {
+        switch (font) {
+            case SANS_SERIF_FONT:
+                ABVALESE_ASCII_DECONSTRUCTION[i].style.fontFamily = `${fontCode}, sans-serif`;
+                break;
+            case SERIF_FONT:
+                ABVALESE_ASCII_DECONSTRUCTION[i].style.fontFamily = `${fontCode}, serif`;
+                break;
+            case MONOSPACED_FONT:
+                ABVALESE_ASCII_DECONSTRUCTION[i].style.fontFamily = `${fontCode}, monospaced`;
+                break;
+            case CURSIVE_FONT:
+                ABVALESE_ASCII_DECONSTRUCTION[i].style.fontFamily = `${fontCode}, cursive`;
+                break;
+            default:
+                console.log(SYSTEM_ERROR);
+                break;
+            // End of switch block
+        }
+    }
+    return 0;
+}
+
 // Bhonmesh
 const BHONMESH = document.getElementsByClassName("bhonmesh");
 const BHONMESH_ROMANIZATION = document.getElementsByClassName("bhonmesh-romanization");
 function BhonmeshFontChange(font) {
-    let fontBhonScript = "'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari'";
+    let fontBhonScript = "'Jaini', 'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari'";
     for (let i = 0; i < BHONMESH.length; i++) {
         switch (font) {
             case SANS_SERIF_FONT:
@@ -2245,6 +2349,15 @@ function BhonmeshFontChange(font) {
     }
     for (let i = 0; i < BHONMESH_ROMANIZATION.length; i++) {
         BHONMESH_ROMANIZATION[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Eonai
+const EONAI = document.getElementsByClassName("eonai");
+function EonaiFontChange(font) {
+    for (let i = 0; i < EONAI.length; i++) {
+        EONAI[i].style.fontFamily = font;
     }
     return 0;
 }
@@ -2306,6 +2419,15 @@ function MhuislaneanFontChange(font) {
     return 0;
 }
 
+// Miy
+const MIY = document.getElementsByClassName("miy");
+function MiyFontChange(font) {
+    for (let i = 0; i < MIY.length; i++) {
+        MIY[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
 // Neph
 const NEPH = document.getElementsByClassName("neph");
 function NephFontChange(font) {
@@ -2351,6 +2473,15 @@ const PRAANBABI = document.getElementsByClassName("praanbabi");
 function PraanbabiFontChange(font) {
     for (let i = 0; i < PRAANBABI.length; i++) {
         PRAANBABI[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Sefloul
+const SEFLOUL = document.getElementsByClassName("sefloul");
+function SefloulFontChange(font) {
+    for (let i = 0; i < SEFLOUL.length; i++) {
+        SEFLOUL[i].style.fontFamily = font;
     }
     return 0;
 }
@@ -2426,11 +2557,29 @@ function UpkvikhraUuptariFontChange(font) {
     return 0;
 }
 
+// Xaiks
+const XAIKS = document.getElementsByClassName("xaiks");
+function XaiksFontChange(font) {
+    for (let i = 0; i < XAIKS.length; i++) {
+        XAIKS[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
 // Xoabbagdosa
 const XOABBAGDOSA = document.getElementsByClassName("xoabbagdosa");
 function XoabbagdosaFontChange(font) {
     for (let i = 0; i < XOABBAGDOSA.length; i++) {
         XOABBAGDOSA[i].style.fontFamily = font;
+    }
+    return 0;
+}
+
+// Yafl
+const YAFL = document.getElementsByClassName("yafl");
+function YaflFontChange(font) {
+    for (let i = 0; i < YAFL.length; i++) {
+        YAFL[i].style.fontFamily = font;
     }
     return 0;
 }
@@ -2614,6 +2763,7 @@ function NaturalLangFontP(font) {
     FarsiFontChange(font);
     DariFontChange(font);
     PolishFontChange(font);
+    PortugueseFontChange(font);
     PunjabiFontChange(font);
     return 0;
 }
@@ -2711,16 +2861,21 @@ function NaturalLangFont(font) {
 }
 
 function TenenLangFont(font) {
+    AbvaleseFontChange(font);
     BhonmeshFontChange(font);
+    EonaiFontChange(font);
     FrualbuqashFontChange(font);
     IlbaskFontChange(font);
     MhuislaneanFontChange(font);
+    MiyFontChange(font);
     NephFontChange(font);
     NhimeshFontChange(font);
     PraanbabiFontChange(font);
+    SefloulFontChange(font);
     UokramathiFontChange(font);
     StandardUuptariFontChange(font);
     UpkvikhraUuptariFontChange(font);
+    XaiksFontChange(font);
     XoabbagdosaFontChange(font);
     YicaexseseFontChange(font);
     ZhuzuriFontChange(font);

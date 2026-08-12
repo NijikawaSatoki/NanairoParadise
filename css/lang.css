@@ -22,7 +22,7 @@ span.ipa {
 /* ====== Abkhaz ====== */
 
 span.abkhaz {
-    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-family: 'FreeSans', 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ISO 9 */
@@ -34,7 +34,7 @@ i.abkhaz-iso-9-romanization {
 /* ====== Adyghe / West Circassian ====== */
 
 span.west-circassian {
-    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-family: 'FreeSans', 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ISO 9 (1995) */
@@ -203,12 +203,14 @@ i.burmese-mclts-romanization {
 
 /* ====== Chinese ====== */
 
-span.traditional-chinese {
+span.traditional-chinese,
+span[lang|="zh-Hant"] {
     font-family: 'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB', sans-serif;
     font-size: 110%;
 }
 
-span.simplified-chinese {
+span.simplified-chinese,
+span[lang|="zh-Hans"] {
     font-family: 'PingFang SC', 'DengXian', 'Source Han Sans SC', 'Source Han Sans CN', 'Noto Sans CJK SC', 'Microsoft Yahei', 'SimHei', 'SimSun', 'NSimSun', 'SimSun-ExtB', 'Song','Heiti SC', 'HanaMinA', 'HanaMinB', sans-serif;
     font-size: 110%;
 }
@@ -251,7 +253,8 @@ i.gwoyeu-romatzyh {
 }
 
 /* Palldius system (used in Russia) */
-span.palladius-cyrillic {
+span.palladius-cyrillic,
+span.palladius-cyrillic[lang|="ru"] {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
@@ -405,13 +408,15 @@ span.dutch {
 
 /* ====== Estonian ====== */
 
-span.estonian {
+span.estonian,
+span[lang|="et"] {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Finnish ====== */
 
-span.finnish {
+span.finnish,
+span[lang|="fi"] {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
@@ -551,6 +556,7 @@ span.italian {
 /* ====== Japanese ====== */
 
 span.japanese,
+span[lang|="ja"],
 p.japanese {
     font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif;
     font-size: 110%;
@@ -580,7 +586,7 @@ i.javanese-romanization {
 /* ====== Kabardian / East Circassian ====== */
 
 span.east-circassian {
-    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    font-family: 'FreeSans', 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ADDER alphabet */
@@ -880,6 +886,14 @@ span.polish {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
+/* ====== Portuguese ====== */
+
+span.european-portuguese,
+span.brazilian-portuguese,
+span[lang|="pt"] {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
 /* ====== Punjabi ====== */
 
 /* Gurmukhi, used in Punjab, India */
@@ -988,7 +1002,8 @@ i.sinhala-iso-15919-romanization {
 
 /* ====== Spanish ====== */
 
-span.spanish {
+span.spanish,
+span[lang|="es"] {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
@@ -1193,7 +1208,7 @@ span.chu-nom {
 
 /* telex input */
 code.vietnamese-telex {
-    font-family: 'NewComputerModern10', 'Courier Prime', 'Courier New', 'Courier', 'Consolas', 'Lucida Console', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    font-family: 'NewComputerModern10Mono', 'FreeMono', 'Courier Prime', 'Courier New', 'Courier', 'Consolas', 'Lucida Console', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
     background-color: inherit;
 }
 
