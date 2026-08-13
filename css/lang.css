@@ -12,7 +12,8 @@ i.english-translation {
 
 /* ====== International Phonetic Alphabet ====== */
 
-span.ipa {
+span.ipa,
+span[lang|="fonipa"] {
     font-family: 'Gentium', 'Gentium Plus', 'GentiumAlt', 'DejaVu Sans', 'Segoe UI', 'Lucida Grande', 'Charis SIL', 'Doulos SIL', 'TITUS Cyberbit Basic', 'Code2000', 'Lucida Sans Unicode', sans-serif;
     font-size: 110%;
     font-variant-ligatures: no-common-ligatures;
@@ -21,7 +22,8 @@ span.ipa {
 
 /* ====== Abkhaz ====== */
 
-span.abkhaz {
+span.abkhaz,
+span[lang|="ab"] {
     font-family: 'FreeSans', 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
@@ -33,7 +35,8 @@ i.abkhaz-iso-9-romanization {
 
 /* ====== Adyghe / West Circassian ====== */
 
-span.west-circassian {
+span.west-circassian,
+span[lang|="ady"] {
     font-family: 'FreeSans', 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
@@ -63,7 +66,8 @@ i.west-circassian-titus-romanization {
 
 /* ====== Akkadian ====== */
 
-span.akkadian {
+span.akkadian,
+span[lang|="akk"] {
     font-family: 'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif;
     font-size: 110%;
 }
