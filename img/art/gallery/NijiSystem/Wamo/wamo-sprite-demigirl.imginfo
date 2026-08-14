@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    ワーモのスプライト（デミ女プライド）
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    A sprite of my headmate, Wamo. She has purple hair and eyes. Her ears and tails are also purple, albeit a bit more vibrant. They are wearing a dress that is the colours of the demigirl flag.
+  </AltText>
+  <Dimensions>
+    <Height>
+      48
+    </Height>
+    <Width>
+      48
+    </Width>
+    <ScaleFactor>
+      16
+    </ScaleFactor>
+  </Dimensions>
+</Document>

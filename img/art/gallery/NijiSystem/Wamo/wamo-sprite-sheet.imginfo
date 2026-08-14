@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Wamo Sprite Sheet
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    Sprite sheet of our headmate, Wamo. She has slightly tanned skin, purple hair, two fox ears that are rounded at the tips, purple eyes, and is wearing a blue dress. They are facing, in order from top to bottom: down (towards the viewer), stage right (left from the viewer's perspective), stage left (right from the viewer's perspective), and up (with fox back towards the viewer).
+  </AltText>
+  <Dimensions>
+    <Height>
+      152
+    </Height>
+    <Width>
+      96
+    </Width>
+    <ScaleFactor>
+      5
+    </ScaleFactor>
+  </Dimensions>
+</Document>
