@@ -27,17 +27,28 @@
       <p>
         <a class="back-to-main-gallery" href="/gallery/Niji_System/Satoki_Nijikawa.html">Back to Satoki's main gallery</a>
       </p>
-      <section id="">
-        <h2 id="">
-          :3
+      <article id="WarningAndControls">
+      </article>
+      <section id="VtuberModels">
+        <h2 id="Vtuber_Models">
+          Vtuber Models
         </h2>
         <hr />
         <div class="art-grid-alt">
-          <!-- Sample piece -->
+          <!-- 郷鬼（裸） -->
           <figure class="art-grid-item-alt">
-            <img class="gallery-art-square" src="/img/placeholder.png" alt="A placeholder image. It is a simple gray background with Japanese text reading as such: 'ありゃ！！なにも！！'. Translated to English, this roughly means 'Oh!! There's nothing here!'." />
+            <p class="figure-warning">
+              WARNING! This piece has:<br />
+              Nudity
+            </p>
+            <details id="SpoileredImage00" class="spoiler nsfw-nudity" onclick="ImageSpoiler00()">
+              <summary id="Spoiler00" class="nsfw-nudity-name">
+                Show spoilered image
+              </summary>
+              <img class="gallery-art-horizontal" src="/img/art/gallery/NijiSystem/SatokiNijikawa/NotViewableAtTheOffice/VtuberModel/satoki-hadaka.png" alt="Nude ref sheet for Satoki. Wamo made this one as a joke." />
+            </details>
             <figcaption>
-              Sample caption
+              <span lang="ja" class="japanese">郷鬼（裸）</span>
             </figcaption>
           </figure>
         </div>
@@ -47,7 +58,10 @@
     </footer>
     <!-- Template script -->
     <script src="/js/template.js"></script>
+    <script src="/js/template_GalleryNSFW.js"></script>
     <!-- External scripts -->
-    <script src=""></script>
+    <script src="/js/gallery.js"></script>
+    <script src="/js/galleryNsfw.js"></script>
+    <script src="/js/warnGalleryNSFW.js"></script>
   </body>
 </html>
