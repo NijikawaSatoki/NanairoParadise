@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Nanairo Paradise Icon
+  </ImageTitle>
+  <ImageTitleAlias>
+    favicon
+  </ImageTitleAlias>
+  <Author>
+    Niji System
+  </Author>
+  <ImageType>
+    Scalable Vector Graphics (SVG) file
+  </ImageType>
+  <AltText>
+    The icon for Nanairo Paradise. It consists of a red and pink arc resembling a rainbow, with red, purple, green, teal, light purple, yellowish green, dark pink, and light blue stars the space between the arc's legs.
+  </AltText>
+  <Dimensions>
+    <!-- Full scale -->
+    <Height>
+      16 pixels
+    </Height>
+    <Width>
+      16 pixels
+    </Width>
+  </Dimensions>
+</Document>
