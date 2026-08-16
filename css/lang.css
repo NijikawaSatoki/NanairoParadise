@@ -12,8 +12,7 @@ i.english-translation {
 
 /* ====== International Phonetic Alphabet ====== */
 
-span.ipa,
-span[lang|="fonipa"] {
+span.ipa {
     font-family: 'Gentium', 'Gentium Plus', 'GentiumAlt', 'DejaVu Sans', 'Segoe UI', 'Lucida Grande', 'Charis SIL', 'Doulos SIL', 'TITUS Cyberbit Basic', 'Code2000', 'Lucida Sans Unicode', sans-serif;
     font-size: 110%;
     font-variant-ligatures: no-common-ligatures;
@@ -22,8 +21,7 @@ span[lang|="fonipa"] {
 
 /* ====== Abkhaz ====== */
 
-span.abkhaz,
-span[lang|="ab"] {
+span.abkhaz {
     font-family: 'FreeSans', 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
@@ -35,8 +33,7 @@ i.abkhaz-iso-9-romanization {
 
 /* ====== Adyghe / West Circassian ====== */
 
-span.west-circassian,
-span[lang|="ady"] {
+span.west-circassian {
     font-family: 'FreeSans', 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
@@ -66,8 +63,7 @@ i.west-circassian-titus-romanization {
 
 /* ====== Akkadian ====== */
 
-span.akkadian,
-span[lang|="akk"] {
+span.akkadian {
     font-family: 'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif;
     font-size: 110%;
 }
@@ -207,14 +203,12 @@ i.burmese-mclts-romanization {
 
 /* ====== Chinese ====== */
 
-span.traditional-chinese,
-span[lang|="zh-Hant"] {
+span.traditional-chinese {
     font-family: 'PingFang TC', 'Source Han Sans TC', 'Source Han Sans TW', 'Noto Sans CJK TC', 'Microsoft Jhenghei', 'MOESongUN', 'PMingLiU', 'PMingLiU-ExtB', 'MingLiU', 'MingLiU-ExtB', 'Ming', 'Heiti TC', 'HanaMinA', 'HanaMinB', sans-serif;
     font-size: 110%;
 }
 
-span.simplified-chinese,
-span[lang|="zh-Hans"] {
+span.simplified-chinese {
     font-family: 'PingFang SC', 'DengXian', 'Source Han Sans SC', 'Source Han Sans CN', 'Noto Sans CJK SC', 'Microsoft Yahei', 'SimHei', 'SimSun', 'NSimSun', 'SimSun-ExtB', 'Song','Heiti SC', 'HanaMinA', 'HanaMinB', sans-serif;
     font-size: 110%;
 }
@@ -257,8 +251,7 @@ i.gwoyeu-romatzyh {
 }
 
 /* Palldius system (used in Russia) */
-span.palladius-cyrillic,
-span.palladius-cyrillic[lang|="ru"] {
+span.palladius-cyrillic {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
@@ -412,15 +405,13 @@ span.dutch {
 
 /* ====== Estonian ====== */
 
-span.estonian,
-span[lang|="et"] {
+span.estonian {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Finnish ====== */
 
-span.finnish,
-span[lang|="fi"] {
+span.finnish {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
@@ -560,7 +551,6 @@ span.italian {
 /* ====== Japanese ====== */
 
 span.japanese,
-span[lang|="ja"],
 p.japanese {
     font-family: 'ヒラギノ丸ゴ Pro W4', 'Hiragino Maru Gothic Pro', 'Noto Sans CJK JP', 'Noto Sans JP', 'Kurinto Sans JP', 'ＭＳ ゴシック', 'MS Gothic', sans-serif;
     font-size: 110%;
@@ -893,8 +883,7 @@ span.polish {
 /* ====== Portuguese ====== */
 
 span.european-portuguese,
-span.brazilian-portuguese,
-span[lang|="pt"] {
+span.brazilian-portuguese {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
@@ -1006,8 +995,7 @@ i.sinhala-iso-15919-romanization {
 
 /* ====== Spanish ====== */
 
-span.spanish,
-span[lang|="es"] {
+span.spanish {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
