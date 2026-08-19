@@ -28,7 +28,7 @@ NAV_PANEL.innerHTML = `<a id="GotoHome" class="nav-panel" href="/index.html">Hom
 const FOOTER = document.getElementById("PageFoot");
 FOOTER.innerHTML = `<p id="CopyrightInformation">
 © 2025, 2026 Niji System<br />
-Version 0.6.0.
+Version 0.7.0.
 Source code can be found <a id="LinkToSourceCode" href="https://github.com/NijikawaSatoki/NanairoParadise">here</a>!
 </p>`;
 

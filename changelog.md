@@ -59,3 +59,15 @@ This will get added to after every pull request that contains a version number.
 - Added *Bunny Thrill*.
 - Already got everything needed for the next update ready.
 - Made a page template script to make it easier to update the navigation panels and page footer.
+
+## Version 0.7.0 “Guestbook Update”
+
+- Most obvious by the update name, the guestbook is now live! Tell me what you think, or tell me to kms, or whatever you want to say! Though I reserve full rights to remove your comment if you're too much of an ass.
+- The site now has an icon!
+- Nav panels have been updated to include the guestbook.
+- Some progress on the art galleries has been made. Still a lot more to go, however.
+- Art gallery for Artfight 2026 is up!
+- `CONVENTION.md` now states the general conventions that the `js` files follow.
+- Minor improvements.
+- Removed God. Fuck that guy, he's an asshole.
+- Removed The Devil too. He owes me a few hundred bucks.
