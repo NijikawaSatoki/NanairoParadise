@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!-- Metadata -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Niji System" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page title -->
+    <title id="PageTitle">Guestbook - Nanairo Paradise</title>
+    <!-- The CSS stylesheet -->
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/guestbook.css" />
+    <link rel="stylesheet" href="/css/lang.css" />
+  </head>
+  <body id="DocumentBody">
+    <div id="SiteBanner">
+      <img class="site-banner" src="/img/NanairoParadiseLogo.svg" alt="The logo for Nanairo Paradise. It features a rainbow with 'Nanairo Paradise', written in all caps, inside the space created by the rainbow's arch. Below all that is the Japanese name of Nanairo Paradise, written as '七色楽園'." />
+    </div>
+    <nav id="NavigationPanel">
+    </nav>
+    <header id="PageHead">
+      <h1 id="Head">
+        Guestbook
+      </h1>
+    </header>
+    <main id="PageBody">
+      <section>
+        <p>
+          You like the site? You don't like it? Want to scream at me? Well, the guestbook is right below here if you want to do so :3
+        </p>
+        <p>
+          NOTE: The date and time shown on past comments are sadly in ISO format. I sadly don't know how to change that.
+        </p>
+        <!-- I. $#%^$%#. Hate. Using. Divs >.> -->
+        <div class="comment-form">
+          <form id="guestbookForm">
+            <fieldset>
+              <legend>Le Guestbook</legend>
+              <label for="name" class="required">Name:</label>
+              <input type="text" id="name" required placeholder="Your name or alias" />
+              <label for="email">Email (Optional):</label>
+              <input type="email" id="email" placeholder="your@email.com" />
+              <br />
+              <label for="comment" class="required">Comment:</label>
+              <textarea id="comment" rows="1" required placeholder="Leave a message!"></textarea>
+              <button type="submit" class="btn-grad" id="submitBtn">Submit!</button>
+              <p id="formStatus"></p>
+            </fieldset>
+          </form>
+        </div>
+        <div id="commentsContainer">Loading Guestbook...</div>
+      </section>
+    </main>
+    <footer id="PageFoot">
+    </footer>
+    <!-- Template script -->
+    <script src="/js/template.js"></script>
+    <!-- Guestbook script -->
+    <script src="/js/guestbook.js"></script>
+  </body>
+</html>

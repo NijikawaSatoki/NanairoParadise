@@ -404,3 +404,4 @@ FodyWeavers.xsd
 
 # User-defined custom ignores
 .test-server-log/
+.guestbook
