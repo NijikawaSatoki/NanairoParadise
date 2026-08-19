@@ -49,5 +49,5 @@ pkg install python
 - [x] Make the art gallery. (Slated for v0.4.x)
 - [x] Add galleries for Artfight. (Slated for v0.4.1)
 - [x] Get the "Writings" page made. (Slated for v0.5.0)
-- [ ] Get our written works added to the Library. (Slated for v0.6.0)
+- [x] Get our written works added to the Library. (Slated for v0.6.0)
 - [ ] Get Ten'en-pedia made. (Slated for v1.0.0)
