@@ -86,14 +86,23 @@ img.art {
 img.gallery-art-square {
     width: 256px;
     height: 256px;
+    border-style: ridge;
+    border-width: 0.25rem;
+    border-color: #c0c0c0;
 }
 
 img.gallery-art-horizontal {
     width: 256px;
+    border-style: ridge;
+    border-width: 0.25rem;
+    border-color: #c0c0c0;
 }
 
 img.gallery-art-vertical {
     height: 256px;
+    border-style: ridge;
+    border-width: 0.25rem;
+    border-color: #c0c0c0;
 }
 
 @media only screen and (max-width: 600px) {
