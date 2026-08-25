@@ -14,48 +14,59 @@ p.tenen-lang::after {
 
 /* ====== Abvalese ====== */
 
-span.abvalese-uidul-transcription-alphabet {
+.abvalese-uidul-transcription-alphabet {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
-code.abvalese-ascii {
+.abvalese-ascii {
     font-family: 'NewComputerModern10Mono', 'FreeMono', 'Courier Prime', 'Courier New', 'Courier', 'Consolas', 'Lucida Console', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
     background-color: inherit;
 }
 
 /* ====== Bhonmesh ====== */
 
-span.bhonmesh {
+.bhonmesh {
     font-family: 'Jaini', 'Chandas', 'Tiro Devanagari Sanskrit', 'Sanskrit Text', 'Adobe Devanagari', 'Noto Serif Devanagari', 'Utsaah', 'Devanagari MT', 'Raghu', 'Gargi', 'JanaSanskrit', 'JanaHindi', 'Siddhanta', 'Noto Sans Devanagari', sans-serif;
 }
 
-i.bhonmesh-romanization {
+.bhonmesh-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-style: oblique;
+}
+
+/* ====== Dhulchaq ====== */
+
+.dhulchaq {
+    font-family: 'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', 'Tahoma', 'Microsoft Sans Serif', 'Arial Unicode MS', sans-serif;
+    font-size: 110%;
+    direction: rtl;
+    unicode-bidi: isolate;
+}
+
+.dhulchaq-romanization {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Eonai ====== */
 
-span.eonai {
+.eonai {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Frualbuqash ====== */
 
-span.frualbuqash {
+.frualbuqash {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
-i.frualbuqash-romanization {
+.frualbuqash-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-style: oblique;
 }
 
 /* ====== Ilbåsk ====== */
 
 /* ------ Elesüükeln ------ */
 
-span.ilbask-elesuukeln {
+.ilbask-elesuukeln {
     display: inline-block;
     font-family: 'Menk Hawang Tig', 'Menk Qagan Tig', 'Menk Garqag Tig', 'Menk Har_a Tig', 'Menk Scnin Tig', 'Oyun Gurban Ulus Tig', 'Oyun Qagan Tig', 'Oyun Garqag Tig', 'Oyun Har_a Tig', 'Oyun Scnin Tig', 'Oyun Agula Tig', 'Mongolian Baiti', 'Mongolian Universal White', 'Mongol Usug', 'Mongolian White', 'MongolianScript', 'Code2000', 'Menksoft Qagan', 'Noto Sans Mongolian', serif;
     font-size: 110%;
@@ -69,139 +80,137 @@ span.ilbask-elesuukeln {
     vertical-align: top;
 }
 
-i.ilbask-elesuukeln-romanization {
+.ilbask-elesuukeln-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-style: oblique;
 }
 
 /* ------ Spålméaakeln ------ */
 
-span.ilbask-spalmeaakeln {
+.ilbask-spalmeaakeln {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Mhuislanean ====== */
 
-span.mhuislanean {
+.mhuislanean {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Miy ====== */
 
-span.miy {
+.miy {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Neph ====== */
 
-span.neph {
+.neph {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+}
+
+.neph-old-orthography {
+    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
+    color: red;
 }
 
 /* ====== Nhimesh ====== */
 
-span.nhimesh {
+.nhimesh {
     font-family: 'SantakkuM', 'Santakku', 'Kurinto Sans Aux', 'Segoe UI Historic', 'Noto Sans Cuneiform', sans-serif;
 }
 
-i.nhimesh-romanization {
+.nhimesh-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-style: oblique;
 }
 
 /* ====== Praanbabi ====== */
 
-span.praanbabi {
+.praanbabi {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Sefloul ====== */
 
-span.sefloul {
+.sefloul {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Uokramathi ====== */
 
-span.uokramathi {
+.uokramathi {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Uuptari ====== */
 
-span.uuptari-kanse-alphabet {
+.uuptari-kanse-alphabet {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-}
-i.uuptari-kanse-alphabet {
-    font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-style: oblique;
 }
 
-span.uuptari-shito-script {
+.uuptari-shito-script {
     font-family: 'Leelawadee UI', 'Leelawadee', 'Arial Unicode MS', 'Code2000', 'Noto Sans Thai', 'Noto Sans Thai Looped', sans-serif;
     font-size: 110%;
     color: red;
 }
 
-span.uuptari-uup-script {
+.uuptari-uup-script {
     font-family: 'Noto Naskh Arabic UI', 'Noto Naskh Arabic', 'Iranian Sans', Tahoma, 'Microsoft Sans Serif', 'Arial Unicode MS', sans-serif;
     font-size: 110%;
     direction: rtl;
     unicode-bidi: isolate;
 }
 
-span.uuptari-upkvikhrakanse-alphabet {
+.uuptari-upkvikhrakanse-alphabet {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Xaiks ====== */
 
-span.xaiks {
+.xaiks {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Xoabbagdosa ====== */
 
-span.xoabbagdosa {
+.xoabbagdosa {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Yafl ====== */
 
-span.yafl {
+.yafl {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
 /* ====== Yicaexsese ====== */
 
-span.yicaexsese {
+.yicaexsese {
     font-family: 'Tibetan Machine Uni', 'BabelStone Tibetan Slim', 'BabelStone Tibetan', 'Noto Serif Tibetan', serif;
     font-size: 110%;
 }
 
-i.yicaexsese-romanization {
+.yicaexsese-romanization {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
-    font-style: oblique;
 }
 
 /* ====== Zhuzuri ====== */
 
-span.zhuzuri {
+.zhuzuri {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
 }
 
-span.zhuzuri-zhur-alphabet {
+.zhuzuri-zhur-alphabet {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     color: red;
 }
 
-span.zhuzuri-zuges-alphabet {
+.zhuzuri-zuges-alphabet {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     font-variant: small-caps;
     color: red;
 }
 
-span.zhuzuri-revised-proposed-alphabet {
+.zhuzuri-revised-proposed-alphabet {
     font-family: 'Arimo', 'Linux Biolinum', 'Kurinto Sans', 'Arial', 'Noto Sans', sans-serif;
     color: orange;
 }
