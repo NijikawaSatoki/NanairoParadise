@@ -230,7 +230,11 @@ i.book-title {
 
 /* ====== <span> styles ====== */
 
-/* :3 */
+/* For the various conlang dictionaries */
+
+b.headword {
+    font-size: 115%
+}
 
 /* ====== <div> styles ====== */
 
