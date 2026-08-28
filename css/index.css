@@ -236,9 +236,19 @@ b.headword {
     font-size: 115%
 }
 
+.example {
+    font-size: 110%;
+}
+
 /* ====== <div> styles ====== */
 
 div#SiteBanner {
     display: flex;
     justify-content: center;
+}
+
+/* ====== <blockquote> styles ====== */
+
+blockquote {
+    font-style: oblique;
 }
