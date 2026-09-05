@@ -46,6 +46,10 @@ section {
     display: flow-root; /* Containment unit for floating elements! */
 }
 
+.section-header {
+    text-align: center;
+}
+
 /* ====== Navigation styles ====== */
 
 nav {
