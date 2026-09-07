@@ -22,6 +22,7 @@ NAV_PANEL.innerHTML = `<a id="GotoHome" class="nav-panel" href="/index.html">Hom
 <a id="GotoArtGallery" class="nav-panel" href="/gallery.html">Gallery</a>
 <a id="GotoLibrary" class="nav-panel" href="/writings.html">Library</a>
 <a id="GotoGuestbook" class="nav-panel" href="/guestbook.html">Guestbook!</a>
+<a id="GotoProjects" class="nav-panel under-construction" href="/UnderConstruction.html">Projects</a>
 <a id="GotoTenenpedia" class="nav-panel under-construction" href="/UnderConstruction.html">Ten'en-pedia</a>`;
 
 // Page footer
