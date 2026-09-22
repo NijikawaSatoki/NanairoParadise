@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document>
+  <ImageTitle>
+    Mlikam Sprite
+  </ImageTitle>
+  <Author>
+    Niji System
+  </Author>
+  <Date>
+    2026/09/15
+  </Date>
+  <ImageType>
+    PNG
+  </ImageType>
+  <AltText>
+    Sprite of our expie headmate, Mlikam Klichesh. Bark/barks/barkself pronouns only. Bark is an expie with near-black fur, with a dark orange on the tip of the tail, and magenta eyes. Bark is wearing a torn shirt, pride themed arm warmers (viewer left is xenogender, viewer right is nonbinary), a leg pouch for storing various things, and torn bandages on the legs.
+  </AltText>
+  <Dimensions>
+    <Height>
+      48
+    </Height>
+    <Width>
+      48
+    </Width>
+    <!-- Only if image was upscaled -->
+    <ScaleFactor>
+      16
+    </ScaleFactor>
+  </Dimensions>
+</Document>
