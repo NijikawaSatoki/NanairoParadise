@@ -256,3 +256,24 @@ div#SiteBanner {
 blockquote {
     font-style: oblique;
 }
+
+/* ====== <table> styles ====== */
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #8c8c8c;
+  font-family: sans-serif;
+}
+
+th,
+td {
+  border: 1px solid #a0a0a0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: #444;
+}
+
+/* >>>>>> END OF FILE <<<<<< */
